@@ -1,0 +1,143 @@
+#! /usr/bin/env python3
+#   csvtodata skink.2017-09-19_0356.results.sv-comp17.Test.xml.bz2.merged.csv ...
+# Convert a CSV from a merged benchexec run into data that can be imported
+# into Graphite.
+#
+# Filename must be in shown format so that time of run can be extracted.
+#
+# Expected CSV input format:
+#   tool	...
+#   run set	...
+#   /sv-benchmarks/c/loops/	status	cputime (s)	walltime (s)	memUsage	wit1_status	wit1_cputime (s)	wit1_walltime (s)	wit1_memUsage	wit2_status	wit2_cputime (s)	wit2_walltime (s)	wit2_memUsage
+#   array_false-unreach-call_true-termination.i	false(unreach-call)	7.92938506	9.296900265006116	168075264	false(unreach-call)	3.991594749	4.071597172995098	98922496
+#   <and more data lines>
+#
+# It is also possible to work with
+#   /sv-benchmarks/c/ ...
+#   loops/array_false-unreach-call_true-termination.i ...
+#
+# Uses the base key path: skink.svcomp.c.loops.<base file name> such as
+#     skink.svcomp.c.loops.array_false-unreach-call_true-termination
+# with data:
+#    .result        -1 (wrong) 0 (unknown) 1 (right)
+#    .score         points scored for this file based on SV-COMP 2018 scoring system
+#    .witness       -1 (wrong) 0 (unknown) 1 (right)
+#    .cputime       CPU time for the tool run (seconds)
+#    .walltime      wall clock time (seconds)
+#    .memusage      memory usage
+
+import csv
+import datetime
+import getopt
+from pathlib import Path
+import re
+import sys
+
+# Main program
+
+def main():
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], 'h', ['help'])
+    except getopt.GetoptError as err:
+        montolib.error(err)
+        usage()
+        sys.exit(2)
+    for o, a in opts:
+        if o in ('-h', '--help'):
+            usage()
+            sys.exit()
+        else:
+            assert False, 'unhandled option'
+    numargs = len(args)
+    if numargs == 0:
+        usage()
+    else:
+        for arg in args:
+            process(arg)
+
+def usage():
+    print('usage: csvtodata file.csv...')
+
+def process(filename):
+    with open(filename, newline='') as csvfile:
+        reader = csv.reader(csvfile, delimiter='\t')
+        basekey = 'dummy'
+        for row in reader:
+            if row[0] != 'tool' and row[0] != "run set":
+                if row[0].startswith('/'):
+                    basekey = 'skink.svcomp'
+                    dirparts = Path(row[0]).parts[2:]
+                    if dirparts != ():
+                        basekey = basekey + '.' + '.'.join(dirparts)
+                else:
+                    key = basekey
+                    path = Path(row[0])
+                    testfilepath = path.parent
+                    if testfilepath.parts != ():
+                        key = key + '.' + '.'.join(testfilepath.parts)
+                    testfilebase = path.stem
+                    filekey = key + "." + testfilebase
+                    timestamp = getTimestamp(filename)
+                    (toolok, score, witok) = getResults(testfilebase, row)
+                    printVal(filekey, "result", str(toolok), timestamp)
+                    printVal(filekey, "score", str(score), timestamp)
+                    printVal(filekey, "witness", str(witok), timestamp)
+                    printVal(filekey, "cputime", row[2], timestamp)
+                    printVal(filekey, "walltime", row[3], timestamp)
+                    printVal(filekey, "memusage", row[4], timestamp)
+
+def printVal(filekey, field, value, timestamp):
+    print(filekey + "." + field + " " + value + " " + timestamp)
+
+# getScores
+# Returns (prog ok, score, witness ok)
+
+def getResults(filename, row):
+    toolResult = row[1]
+    witResult = row[5]
+    isCorrect = "true-unreach-call" in filename
+    if toolResult == "false(unreach-call)":
+        if isCorrect:
+            return (-1, -16, 0)
+        else:
+            if witResult == "false(unreach-call)":
+                return (1, 1, 1)
+            else:
+                return (1, 0, -1)
+    elif toolResult == "true":
+        if isCorrect:
+            if witResult == "true":
+                return (1, 2, 1)
+            else:
+                return (1, 1, -1)
+        else:
+            return (-1, -32, 0)
+    else:
+        return (0, 0, 0)
+
+# getTimestamp
+# Return timestamp for this benchexec run
+# Filename has this format:
+#    skink.2017-09-19_0356.results.sv-comp17.Test.xml.bz2.merged.csv
+# Time section of filename is printed by benchexec using:
+#    time.strftime("%Y-%m-%d_%H%M", time.localtime())
+
+def getTimestamp(filename):
+    parts = filename.split('.')
+    match = re.match('([0-9]{4})-([0-9]{2})-([0-9]{2})_([0-9]{2})([0-9]{2})', parts[1])
+    if match:
+        year = int(match.group(1))
+        month = int(match.group(2))
+        day = int(match.group(3))
+        hour = int(match.group(4))
+        minute = int(match.group(5))
+        dt = datetime.datetime(year, month, day, hour, minute, tzinfo = datetime.timezone.utc)
+        return str(int(dt.timestamp()))
+    else:
+        print('csvtodata: CSV filename is not in standard benchexec format skink.<date time>.results.sv-comp17.<set>.xml.bz2.merged.csv')
+        exit(1)
+
+# Startup
+
+if __name__ == '__main__':
+    main()
