@@ -1,4 +1,4 @@
-* Running grafana using docker
+#### Running grafana using docker
 
     ./grafana
 
@@ -8,25 +8,25 @@
     Grafana username: admin
     Grafana password: admin
 
-* Generating data
+#### Generating data
 
 Use Skink bench setup to conduct a run. You should get a 'results-verified'
 directory containing a CSV file such as
 
     skink.2017-09-19_0356.results.sv-comp17.Test.xml.bz2.merged.csv
 
-* Converting data
+#### Converting data to Graphite triples
 
     csvtodata <CSV file>
 
-* Importing data
+#### Importing data
 
     csvtodata <CSV file> | import
 
-* Viewing data
+#### Viewing data
 
-** Create a new dashboard in Grafana via drop-down menu near top-left corner.
-** Click on title of dashboard and select edit.
-** In metrics tab, select metric such as skink.*.*.*.*.result.
-** In display tab, specify display style. Points style is good for checking the data.
-** Select "Back to dashboard" in top tool bar.
+* Create a new dashboard in Grafana via drop-down menu near top-left corner.
+* Click on title of dashboard and select edit.
+* In metrics tab, select metric such as `skink.*.*.*.*.result`.
+* In display tab, specify display style. Points style is good for checking the data.
+* Select "Back to dashboard" in top tool bar.
