@@ -63,7 +63,7 @@ def process(filename):
         reader = csv.reader(csvfile, delimiter='\t')
         basekey = 'dummy'
         for row in reader:
-            if row[0] != 'tool' and row[0] != "run set":
+            if row[0] != 'tool' and row[0] != 'run set':
                 if row[0].startswith('/'):
                     basekey = 'skink.svcomp'
                     dirparts = Path(row[0]).parts[2:]
@@ -76,18 +76,18 @@ def process(filename):
                     if testfilepath.parts != ():
                         key = key + '.' + '.'.join(testfilepath.parts)
                     testfilebase = path.stem
-                    filekey = key + "." + testfilebase
+                    filekey = key + '.' + testfilebase
                     timestamp = getTimestamp(filename)
                     (toolok, score, witok) = getResults(testfilebase, row)
-                    printVal(filekey, "result", str(toolok), timestamp)
-                    printVal(filekey, "score", str(score), timestamp)
-                    printVal(filekey, "witness", str(witok), timestamp)
-                    printVal(filekey, "cputime", row[2], timestamp)
-                    printVal(filekey, "walltime", row[3], timestamp)
-                    printVal(filekey, "memusage", row[4], timestamp)
+                    printVal(filekey, 'result', str(toolok), timestamp)
+                    printVal(filekey, 'score', str(score), timestamp)
+                    printVal(filekey, 'witness', str(witok), timestamp)
+                    printVal(filekey, 'cputime', row[2], timestamp)
+                    printVal(filekey, 'walltime', row[3], timestamp)
+                    printVal(filekey, 'memusage', row[4], timestamp)
 
 def printVal(filekey, field, value, timestamp):
-    print(filekey + "." + field + " " + value + " " + timestamp)
+    print(filekey + '.' + field + ' ' + value + ' ' + timestamp)
 
 # getScores
 # Returns (prog ok, score, witness ok)
@@ -95,18 +95,18 @@ def printVal(filekey, field, value, timestamp):
 def getResults(filename, row):
     toolResult = row[1]
     witResult = row[5]
-    isCorrect = "true-unreach-call" in filename
-    if toolResult == "false(unreach-call)":
+    isCorrect = 'true-unreach-call' in filename
+    if toolResult == 'false(unreach-call)':
         if isCorrect:
             return (-1, -16, 0)
         else:
-            if witResult == "false(unreach-call)":
+            if witResult == 'false(unreach-call)':
                 return (1, 1, 1)
             else:
                 return (1, 0, -1)
-    elif toolResult == "true":
+    elif toolResult == 'true':
         if isCorrect:
-            if witResult == "true":
+            if witResult == 'true':
                 return (1, 2, 1)
             else:
                 return (1, 1, -1)
