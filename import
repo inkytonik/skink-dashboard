@@ -1,2 +1,2 @@
 #!/bin/sh
-nc -c localhost 2003
+nc -c $1 2003

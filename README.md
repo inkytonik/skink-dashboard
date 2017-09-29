@@ -19,9 +19,9 @@ directory containing a CSV file such as
 
     csvtodata <CSV file>
 
-#### Importing data
+#### Importing data to your local instance of Grafana
 
-    csvtodata <CSV file> | import
+    csvtodata <CSV file> | import localhost
 
 #### Viewing data
 
@@ -30,3 +30,16 @@ directory containing a CSV file such as
 * In metrics tab, select metric such as `skink.*.*.*.*.result`.
 * In display tab, specify display style. Points style is good for checking the data.
 * Select "Back to dashboard" in top tool bar.
+
+#### Matt's server
+
+Matt is running a Grafana instance at MQ internal address 10.46.35.0.
+We are importing data to that instance when we have it.
+
+    csvtodata <CSV file> | import 10.46.35.0
+
+#### Dashboard definitions
+
+Grafana can export dashboard definitions as JSON.
+We will be putting useful ones in the dashboards folder of this repository so you can import them into your Grafana instances if you want.
+For example, `dashboards/ReachSafety-Loops.json` contains a dashboard that can be used to visualise the data for the ReachSafety-Loops category of the SV-COMP.
