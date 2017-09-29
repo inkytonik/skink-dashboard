@@ -3,7 +3,7 @@
 # Convert a CSV from a merged benchexec run into data that can be imported
 # into Graphite.
 #
-# Filename must be in shown format so that time of run can be extracted.
+# Filename must be in shown format so that time of run and run set name can be extracted.
 #
 # Expected CSV input format:
 #   tool	...
@@ -16,8 +16,8 @@
 #   /sv-benchmarks/c/ ...
 #   loops/array_false-unreach-call_true-termination.i ...
 #
-# Uses the base key path: skink.svcomp.c.loops.<base file name> such as
-#     skink.svcomp.c.loops.array_false-unreach-call_true-termination
+# Uses the base key path: skink.svcomp.c.<set>.loops.<base file name> such as
+#     skink.svcomp.c.Test.loops.array_false-unreach-call_true-termination
 # with data:
 #    .result        -1 (wrong) 0 (unknown) 1 (right)
 #    .score         points scored for this file based on SV-COMP 2018 scoring system
@@ -69,6 +69,8 @@ def process(filename):
                     dirparts = Path(row[0]).parts[2:]
                     if dirparts != ():
                         basekey = basekey + '.' + '.'.join(dirparts)
+                    runset = getRunset(filename)
+                    basekey = basekey + '.' + runset
                 else:
                     key = basekey
                     path = Path(row[0])
@@ -114,6 +116,17 @@ def getResults(filename, row):
             return (-1, -32, 0)
     else:
         return (0, 0, 0)
+
+# getRunset
+# Return run set name for this benchexec run
+# Filename has this format:
+#    skink.2017-09-19_0356.results.sv-comp17.Test.xml.bz2.merged.csv
+# Run set:
+#    Test
+
+def getRunset(filename):
+    parts = filename.split('.')
+    return parts[4]
 
 # getTimestamp
 # Return timestamp for this benchexec run
