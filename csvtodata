@@ -77,7 +77,7 @@ def process(filename):
                     testfilepath = path.parent
                     if testfilepath.parts != ():
                         key = key + '.' + '.'.join(testfilepath.parts)
-                    testfilebase = path.stem
+                    testfilebase = path.stem.replace('.','_')
                     filekey = key + '.' + testfilebase
                     timestamp = getTimestamp(filename)
                     (toolok, score, witok) = getResults(testfilebase, row)
