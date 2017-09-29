@@ -68,6 +68,7 @@
             "thresholdLabels": false,
             "thresholdMarkers": true
           },
+          "height": "400px",
           "id": 4,
           "interval": null,
           "links": [],
@@ -82,11 +83,11 @@
               "value": 2
             }
           ],
-          "maxDataPoints": 100,
+          "maxDataPoints": "200",
           "nullPointMode": "connected",
           "nullText": null,
-          "postfix": "/261",
-          "postfixFontSize": "50%",
+          "postfix": "/194/261",
+          "postfixFontSize": "30%",
           "prefix": "",
           "prefixFontSize": "50%",
           "rangeMaps": [
@@ -113,7 +114,7 @@
           "thresholds": "87,174,261",
           "title": "ReachSafety-Loops total score",
           "type": "singlestat",
-          "valueFontSize": "50%",
+          "valueFontSize": "30%",
           "valueMaps": [
             {
               "op": "=",
