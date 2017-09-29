@@ -96,19 +96,20 @@ def printVal(filekey, field, value, timestamp):
 
 def getResults(filename, row):
     toolResult = row[1]
-    witResult = row[5]
+    violWitResult = row[5]
+    corrWitResult = row[9]
     isCorrect = 'true-unreach-call' in filename
     if toolResult == 'false(unreach-call)':
         if isCorrect:
             return (-1, -16, 0)
         else:
-            if witResult == 'false(unreach-call)':
+            if violWitResult == 'false(unreach-call)':
                 return (1, 1, 1)
             else:
                 return (1, 0, -1)
     elif toolResult == 'true':
         if isCorrect:
-            if witResult == 'true':
+            if corrWitResult == 'true':
                 return (1, 2, 1)
             else:
                 return (1, 1, -1)
