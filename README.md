@@ -23,6 +23,11 @@ directory containing a CSV file such as
 
     csvtodata <CSV file> | import localhost
 
+#### Archived data
+
+As we generate useful data sets we will commit them to this repository in the `data` directory.
+Thus, we can recreate the dashboards from scratch if we need to, or you can create a local instance with all of the same data.
+
 #### Viewing data
 
 * Create a new dashboard in Grafana via drop-down menu near top-left corner.
