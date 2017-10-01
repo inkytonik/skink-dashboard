@@ -65,12 +65,12 @@ def process(filename):
         for row in reader:
             if row[0] != 'tool' and row[0] != 'run set':
                 if row[0].startswith('/'):
-                    basekey = 'skink.svcomp'
-                    dirparts = Path(row[0]).parts[2:]
-                    if dirparts != ():
-                        basekey = basekey + '.' + '.'.join(dirparts)
+                    basekey = 'skink.svcomp.c'
+                    dirparts = Path(row[0]).parts[3:]
                     runset = getRunset(filename)
                     basekey = basekey + '.' + runset
+                    if dirparts != ():
+                        basekey = basekey + '.' + '.'.join(dirparts)
                 else:
                     key = basekey
                     path = Path(row[0])
