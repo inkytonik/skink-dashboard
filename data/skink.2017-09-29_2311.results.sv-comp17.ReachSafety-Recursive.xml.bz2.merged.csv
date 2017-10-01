@@ -1,0 +1,101 @@
+tool	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 
+run set	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17
+/sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_status	wit1_cputime (s)	wit1_walltime (s)	wit1_memUsage	wit2_status	wit2_cputime (s)	wit2_walltime (s)	wit2_memUsage
+recursive/Ackermann02_false-unreach-call_true-no-overflow_true-termination.c	unknown	4.137008027	5.39064749298268	185176064	ERROR (invalid witness file)	2.246722367	2.261028801993234	66240512				
+recursive/Addition02_false-unreach-call_true-no-overflow_true-termination.c	false(unreach-call)	6.844628944	8.111426838993793	195272704	false(unreach-call)	4.173461319	4.326837253000122	126939136				
+recursive/BallRajamani-SPIN2000-Fig1_false-unreach-call_true-no-overflow_true-termination.c	false(unreach-call)	8.348624624	10.187856755015673	177672192	true	3.492502103	3.553560494998237	93130752				
+recursive/EvenOdd03_false-unreach-call_true-no-overflow_true-termination.c	false(unreach-call)	6.176535002	7.067593331012176	165617664	false(unreach-call)	3.632990439	3.7577423229813576	115515392				
+recursive/Fibonacci04_false-unreach-call_true-no-overflow_true-termination.c	unknown	4.031001737	4.796800189011265	122732544	ERROR (invalid witness file)	2.172764178	2.1911576770071406	70881280				
+recursive/Fibonacci05_false-unreach-call_true-no-overflow_true-termination.c	unknown	3.993104307	4.736966391996248	122753024	ERROR (invalid witness file)	2.228319681	2.245677783008432	71057408				
+recursive/McCarthy91_false-unreach-call_true-no-overflow_true-termination.c	unknown	4.066264752	4.818476127984468	122728448	ERROR (invalid witness file)	2.191613452	2.211065948009491	70606848				
+recursive/Ackermann01_true-unreach-call_true-no-overflow.c	unknown	4.092096193	4.828177155985031	123531264					ERROR (invalid witness file)	2.222419867	2.2375970899884123	69992448
+recursive/Ackermann03_true-unreach-call_true-no-overflow.c	unknown	4.606466396	5.328726143983658	124944384					ERROR (invalid witness file)	2.219183789	2.2425424940011	69992448
+recursive/Ackermann04_true-unreach-call_true-no-overflow.c	unknown	4.304931702	5.050986777001526	123863040					ERROR (invalid witness file)	2.164161857	2.184486262005521	68083712
+recursive/Addition01_true-unreach-call_true-no-overflow_true-termination.c	true	8.581873787	10.423547042999417	181555200					ERROR (recursion)	3.058173854	3.1135830510174856	87302144
+recursive/Addition03_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	52.92320773	91.0099442669889	257327104					ERROR (invalid witness file)	0.640617796	0.6510664170200471	29982720
+recursive/EvenOdd01_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	50.076065167	91.01036989700515	256409600					ERROR (invalid witness file)	0.67576897	0.685366112011252	30142464
+recursive/Fibonacci01_true-unreach-call_true-no-overflow.c	unknown	4.504483632	5.340078146022279	123957248					ERROR (recursion)	3.024908654	3.077907041006256	88174592
+recursive/Fibonacci02_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.159242708	4.887028313009068	122167296					ERROR (recursion)	3.032217278	3.090570355998352	84393984
+recursive/Fibonacci03_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.270370045	5.057578678999562	122830848					ERROR (recursion)	3.02059268	3.081337988987798	86388736
+recursive/McCarthy91_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.024944358	4.748493028979283	122380288					ERROR (recursion)	3.052865477	3.1115853509982117	87240704
+recursive/MultCommutative_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	43.520917054	90.2737033799931	297594880					ERROR (invalid witness file)	0.679762648	0.6883460789977107	30461952
+recursive/Primes_true-unreach-call_true-no-overflow_false-termination.c	unknown	4.468184704	5.124846588005312	139866112					ERROR (recursion)	3.45161998	3.5090701379813254	92172288
+recursive/gcd01_true-unreach-call_true-no-overflow_true-termination.c	true	29.652156058	57.70229110500077	234307584					ERROR (recursion)	3.136970798	3.1985516859858762	85729280
+recursive/gcd02_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	47.728673658	91.00759770799777	259485696					ERROR (invalid witness file)	0.681399899	0.6898804130032659	30613504
+recursive/recHanoi01_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.071992604	4.7930237149994355	125132800					ERROR (recursion)	3.159843037	3.2265313590178266	85024768
+recursive/recHanoi02_true-unreach-call_true-no-overflow_true-termination.c	unknown	3.954421051	4.695354643976316	122155008					ERROR (recursion)	3.063828905	3.1222570599929895	86876160
+recursive/recHanoi03_true-unreach-call_true-no-overflow_true-termination.c	unknown	3.911307044	4.626960120018339	122302464					ERROR (recursion)	3.111146704	3.163307180017	93454336
+recursive-simple/afterrec_2calls_false-unreach-call_true-termination.c	unknown	3.955059212	4.65634327699081	122613760	unknown	3.673049696	3.760363804001827	97210368				
+recursive-simple/afterrec_false-unreach-call_true-termination.c	unknown	3.848626743	4.567028449004283	120090624	unknown	3.621793211	3.687634372006869	94883840				
+recursive-simple/fibo_10_false-unreach-call.c	unknown	3.98934585	4.690226350008743	122056704	ERROR (recursion)	3.018331799	3.0771862709952984	83746816				
+recursive-simple/fibo_15_false-unreach-call.c	unknown	3.969007078	4.633227201004047	122175488	ERROR (recursion)	3.018885267	3.079267673980212	84111360				
+recursive-simple/fibo_20_false-unreach-call.c	unknown	3.904326223	4.585261647996958	121688064	ERROR (recursion)	2.989890335	3.050966871000128	87900160				
+recursive-simple/fibo_25_false-unreach-call.c	unknown	3.950369173	4.654427882982418	122671104	ERROR (recursion)	3.030409693	3.100966382015031	84070400				
+recursive-simple/fibo_2calls_10_false-unreach-call.c	unknown	4.189496515	4.897249603993259	125935616	ERROR (recursion)	2.993499074	3.0603940119908657	85913600				
+recursive-simple/fibo_2calls_15_false-unreach-call.c	unknown	4.176484308	4.901302135986043	126406656	ERROR (recursion)	2.997038362	3.059514225984458	86827008				
+recursive-simple/fibo_2calls_20_false-unreach-call.c	unknown	4.12024074	4.815691341995262	126181376	ERROR (recursion)	3.092575133	3.1524809490074404	84811776				
+recursive-simple/fibo_2calls_25_false-unreach-call.c	unknown	4.474917076	5.164206225977978	126435328	ERROR (recursion)	3.056169689	3.1289762209926266	85069824				
+recursive-simple/fibo_2calls_2_false-unreach-call_true-termination.c	unknown	4.351705618	5.099296488013351	128147456	false(unreach-call)	3.632491362	3.701221223018365	93921280				
+recursive-simple/fibo_2calls_4_false-unreach-call_true-termination.c	unknown	4.131747082	4.840800621022936	125792256	ERROR (recursion)	3.136105759	3.193938997981604	88260608				
+recursive-simple/fibo_2calls_5_false-unreach-call_true-termination.c	unknown	4.161676474	4.885115579003468	125493248	ERROR (recursion)	3.010763687	3.064553521980997	87314432				
+recursive-simple/fibo_2calls_6_false-unreach-call_true-termination.c	unknown	4.161275339	4.883531203988241	125968384	ERROR (recursion)	3.116371367	3.1809407690016087	87400448				
+recursive-simple/fibo_2calls_8_false-unreach-call.c	unknown	4.170181883	4.895895963010844	125812736	ERROR (recursion)	3.093006896	3.152544674987439	87023616				
+recursive-simple/fibo_5_false-unreach-call_true-termination.c	unknown	3.936638746	4.658968753006775	122310656	ERROR (recursion)	3.082073931	3.148481255018851	93048832				
+recursive-simple/fibo_7_false-unreach-call.c	unknown	3.918012674	4.591083042992977	122273792	ERROR (recursion)	2.961639082	3.0183978829882108	85168128				
+recursive-simple/id2_b3_o2_false-unreach-call.c	unknown	4.10130098	4.816032747999998	123609088	ERROR (recursion)	3.047710455	3.101852660998702	88408064				
+recursive-simple/id2_i5_o5_false-unreach-call_true-termination.c	unknown	4.031460149	4.757605844002683	123219968	ERROR (recursion)	2.974680436	3.030570861999877	87121920				
+recursive-simple/id_b3_o2_false-unreach-call.c	unknown	4.015297394	4.745135206991108	122408960	ERROR (recursion)	2.980460497	3.032849137991434	88350720				
+recursive-simple/id_i10_o10_false-unreach-call_true-termination.c	unknown	3.967205328	4.744264209992252	123236352	ERROR (recursion)	2.983415272	3.0366727339860518	84930560				
+recursive-simple/id_i15_o15_false-unreach-call_true-termination.c	unknown	3.972572276	4.725357787014218	123604992	ERROR (recursion)	2.945397589	3.0035132270131726	87117824				
+recursive-simple/id_i20_o20_false-unreach-call_true-termination.c	unknown	3.999869722	4.774905418977141	123265024	ERROR (recursion)	2.987212229	3.0387975870107766	87072768				
+recursive-simple/id_i25_o25_false-unreach-call_true-termination.c	unknown	3.985527509	4.755013599002268	123277312	ERROR (recursion)	3.040367911	3.0985721399774775	92786688				
+recursive-simple/id_i5_o5_false-unreach-call_true-termination.c	unknown	3.967203493	4.738416239997605	123359232	ERROR (recursion)	3.015692196	3.0717061840114184	85360640				
+recursive-simple/id_o1000_false-unreach-call.c	false(unreach-call)	5.312757949	6.227758892986458	165806080	TIMEOUT	97.061429243	97.2905331219954	623710208				
+recursive-simple/id_o100_false-unreach-call.c	false(unreach-call)	5.434715786	6.3438615720078815	162484224	false(unreach-call)	8.018696431	8.151401312992675	178114560				
+recursive-simple/id_o10_false-unreach-call.c	false(unreach-call)	5.405010998	6.235368030000245	161570816	false(unreach-call)	4.123240897	4.200679258996388	123899904				
+recursive-simple/id_o200_false-unreach-call.c	false(unreach-call)	5.419972776	6.284620502992766	163995648	false(unreach-call)	16.970055743	17.076911826006835	280088576				
+recursive-simple/id_o20_false-unreach-call.c	false(unreach-call)	5.401218127	6.281358061009087	163463168	false(unreach-call)	4.452232588	4.520075985987205	122015744				
+recursive-simple/id_o3_false-unreach-call.c	false(unreach-call)	5.507273776	6.407466215983732	163360768	false(unreach-call)	3.702039173	3.778517994011054	116252672				
+recursive-simple/sum_10x0_false-unreach-call_true-termination.c	unknown	4.077337583	4.849246490979567	123580416	ERROR (invalid witness file)	2.166547409	2.181286546983756	68530176				
+recursive-simple/sum_15x0_false-unreach-call_true-termination.c	unknown	4.346281997	5.06240618499578	124854272	ERROR (invalid witness file)	2.194327965	2.207253538974328	69849088				
+recursive-simple/sum_20x0_false-unreach-call_true-termination.c	unknown	4.030962798	4.724015226995107	123985920	ERROR (invalid witness file)	2.129530089	2.14358546998119	71815168				
+recursive-simple/sum_25x0_false-unreach-call_true-termination.c	unknown	4.155287481	4.898264336021384	123887616	ERROR (invalid witness file)	2.267215536	2.289301737997448	70356992				
+recursive-simple/sum_2x3_false-unreach-call_true-termination.c	unknown	4.108752076	4.854699810006423	123863040	ERROR (invalid witness file)	2.154067717	2.1713613790052477	66850816				
+recursive-simple/sum_non_eq_false-unreach-call.c	unknown	4.044821907	4.762635644990951	123260928	ERROR (invalid witness file)	2.177800675	2.1923697819875088	70037504				
+recursive-simple/sum_non_false-unreach-call_true-termination.c	false(unreach-call)	5.9068412	6.755265638988931	173260800	false(unreach-call)	3.52774361	3.648204586992506	107622400				
+recursive-simple/afterrec_2calls_true-unreach-call_true-termination.c	true	4.15992966	4.928397929994389	125362176					true	2.997449217	3.0539698119973764	83329024
+recursive-simple/afterrec_true-unreach-call_true-termination.c	true	3.999687358	4.756716362986481	122597376					true	3.027051576	3.081116443994688	86519808
+recursive-simple/fibo_10_true-unreach-call.c	unknown	3.92073497	4.611763512017205	122093568					ERROR (recursion)	2.960015956	3.0201595530088525	87130112
+recursive-simple/fibo_15_true-unreach-call.c	unknown	3.980855269	4.651126576005481	121962496					ERROR (recursion)	2.957882928	3.013239224004792	87384064
+recursive-simple/fibo_20_true-unreach-call.c	unknown	3.947405012	4.650760596996406	122413056					ERROR (recursion)	3.06145342	3.1230615340173244	84697088
+recursive-simple/fibo_25_true-unreach-call.c	unknown	3.97508837	4.644228819990531	122679296					ERROR (recursion)	3.028109337	3.0848660269984975	88031232
+recursive-simple/fibo_2calls_10_true-unreach-call.c	unknown	4.147366445	4.881343624001602	125792256					ERROR (recursion)	3.08898499	3.1477482999907807	84316160
+recursive-simple/fibo_2calls_15_true-unreach-call.c	unknown	4.151940648	4.8435493530123495	126017536					ERROR (recursion)	3.059650069	3.122699850006029	88289280
+recursive-simple/fibo_2calls_20_true-unreach-call.c	unknown	4.165777946	4.86699724700884	126558208					ERROR (recursion)	3.046825348	3.1074931650073268	88625152
+recursive-simple/fibo_2calls_25_true-unreach-call.c	unknown	4.134636041	4.839146523998352	126275584					ERROR (recursion)	3.151969408	3.210971481021261	85323776
+recursive-simple/fibo_2calls_2_true-unreach-call_true-termination.c	true	4.282366335	5.01009083999088	128208896					true	3.141983157	3.2054042929958086	93290496
+recursive-simple/fibo_2calls_4_true-unreach-call_true-termination.c	unknown	4.116475876	4.796540794981411	126189568					ERROR (recursion)	3.272774703	3.331975810986478	95965184
+recursive-simple/fibo_2calls_5_true-unreach-call_true-termination.c	unknown	4.157983336	4.888011644012295	126038016					ERROR (recursion)	3.096073169	3.1562894620001316	86519808
+recursive-simple/fibo_2calls_6_true-unreach-call_true-termination.c	unknown	4.148141647	4.860182995995274	125853696					ERROR (recursion)	3.11929147	3.1808045270154253	85594112
+recursive-simple/fibo_2calls_8_true-unreach-call_true-termination.c	unknown	4.20486755	4.921735103009269	126537728					ERROR (recursion)	3.023307806	3.086266713013174	85716992
+recursive-simple/fibo_5_true-unreach-call_true-termination.c	unknown	4.29915273	4.987764952995349	124473344					ERROR (recursion)	3.024267613	3.090599122981075	86900736
+recursive-simple/fibo_7_true-unreach-call.c	unknown	4.317127982	5.062779355008388	122662912					ERROR (recursion)	2.99956992	3.0606044699961785	87252992
+recursive-simple/id2_b2_o3_true-unreach-call.c	unknown	4.243561947	4.992476226994768	123879424					ERROR (recursion)	3.05871937	3.1118065969785675	89305088
+recursive-simple/id2_b3_o5_true-unreach-call.c	unknown	4.1664137	4.927423451008508	124227584					ERROR (recursion)	2.939777305	2.9974483119731303	88981504
+recursive-simple/id2_b5_o10_true-unreach-call.c	unknown	4.330357396	5.08733747099177	123965440					ERROR (recursion)	3.058546769	3.1169617589912377	89387008
+recursive-simple/id2_i5_o5_true-unreach-call_true-termination.c	unknown	4.044797995	4.732457203004742	123580416					ERROR (recursion)	3.031012928	3.0922563140047714	84439040
+recursive-simple/id_b2_o3_true-unreach-call.c	unknown	3.943175866	4.641318671987392	122171392					ERROR (recursion)	3.003203781	3.0609593609988224	88399872
+recursive-simple/id_b3_o5_true-unreach-call.c	unknown	3.957989623	4.688360492000356	122019840					ERROR (recursion)	3.03179494	3.085639134980738	88698880
+recursive-simple/id_b5_o10_true-unreach-call.c	unknown	3.985267957	4.662392700003693	122257408					ERROR (recursion)	3.09062871	3.149517662008293	84213760
+recursive-simple/id_i10_o10_true-unreach-call_true-termination.c	true	3.893804596	4.611467553011607	122007552					ERROR (recursion)	3.114092811	3.175586536002811	94359552
+recursive-simple/id_i15_o15_true-unreach-call_true-termination.c	true	3.983017334	4.750857011007611	121790464					ERROR (recursion)	3.015322183	3.0783332500141114	87162880
+recursive-simple/id_i20_o20_true-unreach-call_true-termination.c	true	4.223400002	4.949965689011151	122621952					ERROR (recursion)	2.978850632	3.0466078910103533	88207360
+recursive-simple/id_i25_o25_true-unreach-call_true-termination.c	true	3.869961592	4.611620376992505	121913344					ERROR (recursion)	3.02620545	3.0864432090020273	87191552
+recursive-simple/id_i5_o5_true-unreach-call_true-termination.c	true	3.919333223	4.659595720993821	122171392					ERROR (recursion)	2.960298387	3.0185461119981483	86843392
+recursive-simple/sum_10x0_true-unreach-call_true-termination.c	true	4.052287935	4.796048962016357	123379712					ERROR (recursion)	2.936514175	3.0035852440050803	86642688
+recursive-simple/sum_15x0_true-unreach-call_true-termination.c	true	4.021070528	4.772699253982864	122961920					ERROR (recursion)	2.992651862	3.0625888840004336	87113728
+recursive-simple/sum_20x0_true-unreach-call_true-termination.c	true	4.058330122	4.805378416000167	123437056					ERROR (recursion)	2.999087786	3.062791649979772	86884352
+recursive-simple/sum_25x0_true-unreach-call_true-termination.c	true	4.024564274	4.799463928007754	123068416					ERROR (recursion)	3.005341716	3.0713798590004444	84987904
+recursive-simple/sum_2x3_true-unreach-call_true-termination.c	true	4.013121044	4.721492031996604	123326464					ERROR (recursion)	2.997853181	3.0557819250097964	88141824
+recursive-simple/sum_non_eq_true-unreach-call.c	true	3.977031951	4.7332527870021295	122851328					ERROR (recursion)	2.96630107	3.0273429799999576	88039424
+recursive-simple/sum_non_true-unreach-call_true-termination.c	unknown	6.206891127	7.127226463984698	177180672					ERROR (recursion)	2.980282685	3.035434660007013	86802432

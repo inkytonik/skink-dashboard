@@ -1,0 +1,97 @@
+tool	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 
+run set	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17
+/sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_status	wit1_cputime (s)	wit1_walltime (s)	wit1_memUsage	wit2_status	wit2_cputime (s)	wit2_walltime (s)	wit2_memUsage
+ntdrivers-simplified/cdaudio_simpl1_false-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	58.777110122	91.01424768099969	1283629056	ERROR (invalid witness file)	0.680476073	0.7806885760073783	35426304				
+ntdrivers-simplified/floppy_simpl3_false-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	49.454853619	91.00836556000286	645345280	ERROR (invalid witness file)	0.682443682	0.6920754320017295	31100928				
+ntdrivers-simplified/floppy_simpl4_false-unreach-call_true-valid-memsafety_true-termination.cil.c	unknown	48.25220937	85.36690770200221	741650432	ERROR (invalid witness file)	4.354438807	4.744672032000381	125214720				
+ntdrivers-simplified/kbfiltr_simpl2_false-unreach-call_true-valid-memsafety_true-termination.cil.c	unknown	10.954856424	11.984910953993676	444788736	false(unreach-call)	7.783812654	7.909469514997909	179539968				
+ntdrivers-simplified/cdaudio_simpl1_true-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	50.162885951	91.05902275801054	1315065856					ERROR (invalid witness file)	0.656143121	0.6643658459943254	30134272
+ntdrivers-simplified/diskperf_simpl1_true-unreach-call_true-valid-memsafety_true-termination.cil.c	unknown	44.776893664	78.80203731499205	1031110656					ERROR (invalid witness file)	4.035165894	4.067633282000315	100003840
+ntdrivers-simplified/floppy_simpl3_true-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	52.426025234	91.01051243700203	646479872					ERROR (invalid witness file)	0.614440705	0.6260790410015034	29667328
+ntdrivers-simplified/floppy_simpl4_true-unreach-call_true-valid-memsafety_true-termination.cil.c	unknown	49.519254644	86.1929894030036	787673088					ERROR (invalid witness file)	4.077159997	4.101999402002548	100532224
+ntdrivers-simplified/kbfiltr_simpl1_true-unreach-call_true-valid-memsafety_true-termination.cil.c	unknown	38.906016808	78.08820120999007	407252992					true	4.876933795	4.9280101809999906	117374976
+ntdrivers-simplified/kbfiltr_simpl2_true-unreach-call_true-valid-memsafety_true-termination.cil.c	unknown	10.971025303	11.826120839992655	448712704					true	5.652350894	5.711051047997898	107610112
+ssh-simplified/s3_clnt_1_false-unreach-call.cil.c	unknown	7.540880103	8.35227317501267	225599488	ERROR (invalid witness file)	3.405606545	3.4263408620026894	99463168				
+ssh-simplified/s3_clnt_2_false-unreach-call_true-termination.cil.c	unknown	7.509908041	8.301960420008982	234340352	ERROR (invalid witness file)	3.350431241	3.3713219279889017	91279360				
+ssh-simplified/s3_clnt_3_false-unreach-call.cil.c	unknown	7.647972905	8.464178493988584	229601280	ERROR (invalid witness file)	3.570791458	3.6006072589952964	97427456				
+ssh-simplified/s3_clnt_4_false-unreach-call.cil.c	unknown	7.560139885	8.379958890000125	229838848	ERROR (invalid witness file)	3.570764318	3.5997953939950094	100265984				
+ssh-simplified/s3_srvr_10_false-unreach-call.cil.c	unknown	31.744743052	55.94427819599514	308363264	ERROR (invalid witness file)	3.59530229	3.620287792989984	98590720				
+ssh-simplified/s3_srvr_11_false-unreach-call.cil.c	unknown	8.217945509	9.008658007995109	241111040	ERROR (invalid witness file)	3.55141371	3.5714586289977888	95461376				
+ssh-simplified/s3_srvr_12_false-unreach-call.cil.c	unknown	8.919848926	9.776655594992917	258969600	ERROR (invalid witness file)	3.601388455	3.6276174500089837	98467840				
+ssh-simplified/s3_srvr_13_false-unreach-call.cil.c	unknown	7.763292641	8.621231213008286	220762112	ERROR (invalid witness file)	3.472490884	3.498066355998162	96768000				
+ssh-simplified/s3_srvr_14_false-unreach-call.cil.c	unknown	14.932141319	18.735489287006203	266596352	ERROR (invalid witness file)	3.453140944	3.4825229569978546	95334400				
+ssh-simplified/s3_srvr_1_false-unreach-call.cil.c	unknown	7.220009516	8.02786280401051	208539648	ERROR (invalid witness file)	3.568583542	3.599034370010486	99852288				
+ssh-simplified/s3_srvr_2_false-unreach-call.cil.c	unknown	7.692420536	8.518900469003711	232300544	ERROR (invalid witness file)	3.445754761	3.4703761460114038	94605312				
+ssh-simplified/s3_srvr_6_false-unreach-call.cil.c	unknown	7.862080221	8.730237168987514	224468992	ERROR (invalid witness file)	3.551658535	3.5694259709998732	96088064				
+ssh-simplified/s3_clnt_1_true-unreach-call.cil.c	unknown	7.619877179	8.398016591992928	231202816					ERROR (invalid witness file)	3.244944565	3.2730864670011215	93597696
+ssh-simplified/s3_clnt_2_true-unreach-call_true-termination.cil.c	unknown	7.337901942	8.134728924997034	225275904					ERROR (invalid witness file)	3.381607355	3.403994099004194	92917760
+ssh-simplified/s3_clnt_3_true-unreach-call.cil.c	unknown	7.321300029	8.145549561988446	229163008					ERROR (invalid witness file)	3.37943751	3.402668626004015	94941184
+ssh-simplified/s3_clnt_4_true-unreach-call.cil.c	unknown	7.482355265	8.278195491991937	231047168					ERROR (invalid witness file)	3.441534063	3.460657939009252	97124352
+ssh-simplified/s3_srvr_1_true-unreach-call.cil.c	unknown	7.603581313	8.40683163900394	236068864					ERROR (invalid witness file)	3.533338752	3.560272411996266	96268288
+ssh-simplified/s3_srvr_1a_true-unreach-call_false-termination.cil.c	unknown	34.212099036	65.55549096599862	250953728					ERROR (invalid witness file)	2.974721266	3.006108346991823	89534464
+ssh-simplified/s3_srvr_1b_true-unreach-call_false-termination.cil.c	TIMEOUT	44.997500917	91.00837534099992	256675840					ERROR (invalid witness file)	0.663776971	0.678109417000087	29569024
+ssh-simplified/s3_srvr_2_true-unreach-call.cil.c	unknown	7.51484463	8.299226470000576	239390720					ERROR (invalid witness file)	3.457270813	3.4780944569938583	97058816
+ssh-simplified/s3_srvr_3_true-unreach-call.cil.c	unknown	7.666833205	8.450494153003092	231313408					ERROR (invalid witness file)	3.492406585	3.5220737060008105	96800768
+ssh-simplified/s3_srvr_4_true-unreach-call.cil.c	unknown	7.760790594	8.547000905004097	232923136					ERROR (invalid witness file)	3.457492032	3.4838198840006953	93143040
+ssh-simplified/s3_srvr_6_true-unreach-call.cil.c	unknown	7.797444719	8.628681632995722	215494656					ERROR (invalid witness file)	3.476676338	3.4942765460000373	97161216
+ssh-simplified/s3_srvr_7_true-unreach-call.cil.c	unknown	7.981541809	8.766010667997762	229007360					ERROR (invalid witness file)	3.461666165	3.4849592770042364	96829440
+ssh-simplified/s3_srvr_8_true-unreach-call.cil.c	unknown	7.528432492	8.405992107000202	210284544					ERROR (invalid witness file)	3.525218145	3.5442381059983745	99622912
+locks/test_locks_14_false-unreach-call_true-valid-memsafety_false-termination.c	false(unreach-call)	6.109930684	7.011754268998629	181334016	true	4.581788686	4.683672785002273	108912640				
+locks/test_locks_15_false-unreach-call_true-valid-memsafety_false-termination.c	false(unreach-call)	6.079523611	6.978990403993521	179802112	true	4.399888802	4.480977330997121	112832512				
+locks/test_locks_10_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.149604291	4.882705622992944	125394944					true	4.807436666	4.894064512001933	118837248
+locks/test_locks_11_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.265558711	4.994394588997238	125931520					true	4.906952348	4.996350909001194	119861248
+locks/test_locks_12_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.272940036	5.036569415999111	125870080					true	4.967390079	5.0601647139992565	125693952
+locks/test_locks_13_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.330418998	5.093194800007041	126361600					true	5.183421537	5.263257913000416	124657664
+locks/test_locks_14_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.269584015	5.022549761997652	126025728					true	5.2543842	5.33731951599475	126087168
+locks/test_locks_15_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.279523385	5.026899153002887	125792256					true	5.497111477	5.591927184010274	128749568
+locks/test_locks_5_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.085032765	4.858617965001031	122736640					true	4.112877522	4.193085128994426	111431680
+locks/test_locks_6_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.544093519	5.346309485001257	126652416					true	4.335058931	4.423895704996539	118894592
+locks/test_locks_7_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.683057447	5.5218665930005955	125308928					true	4.327402145	4.410859818992321	120397824
+locks/test_locks_8_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.587481862	5.332617753010709	126976000					true	4.552560913	4.638879308011383	118247424
+locks/test_locks_9_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.194567759	4.9791544409963535	125075456					true	4.577189239	4.659694835005212	118710272
+ntdrivers/cdaudio_false-unreach-call.i.cil.c	TIMEOUT	60.411651212	61.01681791699957	1594130432	ERROR (invalid witness file)	0.66347512	0.6753236259974074	30916608				
+ntdrivers/diskperf_false-unreach-call.i.cil.c	unknown	16.43205255	17.289634497006773	1377165312	ERROR (invalid witness file)	5.114610864	5.146422532998258	129896448				
+ntdrivers/floppy_false-unreach-call.i.cil.c	TIMEOUT	60.442205829	61.01551081398793	1637752832	ERROR (invalid witness file)	0.702605424	0.7174612949893344	32677888				
+ntdrivers/kbfiltr_false-unreach-call.i.cil.c	unknown	9.141542385	10.026057227994897	576421888	false(unreach-call)	11.376260656	11.422213964993716	276746240				
+ntdrivers/parport_false-unreach-call.i.cil.c	TIMEOUT	60.46485086	61.017232677011634	1599893504	ERROR (invalid witness file)	0.652447078	0.6664330649946351	30109696				
+ntdrivers/cdaudio_true-unreach-call.i.cil.c	unknown	56.198002699	56.94946904499375	1615888384					ERROR (invalid witness file)	6.096673137	6.121588973997859	141209600
+ntdrivers/diskperf_true-unreach-call.i.cil.c	unknown	16.678215686	17.408728958995198	1341243392					ERROR (invalid witness file)	4.962305689	4.993161781996605	111104000
+ntdrivers/floppy2_true-unreach-call.i.cil.c	TIMEOUT	60.219262138	61.02126802899875	1673445376					ERROR (invalid witness file)	0.658936446	0.6705595180101227	30109696
+ntdrivers/floppy_true-unreach-call_true-valid-memsafety.i.cil.c	TIMEOUT	60.21235383	61.02105966898671	1609478144					ERROR (invalid witness file)	0.629237648	0.6408886889985297	29220864
+ntdrivers/parport_true-unreach-call.i.cil.c	TIMEOUT	60.397987708	61.00789533100033	1593982976					ERROR (invalid witness file)	0.657289563	0.6680506070115371	31879168
+ssh/s3_clnt.blast.01_false-unreach-call.i.cil.c	true	5.944414235	6.707393754011719	205402112	unknown	37.444267785	37.53737777099013	561827840				
+ssh/s3_clnt.blast.02_false-unreach-call.i.cil.c	true	5.90614628	6.633285104995593	208314368	unknown	29.583511543	29.65238496501115	468361216				
+ssh/s3_clnt.blast.03_false-unreach-call.i.cil.c	true	6.018834034	6.762101546002668	208769024	unknown	30.201491971	30.260560725000687	460455936				
+ssh/s3_clnt.blast.04_false-unreach-call.i.cil.c	true	5.972941348	6.7470405909989495	203632640	unknown	30.747605642	30.802290011997684	464134144				
+ssh/s3_srvr.blast.01_false-unreach-call.i.cil.c	unknown	9.269055835	10.067638039006852	345079808	ERROR (invalid witness file)	3.690812948	3.70411554799648	100282368				
+ssh/s3_srvr.blast.02_false-unreach-call.i.cil.c	unknown	9.568223732	10.344894919995568	319840256	ERROR (invalid witness file)	3.721887071	3.741251778003061	97230848				
+ssh/s3_srvr.blast.03_false-unreach-call.i.cil.c	unknown	9.182652252	9.979232457000762	324816896	ERROR (invalid witness file)	3.77811073	3.7969838900025934	96636928				
+ssh/s3_srvr.blast.04_false-unreach-call.i.cil.c	unknown	9.199872671	10.027931069998886	347611136	ERROR (invalid witness file)	3.855781674	3.876551452005515	102903808				
+ssh/s3_srvr.blast.06_false-unreach-call.i.cil.c	unknown	9.480850625	10.319744387001265	351109120	ERROR (invalid witness file)	3.793372873	3.8118024229916045	99016704				
+ssh/s3_srvr.blast.07_false-unreach-call.i.cil.c	unknown	9.136546031	9.929088107994176	323428352	ERROR (invalid witness file)	3.906290743	3.9313773089961614	100294656				
+ssh/s3_srvr.blast.08_false-unreach-call.i.cil.c	unknown	9.386451327	10.183637142006774	361410560	ERROR (invalid witness file)	3.889097479	3.904101123000146	99012608				
+ssh/s3_srvr.blast.09_false-unreach-call.i.cil.c	unknown	9.594667663	10.372761727005127	347602944	ERROR (invalid witness file)	3.849044359	3.8761671940010274	100204544				
+ssh/s3_srvr.blast.10_false-unreach-call.i.cil.c	unknown	9.254807891	10.134396552995895	355782656	ERROR (invalid witness file)	3.811511775	3.8253797869983828	96509952				
+ssh/s3_srvr.blast.11_false-unreach-call.i.cil.c	unknown	9.204019905	10.02528571599396	319963136	ERROR (invalid witness file)	3.869206056	3.885743264996563	97726464				
+ssh/s3_srvr.blast.12_false-unreach-call.i.cil.c	unknown	9.285253318	10.136295265998342	357167104	ERROR (invalid witness file)	3.905274733	3.9288728929968784	102731776				
+ssh/s3_srvr.blast.13_false-unreach-call.i.cil.c	unknown	9.25716391	10.065041729001678	339402752	ERROR (invalid witness file)	3.778067409	3.7933393879939103	98725888				
+ssh/s3_srvr.blast.14_false-unreach-call.i.cil.c	unknown	9.519945639	10.309255467000185	348565504	ERROR (invalid witness file)	3.835412931	3.8629803819931112	97730560				
+ssh/s3_srvr.blast.15_false-unreach-call.i.cil.c	unknown	9.173690164	9.975327652995475	324485120	ERROR (invalid witness file)	3.746060245	3.7744384560064645	98914304				
+ssh/s3_srvr.blast.16_false-unreach-call.i.cil.c	unknown	9.476293586	10.35261692799395	348340224	ERROR (invalid witness file)	3.820726137	3.8350320699973963	99844096				
+ssh/s3_clnt.blast.01_true-unreach-call.i.cil.c	true	5.890020938	6.6593658680067165	205328384					true	220.284829075	220.4851040920039	1507901440
+ssh/s3_clnt.blast.02_true-unreach-call.i.cil.c	true	5.938523828	6.6902797630027635	206032896					true	226.537648158	226.74929962601163	1471967232
+ssh/s3_clnt.blast.03_true-unreach-call.i.cil.c	true	5.995763032	6.736601614000392	206708736					true	217.340242552	217.56160038799862	1462366208
+ssh/s3_clnt.blast.04_true-unreach-call.i.cil.c	true	5.869014105	6.581002817998524	208965632					true	226.866169632	227.0869374689937	1465774080
+ssh/s3_srvr.blast.01_true-unreach-call.i.cil.c	unknown	9.142053126	9.92508182200254	351993856					ERROR (invalid witness file)	3.944793048	3.9772934560023714	98897920
+ssh/s3_srvr.blast.02_true-unreach-call.i.cil.c	unknown	9.246751862	10.094922015996417	346370048					ERROR (invalid witness file)	3.936223806	3.9521475170040503	103727104
+ssh/s3_srvr.blast.06_true-unreach-call.i.cil.c	unknown	9.379529789	10.204105469005299	354181120					ERROR (invalid witness file)	3.976190821	4.007503863002057	103866368
+ssh/s3_srvr.blast.07_true-unreach-call.i.cil.c	unknown	9.224159591	10.020703194008092	325021696					ERROR (invalid witness file)	3.794529378	3.819361446003313	100122624
+ssh/s3_srvr.blast.08_true-unreach-call.i.cil.c	unknown	9.335925559	10.131878453001264	359653376					ERROR (invalid witness file)	3.725363877	3.749391231001937	98684928
+ssh/s3_srvr.blast.09_true-unreach-call.i.cil.c	unknown	9.307988266	10.129636935002054	322834432					ERROR (invalid witness file)	3.85738308	3.875940982994507	99151872
+ssh/s3_srvr.blast.10_true-unreach-call.i.cil.c	unknown	9.178218923	10.018613102001837	353259520					ERROR (invalid witness file)	3.902853089	3.926231165009085	100618240
+ssh/s3_srvr.blast.11_true-unreach-call.i.cil.c	unknown	9.350499637	10.169473854009993	345657344					ERROR (invalid witness file)	3.833299617	3.854608552996069	95637504
+ssh/s3_srvr.blast.12_true-unreach-call.i.cil.c	unknown	9.512496792	10.363722237991169	356552704					ERROR (invalid witness file)	3.795769618	3.8207781149976654	99995648
+ssh/s3_srvr.blast.13_true-unreach-call.i.cil.c	unknown	9.306141915	10.173868992002099	342077440					ERROR (invalid witness file)	3.929162468	3.9450936410139548	98914304
+ssh/s3_srvr.blast.14_true-unreach-call.i.cil.c	unknown	9.32079062	10.140218747008475	347381760					ERROR (invalid witness file)	3.907956305	3.935487803988508	99041280
+ssh/s3_srvr.blast.15_true-unreach-call.i.cil.c	unknown	9.294947238	10.000950443994952	320688128					ERROR (invalid witness file)	3.809412553	3.8353798980097054	100364288
+ssh/s3_srvr.blast.16_true-unreach-call.i.cil.c	unknown	9.526622969	10.375187931989785	361029632					ERROR (invalid witness file)	3.788602084	3.812842854007613	98369536
