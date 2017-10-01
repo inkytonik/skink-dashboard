@@ -127,7 +127,9 @@ def getResults(filename, row):
 
 def getRunset(filename):
     parts = filename.split('.')
-    return parts[4]
+    subset = parts[4]
+    topset = subset.split('-')[0]
+    return topset + '.' + subset
 
 # getTimestamp
 # Return timestamp for this benchexec run
