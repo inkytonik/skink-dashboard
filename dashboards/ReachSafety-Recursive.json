@@ -62,7 +62,7 @@
           "datasource": "${DS_LOCAL_GRAPHITE}",
           "format": "none",
           "gauge": {
-            "maxValue": 261,
+            "maxValue": 151,
             "minValue": 0,
             "show": true,
             "thresholdLabels": false,
@@ -107,11 +107,11 @@
           "targets": [
             {
               "refId": "A",
-              "target": "sumSeries(skink.*.*.ReachSafety.Loops.*.*.score)"
+              "target": "sumSeries(skink.*.*.ReachSafety.Recursive.*.*.score)"
             }
           ],
-          "thresholds": "87,174,261",
-          "title": "ReachSafety.Loops total score (98/194/261)",
+          "thresholds": "50,101,151",
+          "title": "ReachSafety.Recursive total score (-/125/151)",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -168,13 +168,13 @@
           "targets": [
             {
               "refId": "A",
-              "target": "currentBelow(skink.*.*.ReachSafety.Loops.*.*.score, -1)"
+              "target": "currentBelow(skink.*.*.ReachSafety.Recursive.*.*.score, -1)"
             }
           ],
           "thresholds": [],
           "timeFrom": null,
           "timeShift": null,
-          "title": "ReachSafety.Loops bad scores",
+          "title": "ReachSafety.Recursive bad scores",
           "tooltip": {
             "shared": true,
             "sort": 0,
@@ -252,13 +252,13 @@
           "targets": [
             {
               "refId": "A",
-              "target": "skink.*.*.ReachSafety.Loops.*.*.score"
+              "target": "skink.*.*.ReachSafety.Recursive.*.*.score"
             }
           ],
           "thresholds": [],
           "timeFrom": null,
           "timeShift": null,
-          "title": "ReachSafety.Loops scores",
+          "title": "ReachSafety.Recursive scores",
           "tooltip": {
             "shared": true,
             "sort": 0,
@@ -336,6 +336,6 @@
     ]
   },
   "timezone": "",
-  "title": "ReachSafety.Loops",
+  "title": "ReachSafety.Recursive",
   "version": 1
 }
