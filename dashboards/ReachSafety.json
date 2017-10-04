@@ -346,7 +346,7 @@
           ],
           "thresholds": "105,209,314",
           "timeFrom": "1M/M",
-          "title": "Floats total score (98/194/261)",
+          "title": "Floats (98/194/261)",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -420,7 +420,7 @@
           ],
           "thresholds": "93,186,280",
           "timeFrom": "1M/M",
-          "title": "Heap total score (-/272/280)",
+          "title": "Heap (-/272/280)",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -494,7 +494,7 @@
           ],
           "thresholds": "87,174,261",
           "timeFrom": "1M/M",
-          "title": "Loops total score (98/194/261)",
+          "title": "Loops (98/194/261)",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -580,7 +580,7 @@
           ],
           "thresholds": "310,619,929",
           "timeFrom": "1M/M",
-          "title": "ProductLines total score (98/194/261)",
+          "title": "ProductLines (98/194/261)",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -849,6 +849,6 @@
     ]
   },
   "timezone": "",
-  "title": "ReachSafety.Loops",
+  "title": "ReachSafety",
   "version": 3
 }
