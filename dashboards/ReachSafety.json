@@ -767,8 +767,8 @@
           "scroll": true,
           "showHeader": true,
           "sort": {
-            "col": 0,
-            "desc": true
+            "col": null,
+            "desc": false
           },
           "span": 12,
           "styles": [
@@ -786,9 +786,11 @@
                 "rgba(237, 129, 40, 0.89)",
                 "rgba(50, 172, 45, 0.97)"
               ],
-              "decimals": 2,
+              "decimals": 0,
               "pattern": "/.*/",
-              "thresholds": [],
+              "thresholds": [
+                ""
+              ],
               "type": "number",
               "unit": "short"
             }
@@ -850,5 +852,5 @@
   },
   "timezone": "",
   "title": "ReachSafety",
-  "version": 3
+  "version": 1
 }
