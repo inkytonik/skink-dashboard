@@ -48,6 +48,141 @@
   "rows": [
     {
       "collapse": false,
+      "height": 250,
+      "panels": [
+        {
+          "cacheTimeout": null,
+          "colorBackground": false,
+          "colorValue": true,
+          "colors": [
+            "rgba(245, 54, 54, 0.9)",
+            "rgba(237, 129, 40, 0.89)",
+            "rgba(50, 172, 45, 0.97)"
+          ],
+          "datasource": "${DS_LOCAL_GRAPHITE}",
+          "format": "none",
+          "gauge": {
+            "maxValue": 4662,
+            "minValue": 0,
+            "show": true,
+            "thresholdLabels": false,
+            "thresholdMarkers": true
+          },
+          "id": 21,
+          "interval": null,
+          "links": [],
+          "mappingType": 1,
+          "mappingTypes": [
+            {
+              "name": "value to text",
+              "value": 1
+            },
+            {
+              "name": "range to text",
+              "value": 2
+            }
+          ],
+          "maxDataPoints": 100,
+          "nullPointMode": "connected",
+          "nullText": null,
+          "postfix": "",
+          "postfixFontSize": "50%",
+          "prefix": "",
+          "prefixFontSize": "50%",
+          "rangeMaps": [
+            {
+              "from": "null",
+              "text": "N/A",
+              "to": "null"
+            }
+          ],
+          "span": 12,
+          "sparkline": {
+            "fillColor": "rgba(31, 118, 189, 0.18)",
+            "full": false,
+            "lineColor": "rgb(31, 120, 193)",
+            "show": true
+          },
+          "tableColumn": "",
+          "targets": [
+            {
+              "refId": "A",
+              "target": "sumSeries(group(#B,#C,#D,#E,#F,#G,#H,#I,#J))",
+              "targetFull": "sumSeries(group(keepLastValue(skink.svcomp.c.ReachSafety.Arrays.*.*.score, inf),keepLastValue(skink.svcomp.c.ReachSafety.BitVectors.*.*.score, inf),keepLastValue(skink.svcomp.c.ReachSafety.ControlFlow.*.*.score, inf),keepLastValue(skink.svcomp.c.ReachSafety.Floats.*.*.score, inf),keepLastValue(skink.svcomp.c.ReachSafety.Heap.*.*.score, inf),keepLastValue(skink.svcomp.c.ReachSafety.Loops.*.*.score, inf),keepLastValue(skink.svcomp.c.ReachSafety.ProductLines.*.*.score, inf),keepLastValue(skink.svcomp.c.ReachSafety.Recursive.*.*.score, inf),keepLastValue(skink.svcomp.c.ReachSafety.Sequentialized.*.*.score, inf)))",
+              "textEditor": true
+            },
+            {
+              "hide": true,
+              "refId": "B",
+              "target": "keepLastValue(skink.svcomp.c.ReachSafety.Arrays.*.*.score, inf)",
+              "textEditor": false
+            },
+            {
+              "hide": true,
+              "refId": "C",
+              "target": "keepLastValue(skink.svcomp.c.ReachSafety.BitVectors.*.*.score, inf)"
+            },
+            {
+              "hide": true,
+              "refId": "D",
+              "target": "keepLastValue(skink.svcomp.c.ReachSafety.ControlFlow.*.*.score, inf)"
+            },
+            {
+              "hide": true,
+              "refId": "E",
+              "target": "keepLastValue(skink.svcomp.c.ReachSafety.Floats.*.*.score, inf)"
+            },
+            {
+              "hide": true,
+              "refId": "F",
+              "target": "keepLastValue(skink.svcomp.c.ReachSafety.Heap.*.*.score, inf)"
+            },
+            {
+              "hide": true,
+              "refId": "G",
+              "target": "keepLastValue(skink.svcomp.c.ReachSafety.Loops.*.*.score, inf)"
+            },
+            {
+              "hide": true,
+              "refId": "H",
+              "target": "keepLastValue(skink.svcomp.c.ReachSafety.ProductLines.*.*.score, inf)"
+            },
+            {
+              "hide": true,
+              "refId": "I",
+              "target": "keepLastValue(skink.svcomp.c.ReachSafety.Recursive.*.*.score, inf)",
+              "textEditor": false
+            },
+            {
+              "hide": true,
+              "refId": "J",
+              "target": "keepLastValue(skink.svcomp.c.ReachSafety.Sequentialized.*.*.score, inf)",
+              "textEditor": false
+            }
+          ],
+          "thresholds": "1554,3108,4662",
+          "title": "Total Score (110/3916/4662)",
+          "type": "singlestat",
+          "valueFontSize": "80%",
+          "valueMaps": [
+            {
+              "op": "=",
+              "text": "N/A",
+              "value": "null"
+            }
+          ],
+          "valueName": "current"
+        }
+      ],
+      "repeat": null,
+      "repeatIteration": null,
+      "repeatRowId": null,
+      "showTitle": false,
+      "title": "Dashboard Row",
+      "titleSize": "h6"
+    },
+    {
+      "collapse": false,
       "height": 256,
       "panels": [
         {
@@ -1372,5 +1507,5 @@
   },
   "timezone": "",
   "title": "ReachSafety",
-  "version": 3
+  "version": 2
 }
