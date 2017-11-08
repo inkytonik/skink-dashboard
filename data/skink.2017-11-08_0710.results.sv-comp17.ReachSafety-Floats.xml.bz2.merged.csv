@@ -1,0 +1,176 @@
+tool	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 
+run set	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17	sv-comp17
+/sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_cputime (s)	wit1_memUsage	wit1_status	wit1_walltime (s)	wit2_cputime (s)	wit2_memUsage	wit2_status	wit2_walltime (s)
+floats-cdfpl/newton_1_4_false-unreach-call.i	false(unreach-call)	6.826698151	8.028132156992797	171761664	69.885549982	389373952	false(unreach-call)	70.01455680999788				
+floats-cdfpl/newton_1_5_false-unreach-call.i	false(unreach-call)	6.546161497	7.487892578996252	183193600	69.548047856	330579968	false(unreach-call)	69.66354253797908				
+floats-cdfpl/newton_1_6_false-unreach-call.i	false(unreach-call)	6.701559448	7.779365014983341	185065472	17.831718582	308215808	false(unreach-call)	17.92566630098736				
+floats-cdfpl/newton_1_7_false-unreach-call.i	false(unreach-call)	6.716007298	7.731960325007094	181764096	78.926296058	1999998976	OUT OF MEMORY	79.40354643401224				
+floats-cdfpl/newton_1_8_false-unreach-call.i	false(unreach-call)	6.683486823	7.707604332012124	187707392	22.0900009	360751104	false(unreach-call)	22.469301522010937				
+floats-cdfpl/newton_2_6_false-unreach-call.i	false(unreach-call)	13.390549236	14.363554659998044	195354624	77.101055908	1999998976	OUT OF MEMORY	77.22969416799606				
+floats-cdfpl/newton_2_7_false-unreach-call.i	false(unreach-call)	11.994385149	13.139992033015005	193662976	91.328648471	1649516544	TIMEOUT	91.6703551360115				
+floats-cdfpl/newton_2_8_false-unreach-call.i	false(unreach-call)	12.377932523	13.604046817985363	196083712	55.944446255	1060990976	false(unreach-call)	56.045307000982575				
+floats-cdfpl/newton_3_6_false-unreach-call.i	unknown	17.064396185	18.150668660993688	206016512	2.349100187	70467584	ERROR (invalid witness file)	2.3692544620134868				
+floats-cdfpl/newton_3_7_false-unreach-call.i	unknown	17.076752726	18.152338440995663	204197888	2.42902623	66662400	ERROR (invalid witness file)	2.4403125130047556				
+floats-cdfpl/newton_3_8_false-unreach-call.i	unknown	17.308015489	18.38562268699752	196321280	2.331742563	70934528	ERROR (invalid witness file)	2.3439346920058597				
+floats-cdfpl/sine_1_false-unreach-call.i	unknown	5.920347356	6.673416444013128	175243264	2.310424396	71671808	ERROR (invalid witness file)	2.3233422829944175				
+floats-cdfpl/sine_2_false-unreach-call.i	false(unreach-call)	6.310144994	7.2364650949893985	171929600	73.574573041	2000011264	OUT OF MEMORY	74.1645840429992				
+floats-cdfpl/sine_3_false-unreach-call.i	false(unreach-call)	6.498903953	7.399343600991415	172855296	85.492911958	2000003072	OUT OF MEMORY	86.65469520000624				
+floats-cdfpl/square_1_false-unreach-call.i	false(unreach-call)	6.55312829	7.434803126001498	181309440	67.409089701	359088128	false(unreach-call)	67.74083971200162				
+floats-cdfpl/square_2_false-unreach-call.i	false(unreach-call)	6.609076381	7.530095348978648	170979328	32.122076627	297869312	false(unreach-call)	32.174219513020944				
+floats-cdfpl/square_3_false-unreach-call.i	false(unreach-call)	6.53028431	7.475032565998845	171732992	50.228405886	963805184	false(unreach-call)	50.31578213701141				
+floats-cdfpl/newton_1_1_true-unreach-call.i	true	7.562831331	8.557072329014773	179982336					901.374010772	491417600	TIMEOUT	901.5774627369829
+floats-cdfpl/newton_1_2_true-unreach-call.i	true	7.680362932	8.722693780990085	187236352					901.406964986	370651136	TIMEOUT	901.606720892014
+floats-cdfpl/newton_1_3_true-unreach-call.i	true	7.627133195	8.670510386989918	185962496					901.52967445	497774592	TIMEOUT	901.8947506630211
+floats-cdfpl/newton_2_1_true-unreach-call.i	true	11.404211008	12.476999008998973	202035200					901.507858895	351539200	TIMEOUT	901.7068760310067
+floats-cdfpl/newton_2_2_true-unreach-call.i	true	9.806369562	10.759142669994617	200802304					901.434931831	390492160	TIMEOUT	901.6300099939981
+floats-cdfpl/newton_2_3_true-unreach-call.i	true	11.32173478	12.407258238003124	193363968					901.506418315	316133376	TIMEOUT	901.7092013669899
+floats-cdfpl/newton_2_4_true-unreach-call.i	unknown	16.809337831	17.86839927599067	239263744					901.41875836	359288832	TIMEOUT	901.6196702140151
+floats-cdfpl/newton_2_5_true-unreach-call.i	unknown	16.817313415	17.769367503991816	232325120					901.464859207	521740288	TIMEOUT	901.6618092900026
+floats-cdfpl/newton_3_1_true-unreach-call.i	unknown	16.985414482	18.00030475697713	219258880					901.60001443	689680384	TIMEOUT	901.7967227400222
+floats-cdfpl/newton_3_2_true-unreach-call.i	unknown	17.177995772	18.140809875010746	223379456					901.587548276	385810432	TIMEOUT	901.7997357849963
+floats-cdfpl/newton_3_3_true-unreach-call.i	unknown	17.007300973	18.019483729003696	215568384					901.523675198	500633600	TIMEOUT	901.7249470390088
+floats-cdfpl/newton_3_4_true-unreach-call.i	unknown	17.125078297	18.130907101003686	227262464					901.537273363	389730304	TIMEOUT	901.7469544750056
+floats-cdfpl/newton_3_5_true-unreach-call.i	unknown	17.152144675	18.15005621901946	220880896					901.545994138	600952832	TIMEOUT	901.750168433995
+floats-cdfpl/sine_4_true-unreach-call.i	true	6.835102901	7.754813969018869	180891648					901.306009248	389890048	TIMEOUT	901.5119897100085
+floats-cdfpl/sine_5_true-unreach-call.i	true	6.502206591	7.488438408006914	184754176					901.313060019	313266176	TIMEOUT	901.5122554580157
+floats-cdfpl/sine_6_true-unreach-call.i	true	6.721662793	7.658720807987265	166100992					901.370577249	449146880	TIMEOUT	901.5780746160017
+floats-cdfpl/sine_7_true-unreach-call.i	true	6.558089867	7.6041487980110105	175562752					901.341680594	524222464	TIMEOUT	901.5502586729999
+floats-cdfpl/sine_8_true-unreach-call.i	true	6.368623548	7.351789029984502	177991680					901.309693908	467361792	TIMEOUT	901.5217249559937
+floats-cdfpl/square_4_true-unreach-call.i	true	6.556300632	7.487523821007926	172736512					901.32002288	405331968	TIMEOUT	901.5243347009819
+floats-cdfpl/square_5_true-unreach-call.i	true	6.656887896	7.726776515017264	170283008					901.321889658	347922432	TIMEOUT	901.5163636200014
+floats-cdfpl/square_6_true-unreach-call.i	true	6.874842502	7.719279050012119	172814336					841.666431842	434622464	true	841.8508866390039
+floats-cdfpl/square_7_true-unreach-call.i	true	6.724669105	7.7010560290073045	169824256					342.872110905	332922880	true	342.97567778098164
+floats-cdfpl/square_8_true-unreach-call.i	true	6.646129176	7.612311494012829	178200576					41.730794995	184942592	true	41.79008051700657
+floats-cbmc-regression/float-div1_true-unreach-call.i	unknown	5.613279693	6.376778097997885	168210432					4.895733973	162041856	true	4.9460170149977785
+floats-cbmc-regression/float-flags-simp1_true-unreach-call.i	unknown	4.750874993	5.447502383001847	138326016					8.776399288	480698368	true	8.821399111999199
+floats-cbmc-regression/float-no-simp1_true-unreach-call.i	true	4.120958996	4.873362906015245	124243968					2.916000792	87212032	true	2.9574506350036245
+floats-cbmc-regression/float-no-simp2_true-unreach-call.i	unknown	4.614792208	5.312169971992262	127176704					14.561968884	139653120	true	14.611594624002464
+floats-cbmc-regression/float-no-simp3_true-unreach-call.i	true	4.100452903	4.860159100004239	123949056					2.988557173	83591168	true	3.0376067360048182
+floats-cbmc-regression/float-no-simp4_true-unreach-call.i	unknown	4.995608752	5.689996772009181	142868480					4.535142094	105013248	true	4.599532254011137
+floats-cbmc-regression/float-no-simp6_true-unreach-call.i	true	4.249536035	4.9948290459869895	126124032					3.14207315	84254720	true	3.1998630030138884
+floats-cbmc-regression/float-no-simp7_true-unreach-call.i	true	4.159233801	4.8993001639901195	125206528					3.015811069	84787200	true	3.07871824799804
+floats-cbmc-regression/float-no-simp8_true-unreach-call.i	true	4.215184634	4.9493006319971755	125923328					4.197283498	94810112	true	4.287134484999115
+floats-cbmc-regression/float-rounding1_true-unreach-call.i	unknown	4.612171431	5.3085833140066825	130387968					4.26390854	94064640	ERROR	4.339395472983597
+floats-cbmc-regression/float-to-double1_true-unreach-call.i	unknown	4.224005743	4.928514647006523	123625472					4.347652303	103321600	true	4.430487295991043
+floats-cbmc-regression/float-to-double2_true-unreach-call.i	true	3.937680107	4.635301183006959	122888192					3.040277043	85426176	true	3.1187716780113988
+floats-cbmc-regression/float-zero-sum1_true-unreach-call.i	true	4.178290421	4.881743056990672	126418944					3.20936641	85553152	true	3.270123986992985
+floats-cbmc-regression/float11_true-unreach-call.i	true	4.08262236	4.800829945976147	124428288					3.200335247	85430272	true	3.2702439490240067
+floats-cbmc-regression/float12_true-unreach-call.i	unknown	5.576638931	6.413151203014422	164700160					3.003588829	92778496	true	3.0729233140009455
+floats-cbmc-regression/float13_true-unreach-call.i	true	4.029211595	4.755684184987331	123019264					3.058854751	85450752	true	3.126298819988733
+floats-cbmc-regression/float14_true-unreach-call.i	unknown	4.075631131	4.803945161984302	122269696					4.072977166	95162368	true	4.148042774002533
+floats-cbmc-regression/float18_true-unreach-call.i	true	4.441454979	5.187510677991668	128516096					21.748513962	261509120	true	21.83739455099567
+floats-cbmc-regression/float19_true-unreach-call.i	true	4.352239334	5.0421159509860445	126775296					4.18484151	98697216	true	4.263143979012966
+floats-cbmc-regression/float1_true-unreach-call.i	true	4.139647178	4.896023727022111	124284928					2.967308231	86650880	true	3.0372035010077525
+floats-cbmc-regression/float20_true-unreach-call.i	unknown	5.063755027	5.866931817989098	140238848					3.288703837	88477696	true	3.3485776470042765
+floats-cbmc-regression/float21_true-unreach-call.i	unknown	4.631270017	5.342907895974349	131358720					4.784313471	134275072	true	4.855793293012539
+floats-cbmc-regression/float22_true-unreach-call.i	true	4.399317599	5.1355681360000744	128786432					4.80015286	116088832	false(unreach-call)	4.863016985007562
+floats-cbmc-regression/float2_true-unreach-call.i	true	4.112895568	4.844974157982506	122896384					2.99012878	85966848	true	3.058279856981244
+floats-cbmc-regression/float3_true-unreach-call.i	true	6.274059584	7.199951607006369	163000320					3.328887174	116568064	true	3.3916619900264777
+floats-cbmc-regression/float4_true-unreach-call.i	unknown	4.404730691	5.126118707994465	129077248					54.88808612	161292288	true	54.96361589198932
+floats-cbmc-regression/float5_true-unreach-call.i	unknown	5.100374709	5.962155765009811	154734592					3.124781663	95641600	true	3.1795951169915497
+floats-cbmc-regression/float6_true-unreach-call.i	unknown	5.50126726	6.3030282969994005	163737600					3.298505627	91144192	true	3.350327533989912
+floats-cbmc-regression/float7_true-unreach-call.i	true	4.093597142	4.752623406006023	124411904					3.013686223	84701184	true	3.059935952012893
+floats-cbmc-regression/float8_true-unreach-call.i	unknown	5.546081366	6.297116300003836	160059392					4.71284689	107565056	true	4.75887237599818
+floats-cbmc-regression/float_lib1_true-unreach-call.i	unknown	4.459871484	5.189714343025116	129212416					4.143170711	95989760	true	4.191417283000192
+floats-cbmc-regression/float_lib2_true-unreach-call.i	unknown	4.185820414	4.846687687007943	124522496					4.244696111	96452608	true	4.306882670003688
+float-benchs/cast_float_ptr_false-unreach-call.c	unknown	5.681826864	6.419348378985887	166977536	4.134000727	108519424	false(unreach-call)	4.239483502984513				
+float-benchs/cast_union_loose_false-unreach-call.c	unknown	5.286133538	6.0846004110062495	137506816	4.336504942	125796352	false(unreach-call)	4.421316998981638				
+float-benchs/cast_union_tight_false-unreach-call.c	unknown	5.111478222	5.924050419998821	138579968	4.313673601	128208896	false(unreach-call)	4.381646441004705				
+float-benchs/float_int_inv_square_false-unreach-call.c	unknown	6.167504534	7.092870919994311	163807232	4.042768989	114135040	false(unreach-call)	4.111828971013892				
+float-benchs/inv_Newton_false-unreach-call.c	unknown	6.22904666	6.931214800977614	171589632	2.94882373	85565440	ERROR (invalid witness file)	2.9663212969899178				
+float-benchs/inv_square_false-unreach-call.c	unknown	5.263299674	6.066211766999913	139472896	4.158024892	116092928	false(unreach-call)	4.225501488981536				
+float-benchs/nan_double_false-unreach-call.c	unknown	4.940997887	5.701293896010611	135286784	3.753489787	102113280	false(unreach-call)	3.8247120039886795				
+float-benchs/nan_float_false-unreach-call.c	unknown	4.902790318	5.763048348977463	134209536	3.939364921	102047744	false(unreach-call)	4.005416001018602				
+float-benchs/sin_interpolated_index_false-unreach-call.c	unknown	8.187775663	9.01619957498042	243503104	3.49757129	87928832	ERROR	3.5584548370097764				
+float-benchs/sqrt_poly2_false-unreach-call.c	unknown	6.058407167	6.849245304998476	180580352	11.484372469	412655616	false(unreach-call)	11.530972320004366				
+float-benchs/Muller_Kahan_true-unreach-call.c	unknown	5.705857891	6.5060411379963625	165466112					2.605932348	85393408	ERROR (invalid witness file)	2.6284176999761257
+float-benchs/Rump_double_true-unreach-call.c	true	4.352748782	5.089445193996653	126726144					3.047579918	83730432	true	3.107487356988713
+float-benchs/Rump_float_true-unreach-call.c	true	4.311571688	5.010343097994337	126058496					2.999229765	86851584	true	3.0615149369987193
+float-benchs/addsub_double_exact_true-unreach-call.c	true	4.227817662	4.9630540030193515	126664704					3.020509866	88588288	true	3.07601885299664
+float-benchs/addsub_float_exact_true-unreach-call.c	true	4.343191523	5.044533363019582	126377984					3.133123763	85045248	true	3.189608797983965
+float-benchs/addsub_float_inexact_true-unreach-call.c	true	4.317171916	5.0231795299914666	126062592					3.115830406	86654976	true	3.177703791996464
+float-benchs/arctan_Pade_true-unreach-call.c	unknown	6.520759882	7.308469195006182	171339776					13.73362129	332152832	true	13.804643907002173
+float-benchs/bary_diverge_true-unreach-call.c	witness invalid (true)	6.104682502	6.859534276998602	174301184					2.847995461	86081536	ERROR (invalid witness file)	2.867291639005998
+float-benchs/cast_float_union_true-unreach-call.c	true	4.499251237	5.23689555801684	128774144					3.001286922	85659648	true	3.0569780549849384
+float-benchs/cos_polynomial_true-unreach-call.c	unknown	6.076696416	6.864095928001916	161153024					901.593971299	1038700544	TIMEOUT	901.8377252810169
+float-benchs/divmul_buf_diverge_true-unreach-call.c	unknown	5.837246016	6.599061657994753	168398848					2.735752774	89329664	ERROR (invalid witness file)	2.7563261369941756
+float-benchs/divmul_diverge_true-unreach-call.c	unknown	5.900779776	6.729604382999241	163049472					2.691895911	89059328	ERROR (invalid witness file)	2.710503651993349
+float-benchs/drift_tenth_true-unreach-call.c	true	4.256050101	5.0152795129979495	126369792					10.120694759	175337472	true	10.204036187991733
+float-benchs/exp_loop_true-unreach-call.c	unknown	6.436180536	7.518143613997381	195788800					2.706000476	91353088	ERROR (invalid witness file)	2.7276700049987994
+float-benchs/feedback_diverge_true-unreach-call.c	unknown	5.909018056	6.67764765501488	182812672					2.745670602	85397504	ERROR (invalid witness file)	2.765099050011486
+float-benchs/filter1_true-unreach-call.c	unknown	5.880422551	6.645914463006193	165912576					2.742923685	88068096	ERROR (invalid witness file)	2.7686767340055667
+float-benchs/filter2_alt_true-unreach-call.c	witness invalid (true)	6.381885833	7.1146868679788895	190562304					2.865672083	88719360	ERROR (invalid witness file)	2.8932334540004376
+float-benchs/filter2_iterated_true-unreach-call.c	witness invalid (true)	6.682920702	7.422434620995773	212443136					2.795905224	87085056	ERROR (invalid witness file)	2.8217442900058813
+float-benchs/filter2_reinit_true-unreach-call.c	unknown	5.657424694	6.451214952976443	158318592					2.806018473	87900160	ERROR (invalid witness file)	2.8286576370010152
+float-benchs/filter2_set_true-unreach-call.c	unknown	5.99366221	6.779910907003796	161849344					2.801475668	91545600	ERROR (invalid witness file)	2.821554907015525
+float-benchs/filter2_true-unreach-call.c	unknown	5.507589077	6.311957261001226	156839936					2.670509417	89047040	ERROR (invalid witness file)	2.6953748560044914
+float-benchs/filter_iir_true-unreach-call.c	unknown	6.731725365	7.4894524209958035	199970816					2.751923473	85876736	ERROR (invalid witness file)	2.772116777021438
+float-benchs/float_double_true-unreach-call.c	true	4.196392224	4.922418344009202	125054976					3.078604926	93904896	true	3.1319530509936158
+float-benchs/image_filter_true-unreach-call.c	unknown	9.165634799	9.993664869980421	316190720					3.853339723	103129088	ERROR (invalid witness file)	3.8790031039970927
+float-benchs/interpolation2_true-unreach-call.c	unknown	6.03637077	6.77321031599422	178528256					2.797833997	89800704	ERROR (invalid witness file)	2.824900659004925
+float-benchs/interpolation_true-unreach-call.c	unknown	5.82484251	6.582720763981342	177233920					2.810922508	94556160	ERROR (invalid witness file)	2.8300309579935856
+float-benchs/inv_sqrt_Quake_true-unreach-call.c	unknown	5.253463912	6.051541953987908	137330688					4.663434811	151498752	unknown	4.7345430580026004
+float-benchs/inv_square_int_true-unreach-call.c	unknown	5.951347442	6.8097506780177355	164151296					3.164149709	94638080	true	3.2278575290110894
+float-benchs/inv_square_true-unreach-call.c	true	6.551285518	7.462052544025937	169152512					3.149835865	94769152	true	3.2148520899936557
+float-benchs/loop_true-unreach-call.c	unknown	5.461376395	6.277283263014397	136773632					2.666988065	89755648	ERROR (invalid witness file)	2.6878344290016685
+float-benchs/mea8000_true-unreach-call.c	unknown	11.875564064	12.764402244996745	461508608					3.530256257	97804288	ERROR (invalid witness file)	3.562926493003033
+float-benchs/nan_double_range_true-unreach-call.c	unknown	5.043645571	5.807830250996631	134328320					3.017038534	90017792	true	3.0860174910048954
+float-benchs/nan_float_range_true-unreach-call.c	unknown	4.860130901	5.670257819001563	133804032					3.082322842	91418624	true	3.148554452985991
+float-benchs/rlim_exit_true-unreach-call.c	unknown	5.919788423	6.704807833011728	180162560					2.701347243	88723456	ERROR (invalid witness file)	2.7308546420244966
+float-benchs/rlim_invariant_true-unreach-call.c	unknown	5.977106459	6.785263474012027	178823168					2.799157402	85192704	ERROR (invalid witness file)	2.8213851029868238
+float-benchs/sin_interpolated_bigrange_loose_true-unreach-call.c	unknown	8.138142928	8.91816410399042	231006208					3.427891229	87236608	ERROR	3.497166837012628
+float-benchs/sin_interpolated_bigrange_tight_true-unreach-call.c	unknown	7.777169711	8.52950702997623	228548608					3.339430682	86495232	ERROR	3.4219757310056593
+float-benchs/sin_interpolated_index_true-unreach-call.c	unknown	7.783388292	8.588235964998603	242692096					3.261008084	88838144	ERROR	3.331925517995842
+float-benchs/sin_interpolated_negation_true-unreach-call.c	unknown	8.396076783	9.200034129986307	244711424					3.068902163	90763264	ERROR (invalid witness file)	3.087562613975024
+float-benchs/sin_interpolated_smallrange_true-unreach-call.c	unknown	7.504465391	8.3087540929846	229593088					3.121668684	90050560	ERROR (invalid witness file)	3.1459100950160064
+float-benchs/sqrt_Householder_constant_true-unreach-call.c	unknown	6.280955918	7.043157981999684	178290688					2.741832707	87031808	ERROR (invalid witness file)	2.7643262389756273
+float-benchs/sqrt_Householder_interval_true-unreach-call.c	unknown	6.263511605	7.048957411025185	179970048					2.832112245	88281088	ERROR (invalid witness file)	2.858566832001088
+float-benchs/sqrt_Householder_pseudoconstant_true-unreach-call.c	unknown	6.423251262	7.224126089015044	184737792					2.880452915	88244224	ERROR (invalid witness file)	2.9083663470228203
+float-benchs/sqrt_Newton_pseudoconstant_true-unreach-call.c	unknown	6.590123827	7.4438320320041385	180137984					2.75045326	88956928	ERROR (invalid witness file)	2.7736821759899613
+float-benchs/sqrt_biNewton_pseudoconstant_true-unreach-call.c	unknown	6.230645077	6.996530824020738	188948480					3.122472338	109187072	ERROR (invalid witness file)	3.1458080130105373
+float-benchs/sqrt_poly_true-unreach-call.c	unknown	5.814719989	6.607735300989589	180617216					83.899299477	293142528	true	83.97639193898067
+float-benchs/water_pid_true-unreach-call.c	unknown	5.492835028	6.318075693998253	156061696					2.813313853	87064576	ERROR (invalid witness file)	2.833570485992823
+float-benchs/zonotope_2_true-unreach-call.c	unknown	5.942509773	6.8707327830197755	149200896					2.692464232	88608768	ERROR (invalid witness file)	2.7112144349957816
+float-benchs/zonotope_3_true-unreach-call.c	unknown	6.214460772	7.143957647989737	181256192					2.793924677	86437888	ERROR (invalid witness file)	2.8106422609998845
+float-benchs/zonotope_loose_true-unreach-call.c	unknown	5.573221152	6.560382030002074	137785344					3.745207928	144322560	true	3.8165325640002266
+float-benchs/zonotope_tight_true-unreach-call.c	unknown	5.961725354	6.8975035839830525	148402176					3.762277317	148381696	true	3.8257191970187705
+floats-esbmc-regression/Double_div_true-unreach-call.i	unknown	6.237036171	7.274745180999162	172056576					2.693058146	90693632	ERROR (invalid witness file)	2.723678795999149
+floats-esbmc-regression/Float_div_true-unreach-call.i	unknown	5.077081575	6.106147109006997	132841472					2.668942499	90210304	ERROR (invalid witness file)	2.6934641530096997
+floats-esbmc-regression/ceil_nondet_true-unreach-call.i	unknown	5.171026615	6.038025080983061	132677632					4.26838534	97009664	ERROR	4.318348616012372
+floats-esbmc-regression/ceil_true-unreach-call.i	unknown	4.780968742	5.5810566059954	124559360					4.284690287	96276480	true	4.359502875013277
+floats-esbmc-regression/copysign_true-unreach-call.i	unknown	5.102217611	5.894916123012081	133521408					4.303624543	95305728	true	4.354453083011322
+floats-esbmc-regression/digits_for_true-unreach-call.i	unknown	6.70796566	7.667043856985401	180731904					2.63586387	87379968	ERROR (invalid witness file)	2.661591717012925
+floats-esbmc-regression/digits_while_true-unreach-call.i	unknown	6.186772481	7.135657397011528	164261888					2.687118956	88522752	ERROR (invalid witness file)	2.7190756909840275
+floats-esbmc-regression/fabs_true-unreach-call.i	unknown	4.219569584	4.983483490999788	123793408					4.266502146	95789056	true	4.359348328987835
+floats-esbmc-regression/fdim_true-unreach-call.i	unknown	4.423684521	5.191510164993815	129851392					4.229948901	94769152	true	4.290981962985825
+floats-esbmc-regression/floor_nondet_true-unreach-call.i	unknown	4.458294883	5.22259820002364	131854336					4.219348706	96264192	ERROR	4.2862636919890065
+floats-esbmc-regression/floor_true-unreach-call.i	unknown	4.219729331	5.006553051003721	123965440					4.268286467	100610048	true	4.338794662995497
+floats-esbmc-regression/fmax_true-unreach-call.i	unknown	4.534526404	5.260258173017064	128598016					4.274730527	96149504	true	4.348924509977223
+floats-esbmc-regression/fmin_true-unreach-call.i	unknown	4.329607681	5.123838217987213	124678144					4.306807456	100114432	true	4.37315513798967
+floats-esbmc-regression/fmod2_true-unreach-call.i	unknown	4.887709318	5.730728814000031	132038656					5.608818592	128868352	false(unreach-call)	5.679457261983771
+floats-esbmc-regression/fmod3_true-unreach-call.i	unknown	4.494879798	5.235073446005117	130134016					5.494255541	126717952	false(unreach-call)	5.5704638400056865
+floats-esbmc-regression/fmod_true-unreach-call.i	true	4.647750047	5.4510193089954555	129318912					4.311166306	96960512	true	4.388970344996778
+floats-esbmc-regression/isgreater_true-unreach-call.i	true	4.614901004	5.412940816982882	129961984					4.212870361	96235520	true	4.269035409000935
+floats-esbmc-regression/isgreaterequal_true-unreach-call.i	true	5.016406601	5.869342744001187	128720896					4.312161338	101502976	true	4.374042217008537
+floats-esbmc-regression/isless_true-unreach-call.i	true	4.461456418	5.270030130021041	126681088					4.232627709	94236672	true	4.3063695629825816
+floats-esbmc-regression/islessequal_true-unreach-call.i	true	4.380679746	5.200306245009415	126271488					4.149981587	97435648	true	4.221063792007044
+floats-esbmc-regression/islessgreater_true-unreach-call.i	true	4.300116349	5.108832682017237	126914560					4.087462395	96137216	true	4.1326903509907424
+floats-esbmc-regression/isunordered_true-unreach-call.i	true	4.570248365	5.461670855002012	131391488					4.197992439	94334976	true	4.264404235989787
+floats-esbmc-regression/lrint_true-unreach-call.i	unknown	4.671116792	5.449589954019757	133783552					4.349559527	97140736	ERROR	4.417858514003456
+floats-esbmc-regression/modf_true-unreach-call.i	unknown	4.402175418	5.13954185199691	131985408					4.180908133	94081024	true	4.228156133991433
+floats-esbmc-regression/nan_true-unreach-call.i	unknown	4.564782637	5.2924602259881794	126488576					4.318659848	93093888	true	4.362706655985676
+floats-esbmc-regression/nearbyint2_true-unreach-call.i	unknown	4.116606749	4.861783902975731	123736064					4.211484886	96215040	ERROR	4.282223239017185
+floats-esbmc-regression/nearbyint_true-unreach-call.i	unknown	4.142677509	4.892182131006848	122568704					3.867292578	102395904	ERROR (invalid witness file)	3.8859770520066377
+floats-esbmc-regression/remainder_true-unreach-call.i	unknown	4.610731064	5.313343700021505	129765376					4.301825861	93274112	true	4.364703958999598
+floats-esbmc-regression/rint2_true-unreach-call.i	unknown	4.452854149	5.21540757099865	123944960					4.311877538	95326208	ERROR	4.36460267502116
+floats-esbmc-regression/rint_true-unreach-call.i	unknown	4.412119978	5.1846122999850195	124440576					3.566394409	95399936	ERROR (invalid witness file)	3.6039503749925643
+floats-esbmc-regression/round_nondet_true-unreach-call.i	unknown	4.814294959	5.5456752110039815	135053312					4.305964252	96202752	ERROR	4.38837732700631
+floats-esbmc-regression/round_true-unreach-call.i	unknown	4.420979003	5.141519877011888	129626112					4.527366514	101789696	true	4.609732896002242
+floats-esbmc-regression/rounding_functions_true-unreach-call.i	true	4.773247354	5.654839722003089	130629632					4.482715746	96419840	true	4.5674026899796445
+floats-esbmc-regression/trunc_nondet_2_true-unreach-call.i	unknown	4.276070279	5.030743620998692	131174400					5.335806672	131203072	unknown	5.411685186991235
+floats-esbmc-regression/trunc_nondet_true-unreach-call.i	unknown	4.407121605	5.186694105010247	131547136					4.262164973	95662080	ERROR	4.32551493900246
+floats-esbmc-regression/trunc_true-unreach-call.i	unknown	4.12272911	4.8792435149953235	124325888					4.246254713	93605888	true	4.3034065710089635
+floats-esbmc-regression/Double_div_bad_false-unreach-call.i	unknown	4.940750074	5.7974652359844185	134160384	2.872298508	95178752	ERROR (invalid witness file)	2.8906422670115717				
+floats-esbmc-regression/Float_div_bad_false-unreach-call.i	unknown	5.525328424	6.377023776003625	161906688	2.78849191	89993216	ERROR (invalid witness file)	2.8047788540134206				
+floats-esbmc-regression/digits_bad_for_false-unreach-call.i	unknown	6.268755255	7.247083105990896	171626496	3.00507785	93503488	ERROR (invalid witness file)	3.022002434998285				
+floats-esbmc-regression/digits_bad_while_false-unreach-call.i	unknown	6.235060386	7.178772695013322	170950656	2.795145383	86077440	ERROR (invalid witness file)	2.81097932101693				
