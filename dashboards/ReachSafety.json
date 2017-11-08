@@ -789,7 +789,7 @@
           ],
           "thresholds": "50,100,151",
           "timeFrom": null,
-          "title": "Recursive (-125/151)",
+          "title": "Recursive (-/125/151)",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
