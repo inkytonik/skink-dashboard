@@ -12,6 +12,10 @@
 #   array_false-unreach-call_true-termination.i	false(unreach-call)	7.92938506	9.296900265006116	168075264	false(unreach-call)	3.991594749	4.071597172995098	98922496
 #   <and more data lines>
 #
+# Update: sometime around November 2017, benchexec changed and the columns are now in a slightly different order:
+#   /sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_cputime (s)	wit1_memUsage	wit1_status	wit1_walltime (s)	wit2_cputime (s)	wit2_memUsage	wit2_status	wit2_walltime (s)
+# The script uses the header line to decide which of these two formats is being used.
+#
 # It is also possible to work with
 #   /sv-benchmarks/c/ ...
 #   loops/array_false-unreach-call_true-termination.i ...
@@ -62,6 +66,7 @@ def process(filename):
     with open(filename, newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter='\t')
         basekey = 'dummy'
+        format = 'new'
         for row in reader:
             if row[0] != 'tool' and row[0] != 'run set':
                 if row[0].startswith('/'):
@@ -71,6 +76,8 @@ def process(filename):
                     basekey = basekey + '.' + runset
                     if dirparts != ():
                         basekey = basekey + '.' + '.'.join(dirparts)
+                    if row[5] == 'wit1_status':
+                        format = "old"
                 else:
                     key = basekey
                     path = Path(row[0])
@@ -80,7 +87,7 @@ def process(filename):
                     testfilebase = path.stem.replace('.','_')
                     filekey = key + '.' + testfilebase
                     timestamp = getTimestamp(filename)
-                    (toolok, score, witok) = getResults(testfilebase, row)
+                    (toolok, score, witok) = getResults(testfilebase, row, format)
                     printVal(filekey, 'result', str(toolok), timestamp)
                     printVal(filekey, 'score', str(score), timestamp)
                     printVal(filekey, 'witness', str(witok), timestamp)
@@ -94,10 +101,14 @@ def printVal(filekey, field, value, timestamp):
 # getScores
 # Returns (prog ok, score, witness ok)
 
-def getResults(filename, row):
+def getResults(filename, row, format):
     toolResult = row[1]
-    violWitResult = row[5]
-    corrWitResult = row[9]
+    if format == 'old':
+        violWitResult = row[5]
+        corrWitResult = row[9]
+    else:
+        violWitResult = row[7]
+        corrWitResult = row[11]
     isCorrect = 'true-unreach-call' in filename
     if toolResult == 'false(unreach-call)':
         if isCorrect:
