@@ -1,0 +1,138 @@
+tool	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 
+run set	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18
+/sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_cputime (s)	wit1_memUsage	wit1_status	wit1_walltime (s)	wit2_cputime (s)	wit2_memUsage	wit2_status	wit2_walltime (s)
+array-examples/data_structures_set_multi_proc_false-unreach-call_ground.i	false(unreach-call)	6.514454766	7.576694351009792	184569856	0.712237231	18350080	false(unreach-call)	0.7377074810210615				
+array-examples/sorting_bubblesort_false-unreach-call2_ground.i	TIMEOUT	48.512061581	91.00900624698261	248102912	0.004154553	516096	ERROR (invalid witness file)	0.009745217015733942				
+array-examples/sorting_bubblesort_false-unreach-call_ground.i	TIMEOUT	48.735692847	91.00811493501533	246624256	0.003793476	516096	ERROR (invalid witness file)	0.0076251499995123595				
+array-examples/sorting_selectionsort_false-unreach-call2_ground.i	TIMEOUT	53.844666121	91.01710720398114	273973248	0.002981713	516096	ERROR (invalid witness file)	0.009203938010614365				
+array-examples/sorting_selectionsort_false-unreach-call_ground.i	TIMEOUT	56.515019724	91.01012631400954	289873920	0.003064595	512000	ERROR (invalid witness file)	0.007578303979244083				
+array-examples/standard_allDiff2_false-unreach-call_ground.i	false(unreach-call)	6.296548204	7.323939549009083	173805568	12.61932457	18382848	false(unreach-call)	12.649249600013718				
+array-examples/standard_copy1_false-unreach-call_ground.i	TIMEOUT	57.427878671	91.01189095398877	268111872	0.004273719	516096	ERROR (invalid witness file)	0.007464834023267031				
+array-examples/standard_copy2_false-unreach-call_ground.i	unknown	6.536553656	7.323027397011174	184430592	0.549919858	18284544	ERROR (1)	0.6192785789899062				
+array-examples/standard_copy3_false-unreach-call_ground.i	unknown	6.471458251	7.276777930994285	183132160	0.589542514	18288640	ERROR (1)	0.6585252430231776				
+array-examples/standard_copy4_false-unreach-call_ground.i	unknown	6.316408446	7.13061644899426	184430592	0.561585449	18378752	ERROR (1)	0.6436449179891497				
+array-examples/standard_copy5_false-unreach-call_ground.i	unknown	6.309777373	7.121283971006051	180604928	0.550771219	18436096	ERROR (1)	0.6372621420014184				
+array-examples/standard_copy6_false-unreach-call_ground.i	unknown	6.61275934	7.417984603991499	182984704	0.54769807	18395136	ERROR (1)	0.6297141030081548				
+array-examples/standard_copy7_false-unreach-call_ground.i	unknown	6.378263304	7.154830829997081	183361536	0.570637421	18341888	ERROR (1)	0.6502703150035813				
+array-examples/standard_copy8_false-unreach-call_ground.i	unknown	6.34849709	7.136558622005396	181407744	0.563477273	18329600	ERROR (1)	0.6600144339899998				
+array-examples/standard_copy9_false-unreach-call_ground.i	unknown	6.341856564	7.122310192004079	183230464	0.547450912	18386944	ERROR (1)	0.6328141459962353				
+array-examples/standard_copyInitSum2_false-unreach-call_ground.i	unknown	6.50607137	7.243849060992943	182833152	0.612833869	18378752	false(unreach-call)	0.6334492180030793				
+array-examples/standard_init1_false-unreach-call_ground.i	TIMEOUT	50.481266772	91.01486253499752	249339904	0.003122647	516096	ERROR (invalid witness file)	0.007876660994952545				
+array-examples/standard_init2_false-unreach-call_ground.i	TIMEOUT	48.769647941	91.00969754098332	258134016	0.004049556	516096	ERROR (invalid witness file)	0.0077724809816572815				
+array-examples/standard_init3_false-unreach-call_ground.i	unknown	44.44289485	77.51576668099733	235520000	0.604140682	18419712	false(unreach-call)	0.6199019629857503				
+array-examples/standard_init4_false-unreach-call_ground.i	unknown	45.777649128	88.67581046198029	240549888	0.607751846	18333696	false(unreach-call)	0.6205305420153309				
+array-examples/standard_init5_false-unreach-call_ground.i	TIMEOUT	44.477628854	90.8130429169978	244293632	0.003085391	647168	ERROR (invalid witness file)	0.007665604003705084				
+array-examples/standard_init6_false-unreach-call_ground.i	TIMEOUT	43.917807718	91.01255911801127	238125056	0.00338089	516096	ERROR (invalid witness file)	0.008386176981730387				
+array-examples/standard_init7_false-unreach-call_ground.i	TIMEOUT	44.059291031	90.3704316529911	240021504	0.004297251	516096	ERROR (invalid witness file)	0.00831156299682334				
+array-examples/standard_init8_false-unreach-call_ground.i	TIMEOUT	43.99585512	90.10231432202272	240566272	0.00317465	516096	ERROR (invalid witness file)	0.007760295004118234				
+array-examples/standard_init9_false-unreach-call_ground.i	TIMEOUT	47.298937104	91.01536055500037	244293632	0.002979826	516096	ERROR (invalid witness file)	0.007929700979730114				
+array-examples/standard_minInArray_false-unreach-call_ground.i	TIMEOUT	51.835027441	91.00902898199274	267988992	0.003835032	647168	ERROR (invalid witness file)	0.007455045997630805				
+array-examples/standard_partition_false-unreach-call_ground.i	TIMEOUT	45.924059284	91.00834574300097	239108096	0.003072634	647168	ERROR (invalid witness file)	0.008308566000778228				
+array-examples/standard_running_false-unreach-call.i	TIMEOUT	54.634512703	91.01296434400138	259727360	0.003195187	516096	ERROR (invalid witness file)	0.00784949300577864				
+array-examples/data_structures_set_multi_proc_trivial_true-unreach-call_ground_true-termination.i	true	4.711580302	5.412851841014344	133955584					3.722773657	143499264	ERROR	2.5687666430021636
+array-examples/data_structures_set_multi_proc_true-unreach-call_ground.i	TIMEOUT	44.592508366	90.20033922800212	259362816					0.658539869	30527488	ERROR (invalid witness file)	0.505601521988865
+array-examples/relax_true-unreach-call.i	unknown	8.824746888	10.080503439006861	208027648					673.44952778	3531735040	TIMEOUT	991.8662157040089
+array-examples/sanfoundry_02_true-unreach-call_ground.i	TIMEOUT	46.780524354	91.0425854040077	265498624					0.731483653	64278528	ERROR (invalid witness file)	1.0480358459753916
+array-examples/sanfoundry_10_true-unreach-call_ground.i	TIMEOUT	50.919396579	91.00945881899679	275693568					0.677030304	31383552	ERROR (invalid witness file)	0.5397655479901005
+array-examples/sanfoundry_24_true-unreach-call_true-termination.i	true	4.551859827	5.281852593005169	131915776					3.619807266	166543360	ERROR	2.984839450014988
+array-examples/sanfoundry_27_true-unreach-call_ground.i	TIMEOUT	49.860089039	91.06012146198191	262008832					0.676768066	31707136	ERROR (invalid witness file)	0.5174737049965188
+array-examples/sanfoundry_43_true-unreach-call_ground.i	true	4.790268376	5.541839190002065	140021760					3.32640718	143863808	true	2.2973761970060878
+array-examples/sorting_bubblesort_true-unreach-call_ground.i	TIMEOUT	44.763947187	90.14989213901572	245493760					0.661475141	31416320	ERROR (invalid witness file)	0.5081351529806852
+array-examples/sorting_selectionsort_true-unreach-call_ground.i	TIMEOUT	51.295297216	91.01683757500723	272838656					0.656448796	30781440	ERROR (invalid witness file)	0.49379525901167654
+array-examples/standard_compareModified_true-unreach-call_ground.i	TIMEOUT	48.227994731	91.01542432801216	256737280					0.663935141	31035392	ERROR (invalid witness file)	0.5351451659807935
+array-examples/standard_compare_true-unreach-call_ground.i	TIMEOUT	49.703298418	91.01866060702014	262565888					0.646966959	30781440	ERROR (invalid witness file)	0.4821841230150312
+array-examples/standard_copy1_true-unreach-call_ground.i	unknown	6.246512	6.991024649003521	180076544					3.367881945	143273984	ERROR	2.2700027030077763
+array-examples/standard_copy2_true-unreach-call_ground.i	unknown	6.19017184	7.005266224005027	177217536					3.393791554	143777792	ERROR	2.3781121729989536
+array-examples/standard_copy3_true-unreach-call_ground.i	unknown	6.122472975	6.911702279001474	153587712					3.536157546	143024128	ERROR	2.3233371159876697
+array-examples/standard_copy4_true-unreach-call_ground.i	unknown	5.854173282	6.652847313001985	150114304					3.482419308	138027008	ERROR	2.374156125995796
+array-examples/standard_copy5_true-unreach-call_ground.i	unknown	6.150683081	6.996412873006193	179974144					3.57573437	146153472	ERROR	2.3406447960005607
+array-examples/standard_copy6_true-unreach-call_ground.i	unknown	6.477139453	7.239544962008949	170102784					3.480299954	136978432	ERROR	2.352099512005225
+array-examples/standard_copy7_true-unreach-call_ground.i	unknown	6.37777968	7.121637522999663	179822592					3.594585888	143953920	ERROR	2.3971706360171083
+array-examples/standard_copy8_true-unreach-call_ground.i	unknown	5.848422644	6.657894028990995	150437888					3.608396254	145014784	ERROR	2.4816677830240224
+array-examples/standard_copy9_true-unreach-call_ground.i	unknown	5.821759901	6.653881828009617	153788416					3.548802902	145502208	ERROR	2.3121981369913556
+array-examples/standard_copyInitSum2_true-unreach-call_ground.i	unknown	6.254472414	7.024811418988975	177020928					3.450915502	148701184	ERROR	2.290207746991655
+array-examples/standard_copyInitSum3_true-unreach-call_ground.i	unknown	6.439703244	7.209145009983331	185266176					3.442987679	146411520	ERROR	2.286010477982927
+array-examples/standard_copyInitSum_true-unreach-call_ground.i	unknown	6.415189465	7.264464495994616	180207616					3.430943389	142102528	ERROR	2.406817732990021
+array-examples/standard_copyInit_true-unreach-call_ground.i	unknown	5.66969879	6.51094148500124	144482304					3.391516625	143261696	ERROR	2.2783447010151576
+array-examples/standard_find_true-unreach-call_ground.i	TIMEOUT	46.900281423	91.01491199398879	249409536					0.675489927	31031296	ERROR (invalid witness file)	0.5047118929796852
+array-examples/standard_init1_true-unreach-call_ground.i	TIMEOUT	53.031292158	91.02270717200008	264548352					0.667158344	31109120	ERROR (invalid witness file)	0.5072942209953908
+array-examples/standard_init2_true-unreach-call_ground.i	TIMEOUT	52.540447514	91.00842835998628	252149760					0.680989449	31465472	ERROR (invalid witness file)	0.5128856849914882
+array-examples/standard_init3_true-unreach-call_ground.i	unknown	42.572127638	87.43312482399051	242438144					3.547135345	148103168	ERROR	2.4192444299987983
+array-examples/standard_init4_true-unreach-call_ground.i	unknown	45.548759216	90.98763689599582	238555136					3.385580734	141443072	ERROR	2.28580181801226
+array-examples/standard_init5_true-unreach-call_ground.i	TIMEOUT	46.939341654	91.0103094340011	244981760					0.665857064	31485952	ERROR (invalid witness file)	0.513194430997828
+array-examples/standard_init6_true-unreach-call_ground.i	TIMEOUT	44.171248507	90.88330267599667	249520128					0.661988154	30588928	ERROR (invalid witness file)	0.49460812300094403
+array-examples/standard_init7_true-unreach-call_ground.i	TIMEOUT	48.235116156	91.00926872098353	243425280					0.670862693	30765056	ERROR (invalid witness file)	0.5035727049980778
+array-examples/standard_init8_true-unreach-call_ground.i	TIMEOUT	46.291569626	91.01228924299357	239747072					0.662711374	31633408	ERROR (invalid witness file)	0.500944030995015
+array-examples/standard_init9_true-unreach-call_ground.i	TIMEOUT	49.264034988	91.00857725500828	244703232					0.657404021	31260672	ERROR (invalid witness file)	0.4967386700154748
+array-examples/standard_maxInArray_true-unreach-call_ground.i	TIMEOUT	55.133776003	91.00998939300189	290684928					0.660614092	30879744	ERROR (invalid witness file)	0.506320342014078
+array-examples/standard_minInArray_true-unreach-call_ground.i	TIMEOUT	56.829743775	91.01017787799356	282083328					0.676654706	31162368	ERROR (invalid witness file)	0.5005530799971893
+array-examples/standard_palindrome_true-unreach-call_ground.i	TIMEOUT	56.786664143	91.00887846501428	270581760					0.680161802	31510528	ERROR (invalid witness file)	0.5147891949745826
+array-examples/standard_partial_init_true-unreach-call_ground.i	TIMEOUT	52.686400742	91.01202932599699	275980288					0.660977387	30830592	ERROR (invalid witness file)	0.5122480200079735
+array-examples/standard_partition_original_true-unreach-call_ground.i	TIMEOUT	52.567128503	91.07444734699675	257720320					0.669578576	31014912	ERROR (invalid witness file)	0.5026594560185913
+array-examples/standard_partition_true-unreach-call_ground.i	TIMEOUT	49.906341729	91.01012740598526	260005888					0.675329961	31289344	ERROR (invalid witness file)	0.5127768109960016
+array-examples/standard_password_true-unreach-call_ground.i	TIMEOUT	49.281440331	91.0136765250063	258781184					0.673059081	31563776	ERROR (invalid witness file)	0.5035543259873521
+array-examples/standard_reverse_true-unreach-call_ground.i	TIMEOUT	55.663052587	91.01932844601106	271896576					0.647453105	30482432	ERROR (invalid witness file)	0.4947160980082117
+array-examples/standard_running_true-unreach-call.i	TIMEOUT	58.71153129	91.01072035098332	274112512					0.660975285	31297536	ERROR (invalid witness file)	0.5128856849914882
+array-examples/standard_sentinel_true-unreach-call_true-termination.i	TIMEOUT	50.059598957	91.01433671198902	261795840					0.665869653	30879744	ERROR (invalid witness file)	0.5020017130009364
+array-examples/standard_seq_init_true-unreach-call_ground.i	TIMEOUT	48.411144322	91.01083939499222	263950336					0.67855654	30859264	ERROR (invalid witness file)	0.5173460519872606
+array-examples/standard_strcmp_true-unreach-call_ground.i	TIMEOUT	56.213472865	91.00902218499687	256618496					0.666329655	30867456	ERROR (invalid witness file)	0.5084111350006424
+array-examples/standard_strcpy_original_true-unreach-call.i	TIMEOUT	48.064724485	91.02989546098979	254357504					0.657045537	30859264	ERROR (invalid witness file)	0.4910153579839971
+array-examples/standard_strcpy_true-unreach-call_ground.i	TIMEOUT	52.781848955	91.00917463100632	264101888					0.65464684	30609408	ERROR (invalid witness file)	0.5032272020180244
+array-examples/standard_two_index_01_true-unreach-call.i	unknown	6.303697155	7.044825586985098	177283072					3.358171604	143609856	ERROR	2.2582551240047906
+array-examples/standard_two_index_02_true-unreach-call.i	TIMEOUT	48.83893456	91.01938833598979	271269888					0.650018903	30744576	ERROR (invalid witness file)	0.4847358849947341
+array-examples/standard_two_index_03_true-unreach-call.i	TIMEOUT	54.11074022	91.0116087560018	280002560					0.651436612	30883840	ERROR (invalid witness file)	0.5013758340210188
+array-examples/standard_two_index_04_true-unreach-call.i	TIMEOUT	52.223502189	91.00986914499663	267354112					0.667758931	33759232	ERROR (invalid witness file)	0.509465323004406
+array-examples/standard_two_index_05_true-unreach-call.i	TIMEOUT	55.594098979	91.01415220301715	283062272					0.661613609	30871552	ERROR (invalid witness file)	0.49577927400241606
+array-examples/standard_two_index_06_true-unreach-call.i	TIMEOUT	56.249278256	91.01094927598024	275255296					0.650258155	30556160	ERROR (invalid witness file)	0.4821308829996269
+array-examples/standard_two_index_07_true-unreach-call.i	TIMEOUT	52.844448883	91.10953099100152	289632256					0.651566265	30859264	ERROR (invalid witness file)	0.4975986809877213
+array-examples/standard_two_index_08_true-unreach-call.i	TIMEOUT	50.520071872	91.01083258201834	273154048					0.655538549	31342592	ERROR (invalid witness file)	0.5045970249921083
+array-examples/standard_two_index_09_true-unreach-call.i	TIMEOUT	51.434482914	91.00951826700475	280748032					0.68189056	31051776	ERROR (invalid witness file)	0.5159801240079105
+array-examples/standard_vararg_true-unreach-call_ground_true-termination.i	TIMEOUT	46.621662966	91.00902944200789	239607808					0.641425428	30527488	ERROR (invalid witness file)	0.5183233270072378
+array-examples/standard_vector_difference_true-unreach-call_ground.i	TIMEOUT	57.392160796	91.00978750298964	278798336					0.661350901	31084544	ERROR (invalid witness file)	0.5077130390272941
+array-industry-pattern/array_assert_loop_dep_false-unreach-call.i	TIMEOUT	44.738662665	90.99831206200179	240844800	0.002851046	516096	ERROR (invalid witness file)	0.007036925002466887				
+array-industry-pattern/array_of_struct_loop_dep_false-unreach-call.i	unknown	5.530020674	6.268059076013742	179195904	0.061036525	7487488	ERROR (1)	0.07282193601713516				
+array-industry-pattern/array_ptr_single_elem_init_false-unreach-call_true-termination.i	TIMEOUT	51.916664702	91.01058448999538	259416064	0.002856686	516096	ERROR (invalid witness file)	0.007799449987942353				
+array-industry-pattern/array_range_init_false-unreach-call.i	TIMEOUT	47.248100169	91.02486192001379	242151424	0.003029709	401408	ERROR (invalid witness file)	0.00789384200470522				
+array-industry-pattern/array_single_elem_init_false-unreach-call_true-termination.i	TIMEOUT	45.911075518	91.01046742501785	252592128	0.002586629	778240	ERROR (invalid witness file)	0.006990977999521419				
+array-industry-pattern/check_removal_from_set_after_insertion_false-unreach-call.i	TIMEOUT	47.009550143	91.00858829999925	253714432	0.003169906	647168	ERROR (invalid witness file)	0.008262917981483042				
+array-industry-pattern/array_monotonic_true-unreach-call.i	TIMEOUT	50.592955781	91.01101839300827	259125248					0.677918395	31408128	ERROR (invalid witness file)	0.525475495000137
+array-industry-pattern/array_mul_init_true-unreach-call.i	TIMEOUT	48.043514388	91.01673203098471	250486784					0.686064326	31051776	ERROR (invalid witness file)	0.52721659099916
+array-industry-pattern/array_of_struct_break_true-unreach-call.i	unknown	5.345561372	6.08203016401967	169377792					737.95832167	3336814592	TIMEOUT	991.8122329199978
+array-industry-pattern/array_of_struct_ptr_cond_init_true-unreach-call.i	unknown	5.469228178	6.205860698973993	161177600					905.922007002	2604453888	TIMEOUT	956.7693786610034
+array-industry-pattern/array_of_struct_ptr_flag_init_true-unreach-call.i	unknown	6.413426093	7.22180954599753	187584512					596.54820946	4052799488	TIMEOUT	991.6463002889941
+array-industry-pattern/array_of_struct_ptr_monotonic_true-unreach-call.i	unknown	6.025059424	6.759327431005659	179789824					906.594217198	2584051712	TIMEOUT	972.2622913469968
+array-industry-pattern/array_of_struct_ptr_mul_init_true-unreach-call.i	unknown	5.860922971	6.63272410701029	182464512					325.178944959	4344012800	TIMEOUT	992.384614953975
+array-industry-pattern/array_of_struct_single_elem_init_true-unreach-call.i	unknown	5.684075003	6.4142911579983775	177475584					592.682724112	3574267904	TIMEOUT	991.6805707300082
+array-industry-pattern/array_ptr_partial_init_true-unreach-call.i	unknown	5.527651223	6.396089931979077	152875008					849.971872582	3454291968	TIMEOUT	991.5896082510008
+array-industry-pattern/array_ptr_single_elem_init_true-unreach-call.i	unknown	5.892491117	6.6625109869928565	184819712					904.482564801	3152302080	TIMEOUT	961.9226630170015
+array-industry-pattern/array_shadowinit_true-unreach-call_true-termination.i	TIMEOUT	50.687983724	91.01209301300696	266219520					0.728077689	58335232	ERROR (invalid witness file)	0.9860808929952327
+reducercommutativity/rangesum05_false-unreach-call.i	false(unreach-call)	6.916725915	7.880375776992878	253423616	0.627649235	18640896	false(unreach-call)	0.6520402840105817				
+reducercommutativity/rangesum10_false-unreach-call.i	false(unreach-call)	7.333809369	8.258306246018037	269148160	0.622888598	19054592	false(unreach-call)	0.634646843012888				
+reducercommutativity/rangesum20_false-unreach-call.i	false(unreach-call)	7.762269389	8.882439558015903	275652608	0.619952201	18358272	false(unreach-call)	0.6326296579791233				
+reducercommutativity/rangesum40_false-unreach-call.i	false(unreach-call)	23.705660965	26.625410731998272	354578432	0.633366919	18575360	false(unreach-call)	0.6450169440067839				
+reducercommutativity/rangesum60_false-unreach-call.i	TIMEOUT	60.254322596	78.29495165697881	569159680	0.003047629	516096	ERROR (invalid witness file)	0.008068741008173674				
+reducercommutativity/rangesum_false-unreach-call.i	unknown	9.008043739	10.226313880004454	211451904	0.562110587	18595840	ERROR (1)	0.6062131710059475				
+reducercommutativity/avg05_true-unreach-call.i	true	17.14958898	18.267348769004457	478969856					901.358488557	1531052032	TIMEOUT	897.0947115320014
+reducercommutativity/avg10_true-unreach-call.i	true	17.771949023	19.06743294800981	468705280					903.242309358	3186548736	TIMEOUT	991.6107844069775
+reducercommutativity/avg20_true-unreach-call.i	true	21.017373552	23.66690688399831	478523392					496.466015115	3492573184	TIMEOUT	991.7294466929743
+reducercommutativity/avg40_true-unreach-call.i	true	25.53359522	28.951875322993146	559845376					380.375682282	4119805952	TIMEOUT	992.2960665079881
+reducercommutativity/avg60_true-unreach-call.i	TIMEOUT	60.582477625	77.05089347399189	470847488					0.720506207	63492096	ERROR (invalid witness file)	0.7070527679752558
+reducercommutativity/avg_true-unreach-call.i	unknown	46.142726919	75.09399535300327	328028160					904.339055704	2298806272	TIMEOUT	902.0923264370067
+reducercommutativity/max05_true-unreach-call_true-termination.i	true	17.596818389	18.90723527900991	276254720					96.758076041	659668992	true	89.73115622601472
+reducercommutativity/max10_true-unreach-call_true-termination.i	true	19.112609572	20.691963663994102	268537856					901.434934237	1532698624	TIMEOUT	894.0284804289986
+reducercommutativity/max20_true-unreach-call.i	true	24.87753081	28.5829262729967	306417664					901.727326659	1458864128	TIMEOUT	894.0281074259838
+reducercommutativity/max40_true-unreach-call.i	TIMEOUT	55.152787608	91.00978936298634	277139456					0.648083529	30994432	ERROR (invalid witness file)	0.4917811639897991
+reducercommutativity/max60_true-unreach-call.i	TIMEOUT	49.412865484	91.01293436301057	241668096					0.662904389	31698944	ERROR (invalid witness file)	0.5054493699863087
+reducercommutativity/max_true-unreach-call.i	TIMEOUT	43.659922345	90.69358711401583	259571712					0.670054844	30822400	ERROR (invalid witness file)	0.5128709499840625
+reducercommutativity/sep05_true-unreach-call.i	true	6.951160454	8.10496043501189	199692288					152.185602244	700276736	true	145.2582622260088
+reducercommutativity/sep10_true-unreach-call.i	true	11.147845918	12.51386148200254	250118144					901.246116544	983220224	TIMEOUT	894.0619350600173
+reducercommutativity/sep20_true-unreach-call.i	TIMEOUT	55.636420269	91.01408537800307	323313664					0.641451616	30904320	ERROR (invalid witness file)	0.475178964989027
+reducercommutativity/sep40_true-unreach-call.i	TIMEOUT	51.029687588	91.01007757199113	297025536					0.658070229	30822400	ERROR (invalid witness file)	0.49799576500663534
+reducercommutativity/sep60_true-unreach-call.i	unknown	43.181931745	85.69807064399356	247791616					903.660400632	2725572608	TIMEOUT	897.6106381139834
+reducercommutativity/sep_true-unreach-call.i	unknown	34.174187214	63.98143142001936	237473792					901.869384167	1845436416	TIMEOUT	891.4048265690217
+reducercommutativity/sum05_true-unreach-call_true-termination.i	true	16.558494039	17.610745459998725	485232640					900.873227028	813948928	TIMEOUT	896.3435594970069
+reducercommutativity/sum10_true-unreach-call.i	true	17.266446176	18.488136900996324	283054080					901.491550053	1812344832	TIMEOUT	893.89703718698
+reducercommutativity/sum20_true-unreach-call.i	true	18.094014207	19.563236950983992	283226112					544.805730592	3518664704	TIMEOUT	991.6514982700173
+reducercommutativity/sum40_true-unreach-call.i	true	24.321455497	27.994975378009258	342740992					441.237061631	4325249024	TIMEOUT	991.7047178829962
+reducercommutativity/sum60_true-unreach-call.i	TIMEOUT	47.901999919	91.0126789129863	242458624					0.722819276	66138112	ERROR (invalid witness file)	0.6976814960071351
+reducercommutativity/sum_true-unreach-call.i	TIMEOUT	44.207125799	91.05644856501021	243101696					0.669962703	30900224	ERROR (invalid witness file)	0.5069424370012712
