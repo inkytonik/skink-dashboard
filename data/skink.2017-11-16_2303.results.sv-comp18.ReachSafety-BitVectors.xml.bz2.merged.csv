@@ -1,0 +1,53 @@
+tool	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 
+run set	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18
+/sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_cputime (s)	wit1_memUsage	wit1_status	wit1_walltime (s)	wit2_cputime (s)	wit2_memUsage	wit2_status	wit2_walltime (s)
+bitvector/byte_add_false-unreach-call_true-no-overflow.i	TIMEOUT	47.860230477	91.01627339498373	285642752	0.00245471	643072	ERROR (invalid witness file)	0.006268299010116607				
+bitvector/sum02_false-unreach-call_true-no-overflow.i	TIMEOUT	49.648401824	91.00877035100712	273506304	0.002930526	516096	ERROR (invalid witness file)	0.006322536966763437				
+bitvector/byte_add_1_true-unreach-call_true-no-overflow.i	TIMEOUT	44.425034376	90.56583019299433	273842176					0.65534517	33161216	ERROR (invalid witness file)	0.545720202033408
+bitvector/byte_add_2_true-unreach-call_true-no-overflow.i	TIMEOUT	44.979498525	91.0133234540117	270262272					0.625046612	31178752	ERROR (invalid witness file)	0.4765637459931895
+bitvector/gcd_1_true-unreach-call_true-no-overflow.i	TIMEOUT	60.774291273	64.50353647803422	543207424					0.649151524	31690752	ERROR (invalid witness file)	0.4895949760102667
+bitvector/gcd_2_true-unreach-call_true-no-overflow.i	true	30.419350161	35.13405581697589	715665408					120.986512246	346660864	true	119.5974402660504
+bitvector/gcd_3_true-unreach-call_true-no-overflow.i	TIMEOUT	60.032630533	68.0983183439821	698527744					0.662860622	32309248	ERROR (invalid witness file)	0.501930007012561
+bitvector/gcd_4_true-unreach-call_true-no-overflow_true-termination.i	true	47.883435254	86.62227720400551	286175232					6.081309644	189362176	true	4.651921791024506
+bitvector/interleave_bits_true-unreach-call_true-no-overflow.i	true	8.190113435	9.851305705029517	178241536					6.561100539	211316736	true	4.80599290097598
+bitvector/jain_1_true-unreach-call_true-no-overflow_false-termination.i	true	47.81413667	90.96652791101951	255787008					284.813651295	3482460160	TIMEOUT	991.7248043310246
+bitvector/jain_2_true-unreach-call_true-no-overflow_false-termination.i	TIMEOUT	49.609122698	91.00704116100678	265367552					0.725263564	65626112	ERROR (invalid witness file)	1.0475228040013462
+bitvector/jain_4_true-unreach-call_true-no-overflow_false-termination.i	true	4.398469423	5.104946930950973	127700992					314.449157259	4249726976	TIMEOUT	991.6950011370354
+bitvector/jain_5_true-unreach-call_true-no-overflow.i	true	4.329697471	5.0971516849822365	126341120					350.082802806	4535578624	TIMEOUT	991.9385016370215
+bitvector/jain_6_true-unreach-call_true-no-overflow_false-termination.i	true	4.55753367	5.327162657980807	132407296					326.924211514	4241334272	TIMEOUT	991.6558626489714
+bitvector/jain_7_true-unreach-call_true-no-overflow_false-termination.i	true	4.603060165	5.410104576963931	132104192					327.175123942	3564937216	TIMEOUT	991.7207223310252
+bitvector/modulus_true-unreach-call_true-no-overflow.i	TIMEOUT	50.703317497	91.01364905998344	284327936					0.733164918	65478656	ERROR (invalid witness file)	1.0380948490346782
+bitvector/num_conversion_1_true-unreach-call_true-no-overflow.i	true	4.205330035	4.944234931026585	126029824					4.596596992	177188864	true	3.5203343509929255
+bitvector/num_conversion_2_true-unreach-call_true-no-overflow.i	true	5.861570921	6.746616916032508	170422272					4.469325084	163930112	true	3.0103959719999693
+bitvector/parity_true-unreach-call_true-no-overflow.i	TIMEOUT	60.303543288	68.2090705409646	342556672					0.657594753	31109120	ERROR (invalid witness file)	0.47805826499825343
+bitvector/sum02_true-unreach-call_true-no-overflow.i	TIMEOUT	57.714717727	90.97528868401423	325111808					0.643559155	30941184	ERROR (invalid witness file)	0.4783627149881795
+bitvector/s3_clnt_1_false-unreach-call_true-no-overflow.BV.c.cil.c	TIMEOUT	47.941064782	91.0099832220003	299790336	0.003176885	643072	ERROR (invalid witness file)	0.0070410119951702654				
+bitvector/s3_clnt_2_false-unreach-call_true-no-overflow.BV.c.cil.c	TIMEOUT	47.186320205	91.01645869598724	296595456	0.002997042	647168	ERROR (invalid witness file)	0.007679976988583803				
+bitvector/s3_clnt_3_false-unreach-call_true-no-overflow.BV.c.cil.c	TIMEOUT	48.733389258	91.00799226597883	309559296	0.002630748	516096	ERROR (invalid witness file)	0.005795141973067075				
+bitvector/s3_clnt_1_true-unreach-call_true-no-overflow.BV.c.cil.c	TIMEOUT	48.373376568	91.00879954802804	310636544					0.657215636	31039488	ERROR (invalid witness file)	0.48719627800164744
+bitvector/s3_clnt_2_true-unreach-call_true-no-overflow.BV.c.cil.c	TIMEOUT	49.76025501	91.00819364399649	316186624					0.641192555	31191040	ERROR (invalid witness file)	0.5238890679902397
+bitvector/s3_clnt_3_true-unreach-call_true-no-overflow.BV.c.cil.c	TIMEOUT	52.460254744	91.01117252203403	301486080					0.648936378	30879744	ERROR (invalid witness file)	0.490306208957918
+bitvector/s3_srvr_1_alt_true-unreach-call_true-no-overflow.BV.c.cil.c	TIMEOUT	53.285091513	91.00789229403017	298024960					0.648796359	31670272	ERROR (invalid witness file)	0.4875843329937197
+bitvector/s3_srvr_1_true-unreach-call_true-no-overflow.BV.c.cil.c	TIMEOUT	50.92467702	91.06030522100627	293359616					0.662740389	30810112	ERROR (invalid witness file)	0.4880830599577166
+bitvector/s3_srvr_2_alt_true-unreach-call_true-no-overflow_false-termination.BV.c.cil.c	unknown	27.32179658	39.47492167598102	265400320					832.430327245	3707334656	TIMEOUT	991.5217949780053
+bitvector/s3_srvr_2_true-unreach-call_true-no-overflow_false-termination.BV.c.cil.c	unknown	15.118485637	18.462157025001943	268980224					823.174852934	3745107968	TIMEOUT	991.5987475389848
+bitvector/s3_srvr_3_alt_true-unreach-call_true-no-overflow.BV.c.cil.c	TIMEOUT	60.316350753	88.86612040200271	290476032					0.738918623	65953792	ERROR (invalid witness file)	1.0317301389877684
+bitvector/s3_srvr_3_true-unreach-call_true-no-overflow.BV.c.cil.c	unknown	24.06081778	31.696037249988876	275394560					634.623941392	4043014144	TIMEOUT	991.5450806859881
+bitvector/soft_float_1_true-unreach-call_true-no-overflow_true-termination.c.cil.c	unknown	29.296820798	54.52117777703097	279859200					709.721429663	3533279232	TIMEOUT	991.6878828529734
+bitvector/soft_float_2_true-unreach-call_true-no-overflow_true-termination.c.cil.c	unknown	42.77314412	76.35066846205154	295034880					662.947498014	3715567616	TIMEOUT	991.5917480539647
+bitvector/soft_float_3_true-unreach-call_true-no-overflow_true-termination.c.cil.c	unknown	35.675567425	62.952330211002845	281960448					634.799041803	3626360832	TIMEOUT	991.6749913500389
+bitvector/soft_float_4_true-unreach-call_true-no-overflow_true-termination.c.cil.c	unknown	30.594612717	58.56664990197169	273682432					314.074255266	607838208	true	309.90163092000876
+bitvector/soft_float_5_true-unreach-call_true-no-overflow_true-termination.c.cil.c	unknown	38.720711477	77.307729527005	290721792					622.29227369	3650883584	TIMEOUT	991.6612940650084
+bitvector-regression/implicitfloatconversion_false-unreach-call_true-termination.c	false(unreach-call)	5.169773341	5.989008285978343	160456704	0.739953702	21278720	false(unreach-call)	0.8525826929835603				
+bitvector-regression/implicitunsignedconversion_false-unreach-call_true-termination.c	false(unreach-call)	5.236026586	6.075215296994429	151425024	0.604822495	18276352	false(unreach-call)	0.6142351950402372				
+bitvector-regression/integerpromotion_false-unreach-call_true-termination.c	false(unreach-call)	5.088222212	5.966701773984823	157949952	0.577848928	18423808	false(unreach-call)	0.5903167719952762				
+bitvector-regression/recHanoi03_false-unreach-call_true-termination.c	unknown	4.004560043	4.6865660439943895	124084224	0.541704499	18391040	ERROR (1)	0.5667004010174423				
+bitvector-regression/signextension2_false-unreach-call_true-termination.c	false(unreach-call)	5.076900943	5.936437291966286	158056448	0.581482617	18550784	false(unreach-call)	0.5924266479560174				
+bitvector-regression/signextension_false-unreach-call_true-termination.c	false(unreach-call)	5.076282647	5.95371926703956	157872128	0.573012498	18427904	false(unreach-call)	0.5838199349818751				
+bitvector-regression/implicitunsignedconversion_true-unreach-call_true-termination.c	true	3.961205528	4.742169561039191	123482112					3.602257096	189399040	true	3.3867444320349023
+bitvector-regression/integerpromotion_true-unreach-call_true-termination.c	true	3.922656694	4.692965803958941	123351040					3.276066609	129388544	true	2.2156121730222367
+bitvector-regression/signextension2_true-unreach-call_true-termination.c	true	4.236925089	4.998571037023794	126832640					3.119016143	128593920	true	2.1566708710161038
+bitvector-regression/signextension_true-unreach-call_true-termination.c	true	4.496078995	5.394388786982745	123654144					3.118126064	129593344	true	2.2132092289975844
+bitvector-loops/diamond_false-unreach-call2.i	false(unreach-call)	6.45352564	7.407636730000377	166318080	0.606402709	18477056	false(unreach-call)	0.6312728229677305				
+bitvector-loops/overflow_false-unreach-call1.i	false(unreach-call)	5.157326698	5.980138098006137	159125504	4.186297086	18329600	false(unreach-call)	4.203914838959463				
+bitvector-loops/verisec_sendmail__tTflag_arr_one_loop_false-unreach-call.i	false(unreach-call)	19.231109744	27.193664591992274	233070592	0.62229065	18731008	false(unreach-call)	0.6361392330145463				
