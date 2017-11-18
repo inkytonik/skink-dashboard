@@ -1,0 +1,99 @@
+tool	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 
+run set	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18
+/sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_cputime (s)	wit1_memUsage	wit1_status	wit1_walltime (s)	wit2_cputime (s)	wit2_memUsage	wit2_status	wit2_walltime (s)
+recursive/Ackermann02_false-unreach-call_true-no-overflow_true-termination.c	unknown	4.580966665	5.728445502987597	182308864	0.05840336	7565312	ERROR (1)	0.07430308498442173				
+recursive/Addition02_false-unreach-call_true-no-overflow_true-termination.c	false(unreach-call)	11.951454966	13.141216989024542	208179200	0.6307557	18243584	false(unreach-call)	0.6453807280049659				
+recursive/BallRajamani-SPIN2000-Fig1_false-unreach-call_true-no-overflow_true-termination.c	false(unreach-call)	8.628741141	10.650182507000864	179810304	0.612907157	18415616	false(unreach-call)	0.6267283959896304				
+recursive/EvenOdd03_false-unreach-call_true-no-overflow_true-termination.c	false(unreach-call)	6.497929858	7.380743548972532	187056128	0.618819489	18313216	false(unreach-call)	0.6352395000285469				
+recursive/Fibonacci04_false-unreach-call_true-no-overflow_true-termination.c	unknown	4.382673833	5.05623160401592	125149184	0.544579995	18317312	ERROR (1)	0.5762298149638809				
+recursive/Fibonacci05_false-unreach-call_true-no-overflow_true-termination.c	unknown	4.427686462	5.093833924969658	126119936	0.543805596	18534400	ERROR (1)	0.576492912019603				
+recursive/McCarthy91_false-unreach-call_true-no-overflow_true-termination.c	unknown	4.423145431	5.163626994995866	125272064	0.550495536	18366464	ERROR (1)	0.5893826769897714				
+recursive/Ackermann01_true-unreach-call_true-no-overflow.c	unknown	4.226905574	4.966144692036323	125370368					0.005068977	516096	true	0.009484083973802626
+recursive/Ackermann03_true-unreach-call_true-no-overflow.c	unknown	4.578807947	5.273579342989251	129044480					0.002917386	516096	true	0.008138532983139157
+recursive/Ackermann04_true-unreach-call_true-no-overflow.c	unknown	4.533578041	5.272025729995221	127094784					0.004123349	516096	true	0.009181833011098206
+recursive/Addition01_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	60.516880136	73.65515886194771	293834752					0.003227652	516096	true	0.009341049997601658
+recursive/Addition03_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	55.552226761	91.00941774697276	452972544					0.00318492	516096	true	0.009328663989435881
+recursive/EvenOdd01_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	49.63448918	91.01707703102147	296042496					0.003389394	516096	true	0.010002787981647998
+recursive/Fibonacci01_true-unreach-call_true-no-overflow.c	unknown	4.192880575	4.901299727032892	126377984					0.004118249	516096	true	0.0087238599662669
+recursive/Fibonacci02_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.086992909	4.827427851967514	124346368					0.003480881	516096	true	0.009178636013530195
+recursive/Fibonacci03_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.42510969	5.1254210689803585	128802816					0.004085468	647168	true	0.008829936967231333
+recursive/McCarthy91_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.465408816	5.188562294992153	128237568					0.002992091	516096	true	0.008624274982139468
+recursive/MultCommutative_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	47.789503887	91.01070365397027	253665280					0.003185114	516096	true	0.008835332002490759
+recursive/Primes_true-unreach-call_true-no-overflow_false-termination.c	unknown	4.843955416	5.547571072995197	144404480					0.002975477	516096	true	0.008093984972219914
+recursive/gcd01_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	47.915163804	91.01536663697334	266153984					0.003158461	516096	true	0.008634361962322146
+recursive/gcd02_true-unreach-call_true-no-overflow_true-termination.c	TIMEOUT	55.792626096	91.0138052199618	268300288					0.002904812	516096	true	0.008041244989726692
+recursive/recHanoi01_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.212433662	4.887747906963341	126971904					0.003254415	516096	true	0.008660732011776417
+recursive/recHanoi02_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.026846665	4.704195118043572	124407808					0.003313319	520192	true	0.008978665980976075
+recursive/recHanoi03_true-unreach-call_true-no-overflow_true-termination.c	unknown	4.079481019	4.821943390998058	124456960					0.003286698	516096	true	0.008276175009086728
+recursive-simple/afterrec_2calls_false-unreach-call_true-termination.c	unknown	4.296443998	4.9844077349989675	128196608	0.597693755	18530304	false(unreach-call)	0.6108969170018099				
+recursive-simple/afterrec_false-unreach-call_true-termination.c	unknown	3.989120011	4.707789984007832	122441728	0.590801153	18489344	false(unreach-call)	0.6018347459612414				
+recursive-simple/fibo_10_false-unreach-call_true-termination.c	unknown	4.354634967	5.064643752004486	125353984	0.600319835	18407424	false(unreach-call)	0.6129865109687671				
+recursive-simple/fibo_15_false-unreach-call.c	unknown	4.11992174	4.844868924003094	124387328	0.611157576	18419712	false(unreach-call)	0.6242962959804572				
+recursive-simple/fibo_20_false-unreach-call.c	unknown	4.109959164	4.815606979012955	124485632	0.604219353	18370560	false(unreach-call)	0.6172050559544004				
+recursive-simple/fibo_25_false-unreach-call.c	unknown	4.332182229	5.010001998045482	127774720	0.618395803	18448384	false(unreach-call)	0.6286466890014708				
+recursive-simple/fibo_2calls_10_false-unreach-call.c	unknown	4.279385083	5.027637713996228	132853760	0.618637234	18350080	false(unreach-call)	0.6367788289790042				
+recursive-simple/fibo_2calls_15_false-unreach-call.c	unknown	4.280941512	5.0058475760160945	131215360	0.590788574	18432000	false(unreach-call)	0.6040076449862681				
+recursive-simple/fibo_2calls_20_false-unreach-call.c	unknown	4.296430883	5.0234584209974855	135004160	0.607270408	18399232	false(unreach-call)	0.6198910649982281				
+recursive-simple/fibo_2calls_25_false-unreach-call.c	unknown	4.277830076	5.005943366035353	134803456	0.610228603	18505728	false(unreach-call)	0.6224798859911971				
+recursive-simple/fibo_2calls_2_false-unreach-call_true-termination.c	false(unreach-call)	5.50493829	7.236729950003792	166477824	0.597275325	18366464	false(unreach-call)	0.6089636409888044				
+recursive-simple/fibo_2calls_4_false-unreach-call_true-termination.c	unknown	4.250670805	4.955263256037142	131334144	0.600878089	18399232	false(unreach-call)	0.613066618971061				
+recursive-simple/fibo_2calls_5_false-unreach-call_true-termination.c	unknown	4.260929987	4.986793301999569	131178496	0.605681109	18427904	false(unreach-call)	0.6178090610192157				
+recursive-simple/fibo_2calls_6_false-unreach-call_true-termination.c	unknown	4.460788206	5.181645395990927	135991296	0.621895811	18563072	false(unreach-call)	0.6369689099956304				
+recursive-simple/fibo_2calls_8_false-unreach-call_true-termination.c	unknown	4.257608423	4.96340638602851	131383296	0.618972934	18350080	false(unreach-call)	0.6296061839675531				
+recursive-simple/fibo_5_false-unreach-call_true-termination.c	unknown	4.011284272	4.693667652027216	124030976	0.603551919	18374656	false(unreach-call)	0.61553577700397				
+recursive-simple/fibo_7_false-unreach-call_true-termination.c	unknown	4.054683174	4.78225518896943	124620800	0.620441093	18259968	false(unreach-call)	0.6352751599624753				
+recursive-simple/id2_b3_o2_false-unreach-call_true-termination_true-no-overflow.c	unknown	4.124502536	4.844601827964652	125956096	0.561567189	18456576	ERROR (1)	0.5902607669704594				
+recursive-simple/id2_i5_o5_false-unreach-call_true-termination.c	unknown	4.164088991	4.853363543981686	126578688	0.617580538	18374656	false(unreach-call)	0.6315969920251518				
+recursive-simple/id_b3_o2_false-unreach-call_true-termination_true-no-overflow.c	unknown	4.077402827	4.755949566024356	125440000	0.550752354	18497536	ERROR (1)	0.5774137520347722				
+recursive-simple/id_i10_o10_false-unreach-call_true-termination.c	false(unreach-call)	5.151050582	6.012245586025529	159465472	0.609933301	18509824	false(unreach-call)	0.621095078997314				
+recursive-simple/id_i15_o15_false-unreach-call_true-termination.c	false(unreach-call)	5.236869119	6.130347252998035	158883840	0.625193556	18382848	false(unreach-call)	0.6367890169494785				
+recursive-simple/id_i20_o20_false-unreach-call_true-termination.c	false(unreach-call)	5.35024546	6.221636480011512	165482496	0.603126999	18272256	false(unreach-call)	0.6168218969833106				
+recursive-simple/id_i25_o25_false-unreach-call_true-termination.c	false(unreach-call)	5.371811961	6.244892811984755	153948160	0.599102156	18362368	false(unreach-call)	0.6129367690300569				
+recursive-simple/id_i5_o5_false-unreach-call_true-termination.c	false(unreach-call)	5.228437988	6.083935671951622	159596544	0.610425141	18391040	false(unreach-call)	0.6220889349933714				
+recursive-simple/id_o1000_false-unreach-call_true-termination_true-no-overflow.c	false(unreach-call)	5.687782036	6.569820625009015	166268928	0.623456333	18558976	false(unreach-call)	0.640523518959526				
+recursive-simple/id_o100_false-unreach-call_true-termination_true-no-overflow.c	false(unreach-call)	5.673331428	6.559942694031633	165539840	0.622784183	18325504	false(unreach-call)	0.636647780018393				
+recursive-simple/id_o10_false-unreach-call_true-termination_true-no-overflow.c	false(unreach-call)	5.719678425	6.653773095982615	162078720	0.622501684	18419712	false(unreach-call)	0.6382306579616852				
+recursive-simple/id_o200_false-unreach-call_true-termination_true-no-overflow.c	false(unreach-call)	5.783989654	6.682193983986508	156712960	0.629177924	18272256	false(unreach-call)	0.6400212969747372				
+recursive-simple/id_o20_false-unreach-call_true-termination_true-no-overflow.c	false(unreach-call)	5.657824618	6.499047982972115	157040640	0.62840621	18288640	false(unreach-call)	0.6377717870054767				
+recursive-simple/id_o3_false-unreach-call_true-termination_true-no-overflow.c	false(unreach-call)	5.6491985	6.498353382979985	163840000	0.620052786	18370560	false(unreach-call)	0.6322121850098483				
+recursive-simple/sum_10x0_false-unreach-call_true-termination.c	false(unreach-call)	5.239036891	6.113166027003899	161718272	0.620556143	18468864	false(unreach-call)	0.6367096080211923				
+recursive-simple/sum_15x0_false-unreach-call_true-termination.c	false(unreach-call)	5.412483571	6.286939116951544	163127296	0.628103936	18325504	false(unreach-call)	0.6518109290045686				
+recursive-simple/sum_20x0_false-unreach-call_true-termination.c	false(unreach-call)	5.225995131	6.088248308049515	162263040	0.605109062	18358272	false(unreach-call)	0.6204318419913761				
+recursive-simple/sum_25x0_false-unreach-call_true-termination.c	false(unreach-call)	5.224576483	6.084786692052148	161820672	0.618844284	18378752	false(unreach-call)	0.6315036000451073				
+recursive-simple/sum_2x3_false-unreach-call_true-termination.c	false(unreach-call)	5.410524471	6.297549305018038	165355520	0.601821769	18227200	false(unreach-call)	0.6157837919890881				
+recursive-simple/sum_non_eq_false-unreach-call_true-termination_true-no-overflow.c	false(unreach-call)	5.514183188	6.339023868960794	164937728	0.609169397	18366464	false(unreach-call)	0.6227011309820227				
+recursive-simple/afterrec_2calls_true-unreach-call_true-termination.c	true	4.313493922	5.023601402004715	129462272					0.003095499	516096	true	0.008121152990497649
+recursive-simple/afterrec_true-unreach-call_true-termination.c	true	4.444477312	5.190556240035221	125747200					0.003084397	516096	true	0.008200363023206592
+recursive-simple/fibo_10_true-unreach-call_true-termination.c	unknown	4.088943044	4.7820184450247325	123953152					0.004244048	516096	true	0.008788585022557527
+recursive-simple/fibo_15_true-unreach-call.c	unknown	4.075407375	4.779917362960987	125644800					0.002936055	516096	true	0.008256296976469457
+recursive-simple/fibo_20_true-unreach-call.c	unknown	4.076869202	4.822896043013316	123535360					0.004102008	516096	true	0.009292406029999256
+recursive-simple/fibo_25_true-unreach-call.c	unknown	4.091535938	4.791303569974843	123854848					0.003078993	516096	true	0.007832884963136166
+recursive-simple/fibo_2calls_10_true-unreach-call.c	unknown	4.315126627	5.070771015016362	135016448					0.003436771	520192	true	0.009249055001419038
+recursive-simple/fibo_2calls_15_true-unreach-call.c	unknown	4.243922794	4.995465009007603	131002368					0.004303064	516096	true	0.008605496026575565
+recursive-simple/fibo_2calls_20_true-unreach-call.c	unknown	4.275992778	5.0086380610009655	134926336					0.003899431	516096	true	0.00775107997469604
+recursive-simple/fibo_2calls_25_true-unreach-call.c	unknown	4.500697535	5.2062009870423935	136101888					0.004118572	516096	true	0.008098679012618959
+recursive-simple/fibo_2calls_2_true-unreach-call_true-termination.c	true	4.333333001	5.1158252080203965	130744320					0.004226707	516096	true	0.008931520045734942
+recursive-simple/fibo_2calls_4_true-unreach-call_true-termination.c	unknown	4.297029648	5.038849721022416	130875392					0.003906427	516096	true	0.008357480983249843
+recursive-simple/fibo_2calls_5_true-unreach-call_true-termination.c	unknown	4.21988463	4.943549305957276	130412544					0.00341831	385024	true	0.009541617997456342
+recursive-simple/fibo_2calls_6_true-unreach-call_true-termination.c	unknown	4.304018544	5.047965938982088	132730880					0.004010452	385024	true	0.00869289500406012
+recursive-simple/fibo_2calls_8_true-unreach-call_true-termination.c	unknown	4.256609666	4.97247834096197	133890048					0.002924734	516096	true	0.0073287650011479855
+recursive-simple/fibo_5_true-unreach-call_true-termination.c	unknown	4.013936892	4.685824557964224	123719680					0.003354072	516096	true	0.00922568200621754
+recursive-simple/fibo_7_true-unreach-call_true-termination.c	unknown	4.07057954	4.750615355966147	123887616					0.003060249	516096	true	0.008570036035962403
+recursive-simple/id2_b2_o3_true-unreach-call_true-termination_true-no-overflow.c	unknown	4.425040535	5.108962799014989	126943232					0.003500478	516096	true	0.008664927037898451
+recursive-simple/id2_b3_o5_true-unreach-call_true-termination_true-no-overflow.c	unknown	4.196972047	4.944012872001622	126050304					0.002851778	516096	true	0.008007684024050832
+recursive-simple/id2_b5_o10_true-unreach-call_true-termination_true-no-overflow.c	unknown	4.160258052	4.879565825976897	125673472					0.003192839	385024	true	0.008744436025153846
+recursive-simple/id2_i5_o5_true-unreach-call_true-termination.c	unknown	4.077251688	4.759591469017323	124649472					0.003193001	516096	true	0.009282615967094898
+recursive-simple/id_b2_o3_true-unreach-call_true-termination_true-no-overflow.c	unknown	3.945335437	4.626710702024866	124030976					0.003914683	516096	true	0.00824690901208669
+recursive-simple/id_b3_o5_true-unreach-call_true-termination_true-no-overflow.c	unknown	3.991260717	4.6650415870244615	124198912					0.003160157	385024	true	0.00924196298001334
+recursive-simple/id_b5_o10_true-unreach-call_true-termination_true-no-overflow.c	unknown	4.346254076	5.066065247985534	127590400					0.003864282	516096	true	0.00855375500395894
+recursive-simple/id_i10_o10_true-unreach-call_true-termination.c	true	4.027995778	4.80481881799642	124612608					0.003334337	516096	true	0.00930878595681861
+recursive-simple/id_i15_o15_true-unreach-call_true-termination.c	true	4.065592173	4.809967191016767	125722624					0.003050065	516096	true	0.00825210299808532
+recursive-simple/id_i20_o20_true-unreach-call_true-termination.c	true	4.281931045	4.988076505018398	125145088					0.002998339	647168	true	0.009272127994336188
+recursive-simple/id_i25_o25_true-unreach-call_true-termination.c	true	4.077695951	4.807611204043496	125669376					0.00430956	385024	true	0.008591910998802632
+recursive-simple/id_i5_o5_true-unreach-call_true-termination.c	true	4.000253572	4.758196874987334	123379712					0.003122805	516096	true	0.009149969031568617
+recursive-simple/sum_10x0_true-unreach-call_true-termination.c	true	4.260458552	5.05516509199515	125804544					0.00322747	380928	true	0.008560546964872628
+recursive-simple/sum_15x0_true-unreach-call_true-termination.c	true	4.169115017	4.936142774997279	126545920					0.003277123	385024	true	0.008959788014180958
+recursive-simple/sum_20x0_true-unreach-call_true-termination.c	true	4.141342532	4.932076753990259	125820928					0.004250406	516096	true	0.008563943032640964
+recursive-simple/sum_25x0_true-unreach-call_true-termination.c	true	4.157213526	4.928390996006783	126328832					0.004232777	516096	true	0.009463307971600443
+recursive-simple/sum_2x3_true-unreach-call_true-termination.c	true	4.48044821	5.215527830005158	128868352					0.003433955	512000	true	0.008841625007335097
+recursive-simple/sum_non_eq_true-unreach-call_true-termination_true-no-overflow.c	true	4.180530479	4.9553659509983845	124878848					0.00322492	385024	true	0.008939611027017236

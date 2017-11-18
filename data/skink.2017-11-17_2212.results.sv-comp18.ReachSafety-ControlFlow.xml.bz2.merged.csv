@@ -1,0 +1,97 @@
+tool	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 
+run set	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18
+/sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_cputime (s)	wit1_memUsage	wit1_status	wit1_walltime (s)	wit2_cputime (s)	wit2_memUsage	wit2_status	wit2_walltime (s)
+ntdrivers-simplified/cdaudio_simpl1_false-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	51.33318984	91.09135395800695	1288237056	0.003486174	421888	ERROR (invalid witness file)	0.008578634995501488				
+ntdrivers-simplified/floppy_simpl3_false-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	50.103356452	91.00786335102748	693858304	0.004700592	393216	ERROR (invalid witness file)	0.008035560022108257				
+ntdrivers-simplified/floppy_simpl4_false-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	50.515607448	91.0095190469874	792883200	0.003246958	385024	ERROR (invalid witness file)	0.008941318024881184				
+ntdrivers-simplified/kbfiltr_simpl2_false-unreach-call_true-valid-memsafety_true-termination.cil.c	unknown	49.433524727	87.7174980220152	541151232	0.07082641	15761408	ERROR (1)	0.17748131201369688				
+ntdrivers-simplified/cdaudio_simpl1_true-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	51.459620402	91.01066303200787	1321451520					0.004609897	389120	true	0.009376518020872027
+ntdrivers-simplified/diskperf_simpl1_true-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	55.023108933	91.00959176401375	1055453184					0.003460907	380928	true	0.008795385947450995
+ntdrivers-simplified/floppy_simpl3_true-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	55.716436112	91.00798231398221	668741632					0.004459505	380928	true	0.008817460970021784
+ntdrivers-simplified/floppy_simpl4_true-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	52.673019782	91.0089854610269	787529728					0.003513965	503808	true	0.008820457034744322
+ntdrivers-simplified/kbfiltr_simpl1_true-unreach-call_true-valid-memsafety_true-termination.cil.c	TIMEOUT	48.859212096	91.01253787701717	401928192					0.00318179	385024	true	0.008476253016851842
+ntdrivers-simplified/kbfiltr_simpl2_true-unreach-call_true-valid-memsafety_true-termination.cil.c	unknown	47.713266246	84.96290369401686	541822976					0.003314479	503808	true	0.009056786017026752
+ssh-simplified/s3_clnt_1_false-unreach-call_true-termination.cil.c	TIMEOUT	55.940192008	90.83918269001879	314236928	0.003794099	626688	ERROR (invalid witness file)	0.00853738299338147				
+ssh-simplified/s3_clnt_2_false-unreach-call_true-termination.cil.c	TIMEOUT	48.625008384	91.01198361400748	313647104	0.004539624	528384	ERROR (invalid witness file)	0.008738450997043401				
+ssh-simplified/s3_clnt_3_false-unreach-call_true-termination.cil.c	TIMEOUT	51.001376935	91.00962302798871	317427712	0.004559022	512000	ERROR (invalid witness file)	0.007906507991719991				
+ssh-simplified/s3_clnt_4_false-unreach-call_true-termination.cil.c	TIMEOUT	51.131058882	91.01046935498016	316325888	0.004816214	638976	ERROR (invalid witness file)	0.009352745022624731				
+ssh-simplified/s3_srvr_10_false-unreach-call_false-termination.cil.c	TIMEOUT	46.766565871	91.0112334759906	312659968	0.004753104	393216	ERROR (invalid witness file)	0.009251660958398134				
+ssh-simplified/s3_srvr_11_false-unreach-call_false-termination.cil.c	unknown	11.024366234	12.141857897979207	249733120	0.072941419	7647232	ERROR (1)	0.08461929496843368				
+ssh-simplified/s3_srvr_12_false-unreach-call_false-termination.cil.c	unknown	11.009530877	12.164771253999788	243830784	0.066644148	7708672	ERROR (1)	0.0813855140004307				
+ssh-simplified/s3_srvr_13_false-unreach-call_false-termination.cil.c	TIMEOUT	56.938372756	91.0243450019625	317882368	0.003524213	393216	ERROR (invalid witness file)	0.007938470982480794				
+ssh-simplified/s3_srvr_14_false-unreach-call_false-termination.cil.c	unknown	20.663608447	30.068492595979478	295022592	0.07242749	7643136	ERROR (1)	0.08125446399208158				
+ssh-simplified/s3_srvr_1_false-unreach-call_false-termination.cil.c	unknown	18.62561538	25.486402616021223	263704576	0.06368937	7761920	ERROR (1)	0.07879978697746992				
+ssh-simplified/s3_srvr_2_false-unreach-call_false-termination.cil.c	unknown	21.210726664	29.909796455001924	272711680	0.071006423	7704576	ERROR (1)	0.08040254400111735				
+ssh-simplified/s3_srvr_6_false-unreach-call_false-termination.cil.c	unknown	17.640103271	23.605128396011423	268791808	0.068429768	7630848	ERROR (1)	0.07817171001806855				
+ssh-simplified/s3_clnt_1_true-unreach-call_true-termination.cil.c	TIMEOUT	47.935171705	91.00853218097473	306159616					0.003306564	512000	true	0.008600709959864616
+ssh-simplified/s3_clnt_2_true-unreach-call_true-termination.cil.c	TIMEOUT	49.534426786	91.02264944999479	304648192					0.003249829	385024	true	0.008812666987068951
+ssh-simplified/s3_clnt_3_true-unreach-call_true-termination.cil.c	TIMEOUT	50.255422687	91.01173519901931	315379712					0.004184715	380928	true	0.008454577997326851
+ssh-simplified/s3_clnt_4_true-unreach-call_true-termination.cil.c	TIMEOUT	54.25442098	91.09368038299726	315555840					0.004099727	516096	true	0.008651252021081746
+ssh-simplified/s3_srvr_1_true-unreach-call_false-termination.cil.c	unknown	18.395023905	24.482249933003914	267812864					0.003255796	516096	true	0.008004395989701152
+ssh-simplified/s3_srvr_1a_true-unreach-call_false-termination.cil.c	TIMEOUT	44.473133275	90.01506800897187	245477376					0.004124112	385024	true	0.0085169060039334
+ssh-simplified/s3_srvr_1b_true-unreach-call_false-termination.cil.c	TIMEOUT	47.124008673	91.01296088995878	256901120					0.004202927	516096	true	0.008376966987270862
+ssh-simplified/s3_srvr_2_true-unreach-call_false-termination.cil.c	unknown	25.894905687	38.654181669990066	275578880					0.00330893	512000	true	0.009019528981298208
+ssh-simplified/s3_srvr_3_true-unreach-call_false-termination.cil.c	unknown	26.429458637	38.74734116101172	270626816					0.00311693	385024	true	0.008533187967259437
+ssh-simplified/s3_srvr_4_true-unreach-call_false-termination.cil.c	unknown	27.083135501	39.53941817604937	270532608					0.003365198	647168	true	0.0087545330170542
+ssh-simplified/s3_srvr_6_true-unreach-call_false-termination.cil.c	unknown	32.586562408	52.35127245099284	279371776					0.0033766	516096	true	0.008864707022439688
+ssh-simplified/s3_srvr_7_true-unreach-call_false-termination.cil.c	unknown	33.601299668	47.804667973017786	295174144					0.004233624	516096	true	0.008993058989290148
+ssh-simplified/s3_srvr_8_true-unreach-call_false-termination.cil.c	unknown	26.233585963	39.16435789800016	284008448					0.003038314	385024	true	0.008129852009005845
+locks/test_locks_14_false-unreach-call_true-valid-memsafety_false-termination.c	false(unreach-call)	6.694926931	7.606785960029811	177049600	0.68128283	31371264	false(unreach-call)	0.9300317440065555				
+locks/test_locks_15_false-unreach-call_true-valid-memsafety_false-termination.c	false(unreach-call)	6.737667494	7.663464793993626	183169024	0.627984278	18501632	false(unreach-call)	0.6399642970063724				
+locks/test_locks_10_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.515370707	5.253281083016191	128765952					0.003355868	385024	true	0.0085268949624151
+locks/test_locks_11_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.393534612	5.182782837015111	129478656					0.003251995	516096	true	0.008876693027559668
+locks/test_locks_12_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.732270099	5.482081521011423	129138688					0.004064746	516096	true	0.008339810010511428
+locks/test_locks_13_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.537017102	5.277233343978878	131190784					0.003783461	385024	true	0.008470959961414337
+locks/test_locks_14_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.510046241	5.255936730012763	135254016					0.004788271	516096	true	0.00941896898439154
+locks/test_locks_15_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.550311282	5.332757205993403	132382720					0.003115853	651264	true	0.00952095101820305
+locks/test_locks_5_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.399172605	5.154037587053608	127963136					0.003172629	516096	true	0.008672527968883514
+locks/test_locks_6_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.474480181	5.2284228630014695	128442368					0.003056478	385024	true	0.009211007971316576
+locks/test_locks_7_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.628697336	5.383974020020105	132616192					0.003493976	643072	true	0.009260851016733795
+locks/test_locks_8_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.660738032	5.38143384095747	132759552					0.003467732	507904	true	0.00894920900464058
+locks/test_locks_9_true-unreach-call_true-valid-memsafety_false-termination.c	true	4.503626845	5.296225806989241	129216512					0.003603233	667648	true	0.009670380037277937
+ntdrivers/cdaudio_false-unreach-call.i.cil.c	unknown	22.111526914	22.928806492011063	1562468352	0.065787047	8151040	ERROR (1)	0.08033362298738211				
+ntdrivers/diskperf_false-unreach-call.i.cil.c	unknown	20.087171614	21.033119441999588	1379753984	0.064554834	7778304	ERROR (1)	0.0735407350002788				
+ntdrivers/floppy_false-unreach-call.i.cil.c	unknown	14.796717341	15.613044928992167	998019072	0.065380914	8249344	ERROR (1)	0.08023323799716309				
+ntdrivers/kbfiltr_false-unreach-call.i.cil.c	unknown	9.30478928	10.072674924973398	556625920	0.066871576	8028160	ERROR (1)	0.08121530996868387				
+ntdrivers/parport_false-unreach-call.i.cil.c	TIMEOUT	60.421766567	61.02186211099615	1649487872	0.004753223	647168	ERROR (invalid witness file)	0.00813894101884216				
+ntdrivers/cdaudio_true-unreach-call.i.cil.c	unknown	17.422372179	18.215424164023716	1482911744					0.003473637	532480	true	0.009786845999769866
+ntdrivers/diskperf_true-unreach-call.i.cil.c	unknown	19.413800385	20.28234244202031	1362358272					0.003316669	512000	true	0.01110942498780787
+ntdrivers/floppy2_true-unreach-call_true-termination.i.cil.c	unknown	5.065011377	5.739093423995655	178249728					0.003469862	626688	true	0.010121861007064581
+ntdrivers/floppy_true-unreach-call_true-valid-memsafety.i.cil.c	unknown	14.672284828	15.442509501008317	964825088					0.003120318	700416	true	0.008889777003787458
+ntdrivers/parport_true-unreach-call.i.cil.c	TIMEOUT	60.424599111	61.01841277698986	1603825664					0.003367751	512000	true	0.009831994015257806
+ssh/s3_clnt.blast.01_false-unreach-call.i.cil.c	unknown	9.647796617	10.551820230961312	309063680	0.069261959	7577600	ERROR (1)	0.08428158302558586				
+ssh/s3_clnt.blast.02_false-unreach-call.i.cil.c	unknown	10.164845188	11.053417324030306	310894592	0.075868632	7774208	ERROR (1)	0.07957050099503249				
+ssh/s3_clnt.blast.03_false-unreach-call.i.cil.c	unknown	10.15569217	11.043867003987543	305381376	0.072216313	7659520	ERROR (1)	0.0807427529944107				
+ssh/s3_clnt.blast.04_false-unreach-call.i.cil.c	unknown	9.766103886	10.629402831022162	318545920	0.063908089	7536640	ERROR (1)	0.07382161199348047				
+ssh/s3_srvr.blast.01_false-unreach-call.i.cil.c	unknown	11.940419382	12.964519549976103	404103168	0.067034545	7618560	ERROR (1)	0.07626669999444857				
+ssh/s3_srvr.blast.02_false-unreach-call.i.cil.c	unknown	12.168206644	13.171116016979795	394260480	0.065569548	7675904	ERROR (1)	0.07391270698281005				
+ssh/s3_srvr.blast.03_false-unreach-call.i.cil.c	unknown	12.028463059	12.949729154992383	391950336	0.068886136	7659520	ERROR (1)	0.07745693100150675				
+ssh/s3_srvr.blast.04_false-unreach-call.i.cil.c	unknown	12.050592923	13.123708422994241	401264640	0.06604124	7684096	ERROR (1)	0.07608031400013715				
+ssh/s3_srvr.blast.06_false-unreach-call.i.cil.c	unknown	12.264351688	13.34364794899011	339345408	0.062456232	7815168	ERROR (1)	0.07636239001294598				
+ssh/s3_srvr.blast.07_false-unreach-call.i.cil.c	unknown	12.270040633	13.110946895030793	329826304	0.071170246	7696384	ERROR (1)	0.07938691100571305				
+ssh/s3_srvr.blast.08_false-unreach-call.i.cil.c	unknown	12.155997244	13.22954154200852	335138816	0.0726337	7626752	ERROR (1)	0.08507467102026567				
+ssh/s3_srvr.blast.09_false-unreach-call.i.cil.c	unknown	12.242332568	13.21025541704148	331972608	0.072622327	7544832	ERROR (1)	0.08083264896413311				
+ssh/s3_srvr.blast.10_false-unreach-call.i.cil.c	unknown	12.20117838	13.233367344015278	412352512	0.066586001	7892992	ERROR (1)	0.07483145000878721				
+ssh/s3_srvr.blast.11_false-unreach-call.i.cil.c	unknown	12.313696571	13.248234428989235	325902336	0.067629214	7659520	ERROR (1)	0.07731239701388404				
+ssh/s3_srvr.blast.12_false-unreach-call.i.cil.c	unknown	12.227081518	13.142388229025528	334098432	0.068076605	7696384	ERROR (1)	0.07630705297924578				
+ssh/s3_srvr.blast.13_false-unreach-call.i.cil.c	unknown	12.239191667	13.080675158009399	331210752	0.068571674	7766016	ERROR (1)	0.07765909901354462				
+ssh/s3_srvr.blast.14_false-unreach-call.i.cil.c	unknown	12.377897474	13.42578027700074	391049216	0.063916725	7827456	ERROR (1)	0.0738625640515238				
+ssh/s3_srvr.blast.15_false-unreach-call.i.cil.c	unknown	12.064172614	13.126830252993386	328761344	0.069835243	7680000	ERROR (1)	0.08014134498080239				
+ssh/s3_srvr.blast.16_false-unreach-call.i.cil.c	unknown	12.466372185	13.48935710999649	416604160	0.071197502	7704576	ERROR (1)	0.08093633101088926				
+ssh/s3_clnt.blast.01_true-unreach-call.i.cil.c	unknown	9.816429893	10.740089262020774	309567488					0.003947357	516096	true	0.008691505005117506
+ssh/s3_clnt.blast.02_true-unreach-call.i.cil.c	unknown	9.804832744	10.760375329991803	307470336					0.004385661	565248	true	0.00985786400269717
+ssh/s3_clnt.blast.03_true-unreach-call.i.cil.c	unknown	10.320061279	11.170235492987558	318173184					0.003363386	659456	true	0.009596065036021173
+ssh/s3_clnt.blast.04_true-unreach-call.i.cil.c	unknown	10.053980255	10.982999119965825	311660544					0.003413473	589824	true	0.010065226000733674
+ssh/s3_srvr.blast.01_true-unreach-call.i.cil.c	unknown	11.876967486	12.728563670010772	331227136					0.004507211	704512	true	0.00908794900169596
+ssh/s3_srvr.blast.02_true-unreach-call.i.cil.c	unknown	12.123779267	13.088542000972666	393932800					0.004436882	524288	true	0.009439644985832274
+ssh/s3_srvr.blast.06_true-unreach-call.i.cil.c	unknown	12.478123736	13.293386985955294	342212608					0.004319611	528384	true	0.009952355991117656
+ssh/s3_srvr.blast.07_true-unreach-call.i.cil.c	unknown	12.38637461	13.297948141989764	326197248					0.003582049	643072	true	0.010249313956592232
+ssh/s3_srvr.blast.08_true-unreach-call.i.cil.c	unknown	11.865377225	12.882381592993625	327450624					0.005014739	532480	true	0.010451381967868656
+ssh/s3_srvr.blast.09_true-unreach-call.i.cil.c	unknown	12.178554166	13.168766769987997	329900032					0.003428175	634880	true	0.009432554012164474
+ssh/s3_srvr.blast.10_true-unreach-call.i.cil.c	unknown	11.777821731	12.84963745099958	330833920					0.004762209	704512	true	0.009772063000127673
+ssh/s3_srvr.blast.11_true-unreach-call.i.cil.c	unknown	12.17686754	13.05508799396921	330264576					0.003528538	507904	true	0.009489986987318844
+ssh/s3_srvr.blast.12_true-unreach-call.i.cil.c	unknown	12.103219498	12.943954391987063	335331328					0.004593134	401408	true	0.009398891997989267
+ssh/s3_srvr.blast.13_true-unreach-call.i.cil.c	unknown	12.580732706	13.36121937201824	379318272					0.00394602	634880	true	0.01028807001421228
+ssh/s3_srvr.blast.14_true-unreach-call.i.cil.c	unknown	12.314331371	13.327387063996866	375402496					0.003340055	540672	true	0.008783500001300126
+ssh/s3_srvr.blast.15_true-unreach-call.i.cil.c	unknown	11.915224897	12.944983092951588	329371648					0.003917143	487424	true	0.010211756976787001
+ssh/s3_srvr.blast.16_true-unreach-call.i.cil.c	unknown	12.372301505	13.428792753024027	414715904					0.003418585	626688	true	0.009123708005063236

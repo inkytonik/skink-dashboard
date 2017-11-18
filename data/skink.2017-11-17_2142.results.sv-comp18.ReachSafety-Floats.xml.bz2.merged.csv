@@ -1,0 +1,175 @@
+tool	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 
+run set	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18
+/sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_cputime (s)	wit1_memUsage	wit1_status	wit1_walltime (s)	wit2_cputime (s)	wit2_memUsage	wit2_status	wit2_walltime (s)
+floats-cdfpl/newton_1_4_false-unreach-call_true-termination.i	false(unreach-call)	8.566098729	11.038439543975983	279343104	0.632467955	39276544	false(unreach-call)	1.026015248033218				
+floats-cdfpl/newton_1_5_false-unreach-call_true-termination.i	false(unreach-call)	8.191315254	9.5101993259741	182247424	0.62180104	18403328	false(unreach-call)	0.6391180790378712				
+floats-cdfpl/newton_1_6_false-unreach-call_true-termination.i	false(unreach-call)	8.249120813	9.488088148005772	181993472	0.626710106	18354176	false(unreach-call)	0.6375844430294819				
+floats-cdfpl/newton_1_7_false-unreach-call_true-termination.i	false(unreach-call)	10.98755623	12.192793635011185	188063744	0.623956262	18337792	false(unreach-call)	0.6377888070419431				
+floats-cdfpl/newton_1_8_false-unreach-call_true-termination.i	false(unreach-call)	7.624925392	8.853741781960707	188731392	0.620488698	18378752	false(unreach-call)	0.6340744790504687				
+floats-cdfpl/newton_2_6_false-unreach-call_true-termination.i	false(unreach-call)	15.869908488	17.278232094016857	195715072	0.627459668	18395136	false(unreach-call)	0.6386752880061977				
+floats-cdfpl/newton_2_7_false-unreach-call_true-termination.i	false(unreach-call)	13.87728497	15.28812789998483	197521408	0.608693708	18354176	false(unreach-call)	0.6262937239953317				
+floats-cdfpl/newton_2_8_false-unreach-call_true-termination.i	false(unreach-call)	13.362155069	14.872502261016052	195956736	0.633509201	18345984	false(unreach-call)	0.648150394030381				
+floats-cdfpl/newton_3_6_false-unreach-call_true-termination.i	unknown	18.536478327	20.084030948986765	213004288	0.626436568	18378752	true	0.6507292289752513				
+floats-cdfpl/newton_3_7_false-unreach-call_true-termination.i	unknown	18.726978447	20.26688141800696	215175168	0.630680235	18432000	true	0.646716543007642				
+floats-cdfpl/newton_3_8_false-unreach-call_true-termination.i	unknown	18.296471917	19.81047716602916	214732800	0.62458615	18374656	false(unreach-call)	0.6389903259696439				
+floats-cdfpl/sine_1_false-unreach-call_true-termination.i	unknown	5.917405221	6.715099469991401	161406976	0.54696544	18280448	ERROR (1)	0.5800307139870711				
+floats-cdfpl/sine_2_false-unreach-call_true-termination.i	false(unreach-call)	7.942394284	10.072865105001256	174190592	0.607323172	18407424	false(unreach-call)	0.6259122629999183				
+floats-cdfpl/sine_3_false-unreach-call_true-termination.i	false(unreach-call)	7.547667541	8.693683607969433	170045440	0.618718259	18411520	false(unreach-call)	0.6319831819855608				
+floats-cdfpl/square_1_false-unreach-call_true-termination.i	false(unreach-call)	7.092064382	8.219019449024927	170635264	0.635465642	18362368	false(unreach-call)	0.6557271829806268				
+floats-cdfpl/square_2_false-unreach-call_true-termination.i	false(unreach-call)	7.274068685	8.384537446021568	180764672	0.615538951	18452480	false(unreach-call)	0.6277532459935173				
+floats-cdfpl/square_3_false-unreach-call_true-termination.i	false(unreach-call)	7.334508	8.554964897979517	167383040	0.607532714	18575360	false(unreach-call)	0.6217499480117112				
+floats-cdfpl/newton_1_1_true-unreach-call_true-termination.i	true	9.779897333	10.943472731974907	174669824					0.003158642	655360	true	0.009930282016284764
+floats-cdfpl/newton_1_2_true-unreach-call_true-termination.i	true	9.822489186	11.166531572001986	184180736					0.003205412	520192	true	0.008504721976350993
+floats-cdfpl/newton_1_3_true-unreach-call_true-termination.i	true	9.251016199	10.620369516022038	177364992					0.004206028	516096	true	0.008042752975597978
+floats-cdfpl/newton_2_1_true-unreach-call_true-termination.i	true	22.168021272	23.719840906036552	200077312					0.003487216	647168	true	0.008431905996985734
+floats-cdfpl/newton_2_2_true-unreach-call_true-termination.i	true	21.275026907	22.96704902302008	197132288					0.003090049	385024	true	0.007946562953293324
+floats-cdfpl/newton_2_3_true-unreach-call_true-termination.i	true	18.949467391	20.725216949998867	197603328					0.004289066	647168	true	0.008715378993656486
+floats-cdfpl/newton_2_4_true-unreach-call_true-termination.i	unknown	20.222432623	21.743705651024356	234614784					0.003216266	647168	true	0.008308946969918907
+floats-cdfpl/newton_2_5_true-unreach-call_true-termination.i	unknown	18.273423155	19.713413664023392	242151424					0.004426949	385024	true	0.00821865099715069
+floats-cdfpl/newton_3_1_true-unreach-call_true-termination.i	unknown	24.070133616	25.721088088001125	228761600					0.003429456	385024	true	0.0084408950060606
+floats-cdfpl/newton_3_2_true-unreach-call_true-termination.i	unknown	20.306970299	21.88432517502224	223952896					0.004469305	516096	true	0.00877401203615591
+floats-cdfpl/newton_3_3_true-unreach-call_true-termination.i	unknown	23.079144638	24.725183121976443	231067648					0.002883168	512000	true	0.008534188033081591
+floats-cdfpl/newton_3_4_true-unreach-call_true-termination.i	unknown	19.67845939	21.305626728979405	229158912					0.004178242	389120	true	0.007869053049944341
+floats-cdfpl/newton_3_5_true-unreach-call_true-termination.i	unknown	18.784498186	20.344091447012033	229150720					0.00322528	397312	true	0.008337314007803798
+floats-cdfpl/sine_4_true-unreach-call_true-termination.i	true	8.047760519	9.237265429052059	186523648					0.004277666	528384	true	0.009139192989096045
+floats-cdfpl/sine_5_true-unreach-call_true-termination.i	true	7.92742471	9.112090848037042	179089408					0.003646746	520192	true	0.009414275991730392
+floats-cdfpl/sine_6_true-unreach-call_true-termination.i	true	8.05342307	9.251281914010178	174878720					0.003047856	389120	true	0.008929133997298777
+floats-cdfpl/sine_7_true-unreach-call_true-termination.i	true	7.954022031	9.155304662999697	175366144					0.003209295	393216	true	0.008599512977525592
+floats-cdfpl/sine_8_true-unreach-call_true-termination.i	true	7.350376855	8.5173721210449	184238080					0.003221905	512000	true	0.009397495014127344
+floats-cdfpl/square_4_true-unreach-call_true-termination.i	true	7.568975979	8.822166785015725	174759936					0.003076182	626688	true	0.009059383999556303
+floats-cdfpl/square_5_true-unreach-call_true-termination.i	true	7.407997323	8.597805043973494	171823104					0.004278612	512000	true	0.00961055001243949
+floats-cdfpl/square_6_true-unreach-call_true-termination.i	true	7.190561968	8.359685720002744	177790976					0.003217506	389120	true	0.008480349963065237
+floats-cdfpl/square_7_true-unreach-call_true-termination.i	true	7.776826811	8.979654115973972	173600768					0.004135747	516096	true	0.008614695980213583
+floats-cdfpl/square_8_true-unreach-call_true-termination.i	true	7.627918755	8.807301577006001	176566272					0.0033848	389120	true	0.009076764050405473
+floats-cbmc-regression/float-div1_true-unreach-call.i	unknown	6.173160989	7.002132755005732	171638784					0.004560613	532480	true	0.009173851984087378
+floats-cbmc-regression/float-flags-simp1_true-unreach-call.i	unknown	4.896686363	5.60481950402027	147451904					0.003271059	397312	true	0.008798783994279802
+floats-cbmc-regression/float-no-simp1_true-unreach-call_true-termination.i	true	4.143537868	4.900608465017285	123174912					0.004143266	503808	true	0.008946713001932949
+floats-cbmc-regression/float-no-simp2_true-unreach-call.i	unknown	4.495416537	5.1910599209950306	127242240					0.00306588	393216	true	0.008676025026943535
+floats-cbmc-regression/float-no-simp3_true-unreach-call_true-termination.i	true	4.477685583	5.1854930209810846	131502080					0.003353131	385024	true	0.008843932009767741
+floats-cbmc-regression/float-no-simp4_true-unreach-call.i	unknown	4.737369582	5.430688310007099	138342400					0.003273535	389120	true	0.00882295600604266
+floats-cbmc-regression/float-no-simp6_true-unreach-call_true-termination.i	true	4.207400175	4.955943344975822	125345792					0.003554356	626688	true	0.01021885103546083
+floats-cbmc-regression/float-no-simp7_true-unreach-call_true-termination.i	true	4.282119573	5.063176754047163	124895232					0.002899463	393216	true	0.008567650045733899
+floats-cbmc-regression/float-no-simp8_true-unreach-call.i	true	4.358096527	5.1511483089998364	126279680					0.004818572	524288	true	0.010212059016339481
+floats-cbmc-regression/float-rounding1_true-unreach-call.i	unknown	4.439148809	5.174391884997021	128159744					0.003289907	520192	true	0.009007144020870328
+floats-cbmc-regression/float-to-double1_true-unreach-call.i	unknown	4.079797635	4.804390889999922	122839040					0.003221298	667648	true	0.009412079001776874
+floats-cbmc-regression/float-to-double2_true-unreach-call_true-termination.i	true	4.206251104	4.975107611040585	124289024					0.004278769	528384	true	0.008982672006823123
+floats-cbmc-regression/float-zero-sum1_true-unreach-call_true-termination.i	true	4.564586968	5.354096970986575	126554112					0.004256925	524288	true	0.009707938006613404
+floats-cbmc-regression/float11_true-unreach-call_true-termination.i	true	4.08651059	4.872306604986079	124047360					0.004418106	503808	true	0.009939572017174214
+floats-cbmc-regression/float12_true-unreach-call_true-termination.i	unknown	6.476653323	7.365020927041769	169926656					0.004201481	528384	true	0.009929983003530651
+floats-cbmc-regression/float13_true-unreach-call_true-termination.i	true	4.516774505	5.2733507080120035	126824448					0.004533439	651264	true	0.009201421053148806
+floats-cbmc-regression/float14_true-unreach-call.i	unknown	4.036847273	4.734285494021606	123097088					0.003313635	380928	true	0.008863808994647115
+floats-cbmc-regression/float18_true-unreach-call.i	true	4.218865864	4.99090564699145	127094784					0.003531122	389120	true	0.009327576030045748
+floats-cbmc-regression/float19_true-unreach-call.i	unknown	4.55840707	5.269100793986581	126210048					0.003510225	376832	true	0.009442243026569486
+floats-cbmc-regression/float1_true-unreach-call_true-termination.i	true	4.135702367	4.913353912008461	123609088					0.003364271	655360	true	0.009187437011860311
+floats-cbmc-regression/float20_true-unreach-call_true-termination.i	false(unreach-call)	7.871062107	9.212504597962834	187863040					0.004290111	520192	true	0.00872147298650816
+floats-cbmc-regression/float21_true-unreach-call.i	unknown	4.440819565	5.123906429973431	128995328					0.004170803	532480	true	0.008558061032090336
+floats-cbmc-regression/float22_true-unreach-call_true-termination.i	true	4.480175791	5.2548311009886675	128876544					0.003550793	634880	true	0.010327526018954813
+floats-cbmc-regression/float2_true-unreach-call_true-termination.i	true	4.035295398	4.771818441047799	123400192					0.002985102	516096	true	0.00876062799943611
+floats-cbmc-regression/float3_true-unreach-call_true-termination.i	true	6.418199132	7.3269134409492835	164929536					0.003115834	385024	true	0.00809798901900649
+floats-cbmc-regression/float4_true-unreach-call.i	unknown	4.59292015	5.267475063970778	129912832					0.004044183	385024	true	0.008764124009758234
+floats-cbmc-regression/float5_true-unreach-call_true-termination.i	true	7.650496298	8.965769180038478	166137856					0.003504133	385024	true	0.008760128985159099
+floats-cbmc-regression/float6_true-unreach-call_true-termination.i	unknown	7.200046953	8.010842398973182	186298368					0.004278822	516096	true	0.009041604003868997
+floats-cbmc-regression/float8_true-unreach-call.i	unknown	5.846347136	6.6395838930038735	164704256					0.003301628	516096	true	0.009333568974398077
+floats-cbmc-regression/float_lib1_true-unreach-call.i	unknown	3.683791588	4.40003879199503	122228736					0.004208504	385024	true	0.01005973300198093
+floats-cbmc-regression/float_lib2_true-unreach-call.i	unknown	4.198926933	4.9276440819958225	124649472					0.00398016	516096	true	0.008830547973047942
+float-benchs/cast_float_ptr_false-unreach-call_true-termination.c	unknown	5.780631669	6.552506009989884	170344448	0.065330603	7532544	ERROR (1)	0.0758696700213477				
+float-benchs/cast_union_loose_false-unreach-call_true-termination.c	unknown	6.043853763	6.775413224007934	172113920	0.072098681	7700480	ERROR (1)	0.08855668199248612				
+float-benchs/cast_union_tight_false-unreach-call_true-termination.c	unknown	5.761372261	6.531685747031588	165580800	0.063379913	7528448	ERROR (1)	0.07449934497708455				
+float-benchs/float_int_inv_square_false-unreach-call_true-termination.c	unknown	6.511249884	7.452907181053888	170237952	0.064597391	7770112	ERROR (1)	0.0744090480147861				
+float-benchs/inv_Newton_false-unreach-call.c	unknown	6.221332439	6.97225570603041	178896896	0.065760797	7622656	ERROR (1)	0.07640895002987236				
+float-benchs/inv_square_false-unreach-call_true-termination.c	unknown	5.669866914	6.424192937032785	165208064	0.064925793	7720960	ERROR (1)	0.07466904999455437				
+float-benchs/nan_double_false-unreach-call_true-termination.c	unknown	5.043114744	5.864103593979962	147144704	0.063872168	7487488	ERROR (1)	0.07431955198990181				
+float-benchs/nan_float_false-unreach-call_true-termination.c	unknown	4.984942271	5.790234824991785	151801856	0.065869602	7585792	ERROR (1)	0.07600861001992598				
+float-benchs/sin_interpolated_index_false-unreach-call_true-termination.c	unknown	8.882118881	9.909116473980248	245624832	0.066955838	7766016	ERROR (1)	0.08112622599583119				
+float-benchs/sqrt_poly2_false-unreach-call.c	unknown	6.680146768	7.497498512035236	185913344	0.066151126	7614464	ERROR (1)	0.07527874899096787				
+float-benchs/Muller_Kahan_true-unreach-call_true-termination.c	unknown	5.836880562	6.58971243200358	155926528					0.004167767	385024	true	0.008809670980554074
+float-benchs/Rump_double_true-unreach-call_true-termination.c	true	4.421407488	5.143896747031249	128380928					0.003332088	516096	true	0.008447887026704848
+float-benchs/Rump_float_true-unreach-call_true-termination.c	true	4.082859927	4.80087763001211	124825600					0.003318544	385024	true	0.008725767955183983
+float-benchs/addsub_double_exact_true-unreach-call_true-termination.c	true	4.126819399	4.873651358997449	126259200					0.003164138	516096	true	0.007868752989452332
+float-benchs/addsub_float_exact_true-unreach-call_true-termination.c	true	4.365898244	5.092296772985719	126427136					0.003140602	516096	true	0.0085421780240722
+float-benchs/addsub_float_inexact_true-unreach-call_true-termination.c	true	4.184373182	4.9253485200461	126201856					0.004367561	516096	true	0.008825652999803424
+float-benchs/arctan_Pade_true-unreach-call_true-termination.c	unknown	6.95512047	7.763077665003948	201728000					0.004130009	385024	true	0.008749440021347255
+float-benchs/bary_diverge_true-unreach-call_true-termination.c	true	6.848674992	7.656361859990284	182542336					0.003082826	516096	true	0.008651452953927219
+float-benchs/cast_float_union_true-unreach-call.c	true	4.507391994	5.206421160022728	128749568					0.003112932	405504	true	0.009284725005272776
+float-benchs/cos_polynomial_true-unreach-call_true-termination.c	unknown	6.593529643	7.3525696430006064	186736640					0.003101771	389120	true	0.007987016986589879
+float-benchs/divmul_buf_diverge_true-unreach-call_true-termination.c	unknown	6.092454565	6.840407697018236	181092352					0.003126941	516096	true	0.009196526021696627
+float-benchs/divmul_diverge_true-unreach-call_true-termination.c	unknown	6.06481396	6.838499190984294	179150848					0.003238891	516096	true	0.00922069896478206
+float-benchs/drift_tenth_true-unreach-call_true-termination.c	true	4.181536104	4.92513157002395	125894656					0.003081708	520192	true	0.00891295203473419
+float-benchs/exp_loop_true-unreach-call.c	unknown	7.106082315	7.904271328006871	199090176					0.004398411	380928	true	0.008801180985756218
+float-benchs/feedback_diverge_true-unreach-call_true-termination.c	unknown	6.175693412	6.972920441010501	177582080					0.002953609	516096	true	0.008825452998280525
+float-benchs/filter1_true-unreach-call_true-termination.c	unknown	6.333021256	7.054478370992001	181010432					0.003072106	516096	true	0.008964893000666052
+float-benchs/filter2_alt_true-unreach-call.c	true	7.076694559	7.896630312956404	198451200					0.002965909	516096	true	0.008800082956440747
+float-benchs/filter2_iterated_true-unreach-call.c	true	7.294769929	8.10693132103188	193310720					0.003134342	516096	true	0.00899555702926591
+float-benchs/filter2_reinit_true-unreach-call_true-termination.c	unknown	6.761587854	7.536163458018564	186073088					0.002906639	516096	true	0.008395546989049762
+float-benchs/filter2_set_true-unreach-call_true-termination.c	unknown	7.300593036	8.093688248016406	190169088					0.004152021	516096	true	0.008776109956670552
+float-benchs/filter2_true-unreach-call_true-termination.c	unknown	6.374824824	7.162876940972637	180510720					0.003487437	516096	true	0.0090835559531115
+float-benchs/filter_iir_true-unreach-call.c	unknown	7.442130722	8.245855194982141	201904128					0.003397672	516096	true	0.00923318398417905
+float-benchs/float_double_true-unreach-call_true-termination.c	true	4.175004529	4.93911069794558	126271488					0.002964075	647168	true	0.007614445989020169
+float-benchs/image_filter_true-unreach-call.c	unknown	10.645985499	11.523537406988908	319664128					0.003682539	397312	true	0.009320084005594254
+float-benchs/interpolation2_true-unreach-call_true-termination.c	unknown	6.32102818	7.102492467965931	176160768					0.00324522	516096	true	0.008730761997867376
+float-benchs/interpolation_true-unreach-call_true-termination.c	unknown	6.22749202	7.009307005966548	184762368					0.003076674	516096	true	0.009192030993290246
+float-benchs/inv_sqrt_Quake_true-unreach-call_true-termination.c	unknown	5.787616974	6.554304242017679	146198528					0.00436868	516096	true	0.008647857001051307
+float-benchs/inv_square_int_true-unreach-call_true-termination.c	unknown	6.345352029	7.202516464982182	163676160					0.003496513	421888	true	0.010093195014633238
+float-benchs/inv_square_true-unreach-call_true-termination.c	true	6.400029053	7.4291139370179735	164421632					0.004660924	516096	true	0.008831346000079066
+float-benchs/loop_true-unreach-call.c	unknown	5.794519337	6.618643068999518	160968704					0.004061755	516096	true	0.009811719006393105
+float-benchs/mea8000_true-unreach-call.c	unknown	13.298184655	14.264636649983004	501686272					0.004210425	512000	true	0.008890577999409288
+float-benchs/nan_double_range_true-unreach-call_true-termination.c	unknown	5.175464936	6.067605021002237	144658432					0.004310801	516096	true	0.008809571038000286
+float-benchs/nan_float_range_true-unreach-call_true-termination.c	unknown	5.652899028	6.4359578100265935	165928960					0.003049958	516096	true	0.008204865967854857
+float-benchs/rlim_exit_true-unreach-call_true-termination.c	unknown	6.481924891	7.257058256014716	179380224					0.003903016	516096	true	0.008469262975268066
+float-benchs/rlim_invariant_true-unreach-call_true-termination.c	unknown	6.531924333	7.317113009048626	181821440					0.00294963	516096	true	0.009002049977425486
+float-benchs/sin_interpolated_bigrange_loose_true-unreach-call_true-termination.c	unknown	8.361167224	9.162261463992763	236421120					0.003063236	516096	true	0.008419619989581406
+float-benchs/sin_interpolated_bigrange_tight_true-unreach-call_true-termination.c	unknown	8.457384348	9.225462100002915	237453312					0.00319792	516096	true	0.00935904000652954
+float-benchs/sin_interpolated_index_true-unreach-call_true-termination.c	unknown	9.033923249	10.03222682903288	250052608					0.003196647	516096	true	0.008654948964249343
+float-benchs/sin_interpolated_negation_true-unreach-call.c	unknown	8.90098117	9.800717504986096	230395904					0.004098649	516096	true	0.007965640979819
+float-benchs/sin_interpolated_smallrange_true-unreach-call.c	unknown	8.3196419	9.12776133097941	244273152					0.003268134	516096	true	0.008416822995059192
+float-benchs/sqrt_Householder_constant_true-unreach-call.c	unknown	6.503880417	7.310515793971717	185073664					0.002930955	516096	true	0.008199273026548326
+float-benchs/sqrt_Householder_interval_true-unreach-call.c	unknown	6.959948191	7.731869145995006	181178368					0.004286431	516096	true	0.008877892978489399
+float-benchs/sqrt_Householder_pseudoconstant_true-unreach-call.c	unknown	6.916941648	7.702836126962211	186322944					0.004148195	512000	true	0.008905860013328493
+float-benchs/sqrt_Newton_pseudoconstant_true-unreach-call.c	unknown	6.799973121	7.6069927220232785	183549952					0.003341874	516096	true	0.00903940701391548
+float-benchs/sqrt_biNewton_pseudoconstant_true-unreach-call.c	unknown	7.017593734	7.844930654973723	195297280					0.003389071	516096	true	0.009388406004291028
+float-benchs/sqrt_poly_true-unreach-call_true-termination.c	unknown	6.086742814	6.9004378779791296	172232704					0.003226716	512000	true	0.008896471001207829
+float-benchs/water_pid_true-unreach-call_true-termination.c	unknown	6.490247744	7.283843061013613	184635392					0.003340424	516096	true	0.010132749972399324
+float-benchs/zonotope_2_true-unreach-call_true-termination.c	unknown	6.14149087	7.074380688020028	182112256					0.003482443	401408	true	0.00931598903844133
+float-benchs/zonotope_3_true-unreach-call_true-termination.c	unknown	6.241786129	6.975478900014423	183111680					0.003171791	516096	true	0.008169007021933794
+float-benchs/zonotope_loose_true-unreach-call_true-termination.c	unknown	6.057011602	6.868094464007299	166785024					0.003338915	516096	true	0.00926155102206394
+float-benchs/zonotope_tight_true-unreach-call_true-termination.c	unknown	5.906724139	6.701764900004491	152010752					0.004778471	516096	true	0.009413077030330896
+floats-esbmc-regression/Double_div_true-unreach-call.i	unknown	6.058191996	6.841105794010218	169017344					0.003040389	516096	true	0.008510714978910983
+floats-esbmc-regression/Float_div_true-unreach-call.i	unknown	5.933797092	6.707677102996968	169775104					0.003008334	516096	true	0.008559959009289742
+floats-esbmc-regression/ceil_nondet_true-unreach-call.i	unknown	4.416831601	5.143977953004651	133177344					0.004026948	516096	true	0.009016433032229543
+floats-esbmc-regression/ceil_true-unreach-call.i	unknown	4.107977358	4.837926734006032	125108224					0.003061567	516096	true	0.008128854038659483
+floats-esbmc-regression/copysign_true-unreach-call.i	unknown	4.3232071	5.040683715022169	130662400					0.003031006	507904	true	0.008526996010914445
+floats-esbmc-regression/digits_for_true-unreach-call.i	unknown	3.783119081	4.459220547985751	123416576					0.003256819	516096	true	0.009025322971865535
+floats-esbmc-regression/digits_while_true-unreach-call.i	unknown	3.752637192	4.443146429024637	123301888					0.004349247	520192	true	0.008915250014979392
+floats-esbmc-regression/fabs_true-unreach-call.i	unknown	4.152318663	4.8831383509677835	125853696					0.003446543	516096	true	0.008642863016575575
+floats-esbmc-regression/fdim_true-unreach-call.i	unknown	4.466933203	5.163631157018244	133869568					0.004375027	516096	true	0.009764573012944311
+floats-esbmc-regression/floor_nondet_true-unreach-call.i	unknown	4.354736115	5.103214021015447	131371008					0.004500154	516096	true	0.008844231022521853
+floats-esbmc-regression/floor_true-unreach-call.i	unknown	4.132170613	4.803126044978853	124608512					0.003290194	516096	true	0.008769517007749528
+floats-esbmc-regression/fmax_true-unreach-call.i	unknown	4.10736104	4.814134287997149	124923904					0.002877606	516096	true	0.0091771490406245
+floats-esbmc-regression/fmin_true-unreach-call.i	unknown	4.150614369	4.876330079976469	125358080					0.004047629	516096	true	0.009592769958544523
+floats-esbmc-regression/fmod2_true-unreach-call.i	unknown	4.27611465	5.024938718008343	129277952					0.003166817	389120	true	0.008611498982645571
+floats-esbmc-regression/fmod3_true-unreach-call.i	unknown	4.292969106	5.009463310998399	132227072					0.004307763	516096	true	0.009113722015172243
+floats-esbmc-regression/fmod_true-unreach-call.i	true	4.154668563	4.898337776015978	126283776					0.003121494	516096	true	0.0085680490010418
+floats-esbmc-regression/isgreater_true-unreach-call.i	true	4.68141674	5.486529907037038	130306048					0.004130044	516096	true	0.008487641985993832
+floats-esbmc-regression/isgreaterequal_true-unreach-call.i	true	4.809382459	5.619715976994485	129863680					0.002931535	516096	true	0.00919432903174311
+floats-esbmc-regression/isless_true-unreach-call.i	true	4.575781504	5.284486405027565	128352256					0.003193905	516096	true	0.009210010000970215
+floats-esbmc-regression/islessequal_true-unreach-call.i	true	4.376771748	5.161062310973648	125067264					0.004148664	512000	true	0.00813584600109607
+floats-esbmc-regression/islessgreater_true-unreach-call.i	true	4.243078007	5.0019153879839	126050304					0.004310848	393216	true	0.009048696025274694
+floats-esbmc-regression/isunordered_true-unreach-call.i	true	4.466934979	5.221682413015515	126222336					0.004427282	516096	true	0.009713831008411944
+floats-esbmc-regression/lrint_true-unreach-call.i	unknown	4.585859115	5.307166029000655	133783552					0.00309769	516096	true	0.009398293972481042
+floats-esbmc-regression/modf_true-unreach-call.i	unknown	4.19749812	4.948816438030917	131567616					0.00417558	516096	true	0.008941620006226003
+floats-esbmc-regression/nan_true-unreach-call.i	unknown	4.212840349	4.945535210950766	125399040					0.003659857	643072	true	0.00942116801161319
+floats-esbmc-regression/nearbyint2_true-unreach-call.i	unknown	4.289182537	4.959463297971524	127000576					0.003712254	385024	true	0.009527345944661647
+floats-esbmc-regression/nearbyint_true-unreach-call.i	unknown	4.27111984	4.989570381992962	126906368					0.004398028	380928	true	0.008516307978425175
+floats-esbmc-regression/remainder_true-unreach-call.i	unknown	4.400147041	5.144353421987034	131108864					0.003211482	380928	true	0.008337514009326696
+floats-esbmc-regression/rint2_true-unreach-call.i	unknown	4.122271359	4.848747292999178	125202432					0.003487304	385024	true	0.009756183018907905
+floats-esbmc-regression/rint_true-unreach-call.i	unknown	4.03694006	4.7504445150261745	123355136					0.002733838	520192	true	0.007816712954081595
+floats-esbmc-regression/round_nondet_true-unreach-call.i	unknown	4.399403094	5.134607326996047	134193152					0.00325518	385024	true	0.008581632981076837
+floats-esbmc-regression/round_true-unreach-call.i	unknown	4.409102686	5.13853580999421	129941504					0.003261682	495616	true	0.008798982948064804
+floats-esbmc-regression/rounding_functions_true-unreach-call.i	true	4.159089595	4.9269944279803894	124723200					0.003962384	516096	true	0.007894223963376135
+floats-esbmc-regression/trunc_nondet_2_true-unreach-call.i	unknown	4.160163973	4.861049147963058	131321856					0.003419304	638976	true	0.008774311980232596
+floats-esbmc-regression/trunc_nondet_true-unreach-call.i	unknown	4.327800145	4.996981661010068	132988928					0.004384269	385024	true	0.008222945965826511
+floats-esbmc-regression/trunc_true-unreach-call.i	unknown	4.37533486	5.028807169990614	125042688					0.004508245	385024	true	0.009086353005841374
+floats-esbmc-regression/Double_div_bad_false-unreach-call.i	unknown	5.581378363	6.332733591028955	164859904	0.064515679	7491584	ERROR (1)	0.07490827399305999				
+floats-esbmc-regression/Float_div_bad_false-unreach-call.i	unknown	5.578272098	6.324334747972898	167473152	0.06523672	7626752	ERROR (1)	0.0744673820445314				
+floats-esbmc-regression/digits_bad_for_false-unreach-call.i	unknown	3.458802522	4.125798697001301	121462784	0.064970507	7491584	ERROR (1)	0.07621257501887158				
+floats-esbmc-regression/digits_bad_while_false-unreach-call.i	unknown	3.548517962	4.263918993994594	121077760	0.065056066	7491584	ERROR (1)	0.07449554902268574				

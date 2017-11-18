@@ -1,0 +1,159 @@
+tool	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 	skink 
+run set	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18	sv-comp18
+/sv-benchmarks/c/	status	cputime (s)	walltime (s)	memUsage	wit1_cputime (s)	wit1_memUsage	wit1_status	wit1_walltime (s)	wit2_cputime (s)	wit2_memUsage	wit2_status	wit2_walltime (s)
+loops/array_false-unreach-call_true-termination.i	false(unreach-call)	6.480656247	7.654861832968891	167018496	0.673056899	34037760	false(unreach-call)	0.9442988199880347				
+loops/bubble_sort_false-unreach-call.i	unknown	9.035167889	10.048143946041819	220770304	0.916929676	18386944	ERROR (1)	2.455347216979135				
+loops/count_up_down_false-unreach-call_true-termination.i	false(unreach-call)	5.515406249	6.368616710999049	166080512	0.660682003	18423808	false(unreach-call)	0.6742368590203114				
+loops/eureka_01_false-unreach-call.i	TIMEOUT	51.480948734	91.00980363198323	275853312	0.003702598	651264	ERROR (invalid witness file)	0.008661531028337777				
+loops/for_bounded_loop1_false-unreach-call_true-termination.i	false(unreach-call)	6.243931072	7.133663120039273	174374912	0.660846378	18411520	false(unreach-call)	0.675674305006396				
+loops/insertion_sort_false-unreach-call_true-termination.i	unknown	7.646521795	8.855073328013532	194883584	0.598101391	18382848	ERROR (1)	0.6620603739866056				
+loops/invert_string_false-unreach-call_true-termination.i	unknown	7.209654443	8.165665216976777	186646528	0.595696311	18337792	ERROR (1)	0.6803622089792043				
+loops/linear_search_false-unreach-call.i	false(unreach-call)	44.959327138	83.37852184596704	255459328	0.649905201	18452480	true	0.6744563070242293				
+loops/ludcmp_false-unreach-call.i	unknown	5.485751956	6.190744538966101	158060544	0.707862086	18472960	false(unreach-call)	0.7368952400283888				
+loops/matrix_false-unreach-call_true-termination.i	TIMEOUT	42.763511474	90.66987068200251	296230912	0.003447186	647168	ERROR (invalid witness file)	0.008880677982233465				
+loops/n.c24_false-unreach-call.i	unknown	4.457314343	5.174724637996405	133115904	0.619048638	18268160	ERROR (1)	0.7057084359694272				
+loops/nec11_false-unreach-call_false-termination.i	false(unreach-call)	5.708921624	6.5799110940424725	166785024	0.67062743	18432000	false(unreach-call)	0.6842031880514696				
+loops/nec20_false-unreach-call_true-termination.i	false(unreach-call)	6.155314712	7.067283759999555	164704256	0.66705425	18415616	false(unreach-call)	0.682219770969823				
+loops/s3_false-unreach-call.i	unknown	9.818993995	10.647457404993474	313540608	0.850446048	18636800	ERROR (1)	1.160979523032438				
+loops/string_false-unreach-call_true-termination.i	unknown	21.004084038	33.31312312599039	223285248	0.612211445	18247680	ERROR (1)	0.6719146320247091				
+loops/sum01_bug02_false-unreach-call_true-termination.i	false(unreach-call)	10.050667529	12.767932070011739	183623680	0.66667896	18403328	false(unreach-call)	0.6876472249859944				
+loops/sum01_bug02_sum01_bug02_base.case_false-unreach-call_true-termination.i	false(unreach-call)	8.399777185	10.269879404979292	186703872	0.679908696	18415616	false(unreach-call)	0.6929831819725223				
+loops/sum01_false-unreach-call_true-termination.i	false(unreach-call)	12.847923171	17.762280121969525	224235520	0.655821327	18419712	false(unreach-call)	0.672376801026985				
+loops/sum03_false-unreach-call_true-termination.i	false(unreach-call)	14.180926275	20.75316995801404	224837632	0.663030414	18509824	false(unreach-call)	0.6758641870110296				
+loops/sum04_false-unreach-call_true-termination.i	false(unreach-call)	5.583526767	6.402135412034113	158089216	0.635656785	18358272	false(unreach-call)	0.6508701540296897				
+loops/sum_array_false-unreach-call.i	false(unreach-call)	7.334738163	8.443353044975083	191471616	0.659278463	18378752	false(unreach-call)	0.6723112760228105				
+loops/terminator_01_false-unreach-call_true-termination.i	false(unreach-call)	5.368190357	6.185703044990078	164343808	0.647597374	18403328	false(unreach-call)	0.6627396929543465				
+loops/terminator_02_false-unreach-call_true-termination.i	false(unreach-call)	6.44259391	7.348427806980908	168906752	0.643439331	18362368	false(unreach-call)	0.6632958520203829				
+loops/terminator_03_false-unreach-call_true-termination.i	false(unreach-call)	5.818756325	6.73574264603667	157405184	0.651746948	18292736	false(unreach-call)	0.6642612419673242				
+loops/trex01_false-unreach-call_true-termination.i	false(unreach-call)	7.056980738	7.973760006017983	202063872	0.670499645	18436096	false(unreach-call)	0.6821739239967428				
+loops/trex02_false-unreach-call_true-termination.i	TIMEOUT	47.171303267	91.01279029902071	256679936	0.003341665	516096	ERROR (invalid witness file)	0.009401278977748007				
+loops/trex03_false-unreach-call_true-termination.i	false(unreach-call)	7.085786079	8.148505608958658	189263872	0.657076546	18870272	false(unreach-call)	0.668362520984374				
+loops/verisec_NetBSD-libc__loop_false-unreach-call_true-termination.i	unknown	5.235618081	5.97315342904767	164610048	0.62512672	18890752	false(unreach-call)	0.6376673500053585				
+loops/verisec_OpenSER__cases1_stripFullBoth_arr_false-unreach-call_true-termination.i	unknown	4.37303006	5.042150680033956	134463488	0.642818657	18931712	ERROR (2)	0.6642405649763532				
+loops/vogal_false-unreach-call.i	false(unreach-call)	31.192914449	55.62992627895437	247840768	0.660695948	18833408	false(unreach-call)	0.6746138259768486				
+loops/while_infinite_loop_4_false-unreach-call_true-termination.i	false(unreach-call)	5.526328073	6.403072216024157	165257216	0.670438723	18411520	false(unreach-call)	0.6863618029747158				
+loops/array_true-unreach-call_true-termination.i	true	4.192597796	4.939246641006321	127012864					0.004038176	516096	true	0.00958276999881491
+loops/bubble_sort_true-unreach-call.i	unknown	4.822363075	5.521634508972056	143446016					0.004753784	389120	true	0.009168247983325273
+loops/count_up_down_true-unreach-call_true-termination.i	true	4.200717434	4.978325854986906	126578688					0.00339304	385024	true	0.009420957008842379
+loops/eureka_01_true-unreach-call.i	TIMEOUT	49.720613012	91.01054276397917	268234752					0.003756085	516096	true	0.009010929032228887
+loops/eureka_05_true-unreach-call_true-termination.i	true	4.671832937	5.438059300009627	139108352					0.003238263	380928	true	0.00815331598278135
+loops/for_infinite_loop_1_true-unreach-call_false-termination.i	true	4.29690999	5.073943199007772	128278528					0.003067771	512000	true	0.009083945013117045
+loops/for_infinite_loop_2_true-unreach-call_false-termination.i	true	4.386277194	5.149075678957161	128704512					0.00313324	516096	true	0.008671619987580925
+loops/insertion_sort_true-unreach-call_true-termination.i	unknown	7.559211595	8.701209417951759	192512000					0.00444994	499712	true	0.011195714003406465
+loops/invert_string_true-unreach-call_true-termination.i	true	4.576872275	5.311689221998677	130519040					0.003951465	540672	true	0.009348939987830818
+loops/linear_sea.ch_true-unreach-call.i	TIMEOUT	50.71101368	91.01473523897585	252768256					0.003162401	626688	true	0.00881055899662897
+loops/lu.cmp_true-unreach-call.i	true	6.057743538	6.740487287985161	196497408					0.004716826	630784	true	0.009588563989382237
+loops/matrix_true-unreach-call_true-termination.i	true	4.272206055	4.970406426000409	127598592					0.003807485	528384	true	0.009802417014725506
+loops/n.c11_true-unreach-call_false-termination.i	TIMEOUT	50.302216132	91.01865602401085	255942656					0.00419011	630784	true	0.008676014025695622
+loops/n.c40_true-unreach-call_true-termination.i	true	9.080724141	11.162462660984602	185270272					0.004825697	569344	true	0.00981130701256916
+loops/nec40_true-unreach-call_true-termination.i	true	9.364055835	11.522265929030254	192958464					0.004562307	389120	true	0.009248954011127353
+loops/string_true-unreach-call_true-termination.i	true	5.008596368	5.77760110097006	148713472					0.003658917	380928	true	0.009505159978289157
+loops/sum01_true-unreach-call_true-termination.i	true	4.397145431	5.112486015015747	128684032					0.004579105	536576	true	0.009391990024596453
+loops/sum03_true-unreach-call_false-termination.i	true	4.329046607	5.071719260013197	128307200					0.003500626	630784	true	0.00906666397349909
+loops/sum04_true-unreach-call_true-termination.i	true	4.130212509	4.904596110980492	125403136					0.003521409	630784	true	0.009372212982270867
+loops/sum_array_true-unreach-call.i	unknown	31.160010126	55.010753442009445	262311936					0.005529214	540672	true	0.012454964977223426
+loops/terminator_02_true-unreach-call_true-termination.i	TIMEOUT	54.227552803	91.01197242102353	297672704					0.00414715	503808	true	0.010374658973887563
+loops/terminator_03_true-unreach-call_true-termination.i	true	4.210201786	4.959148889989592	126767104					0.003432571	630784	true	0.009278321056626737
+loops/trex01_true-unreach-call_true-termination.i	true	10.92979946	13.761624294973444	206467072					0.004072753	638976	true	0.01088806800544262
+loops/trex02_true-unreach-call_true-termination.i	true	4.395791013	5.1436788940336555	129482752					0.004551381	507904	true	0.009275024989619851
+loops/trex03_true-unreach-call_true-termination.i	TIMEOUT	43.639411165	90.50046275003115	264826880					0.003809169	516096	true	0.01009777799481526
+loops/trex04_true-unreach-call_false-termination.i	true	4.691587674	5.386760673020035	136826880					0.003738391	696320	true	0.010251500993035734
+loops/veris.c_NetBSD-libc__loop_true-unreach-call_true-termination.i	unknown	5.5421354	6.261213796038646	172388352					0.004588711	548864	true	0.009447426011320204
+loops/veris.c_OpenSER__cases1_stripFullBoth_arr_true-unreach-call_true-termination.i	unknown	4.379701139	5.067868193960749	135049216					0.004828418	536576	true	0.009704330004751682
+loops/veris.c_sendmail__tTflag_arr_one_loop_true-unreach-call_true-termination.i	true	4.701509123	5.490413411986083	139358208					0.003360744	495616	true	0.00924865499837324
+loops/vogal_true-unreach-call.i	TIMEOUT	44.226179676	90.22105280502001	236949504					0.003653847	524288	true	0.010465255007147789
+loops/while_infinite_loop_1_true-unreach-call_false-termination.i	true	4.324505186	5.087872557982337	127234048					0.009566174	520192	true	0.014700980042107403
+loops/while_infinite_loop_2_true-unreach-call_false-termination.i	true	4.221532688	4.93346956098685	126775296					0.003946094	544768	true	0.007925478043034673
+loops/while_infinite_loop_3_true-unreach-call_false-termination.i	true	4.233739075	4.951548641955014	128188416					0.003004189	376832	true	0.007970925013069063
+loop-acceleration/array_false-unreach-call1_true-termination.i	TIMEOUT	49.610146686	91.01075652102008	245571584	0.003529006	385024	ERROR (invalid witness file)	0.008210550004150718				
+loop-acceleration/array_false-unreach-call2_true-termination.i	false(unreach-call)	5.199310782	6.036842962028459	160968704	0.65802453	18391040	false(unreach-call)	0.6712122409953736				
+loop-acceleration/array_false-unreach-call3_true-termination.i	TIMEOUT	47.799777047	91.03963419696083	255926272	0.00286634	516096	ERROR (invalid witness file)	0.007401381037198007				
+loop-acceleration/const_false-unreach-call1.i	TIMEOUT	45.437443744	91.0132931189728	228233216	0.003353172	512000	ERROR (invalid witness file)	0.008698686957359314				
+loop-acceleration/diamond_false-unreach-call1.i	unknown	39.909494887	70.49077643698547	239251456	0.567191876	18288640	ERROR (1)	0.6032694419845939				
+loop-acceleration/functions_false-unreach-call1_true-termination.i	false(unreach-call)	5.259999505	6.171154671988916	162156544	1.056893865	18411520	false(unreach-call)	1.0702450580429286				
+loop-acceleration/multivar_false-unreach-call1_true-termination.i	false(unreach-call)	5.719495863	6.579523477004841	162832384	0.674388395	18542592	false(unreach-call)	0.6869816899998114				
+loop-acceleration/nested_false-unreach-call1.i	false(unreach-call)	5.277486044	6.133421098988038	160337920	3.587295928	18354176	false(unreach-call)	3.6059250129619613				
+loop-acceleration/phases_false-unreach-call1.i	TIMEOUT	49.151030667	91.02559929504059	258052096	0.00290683	647168	ERROR (invalid witness file)	0.008037048974074423				
+loop-acceleration/phases_false-unreach-call2_false-termination.i	false(unreach-call)	6.10042213	6.9954163749935105	160768000	0.668087438	18354176	false(unreach-call)	0.6854869109811261				
+loop-acceleration/simple_false-unreach-call1.i	false(unreach-call)	5.278736193	6.167693133989815	160436224	0.898273731	18370560	false(unreach-call)	0.9145890159998089				
+loop-acceleration/simple_false-unreach-call2_true-termination.i	false(unreach-call)	5.196723852	6.0390168110025115	160346112	0.872770629	18448384	false(unreach-call)	0.887795255985111				
+loop-acceleration/simple_false-unreach-call3_true-termination.i	false(unreach-call)	5.269882663	6.162689796008635	162238464	0.630864298	18411520	false(unreach-call)	0.6460973480134271				
+loop-acceleration/simple_false-unreach-call4.i	false(unreach-call)	5.422354832	6.260792326997034	162508800	0.868666008	18472960	false(unreach-call)	0.8849513289751485				
+loop-acceleration/underapprox_false-unreach-call1_true-termination.i	false(unreach-call)	5.133327879	5.979476673004683	154853376	0.631645086	18321408	false(unreach-call)	0.6468025359790772				
+loop-acceleration/underapprox_false-unreach-call2_true-termination.i	false(unreach-call)	5.227198155	6.09249153197743	159215616	0.645459718	18296832	false(unreach-call)	0.6580313119920902				
+loop-acceleration/array_true-unreach-call1_true-termination.i	TIMEOUT	48.666593635	91.02251073496882	239927296					0.004322794	507904	true	0.008425401989370584
+loop-acceleration/array_true-unreach-call2_true-termination.i	true	4.185883486	4.968111803987995	126058496					0.003350448	565248	true	0.008326317009050399
+loop-acceleration/array_true-unreach-call3_true-termination.i	true	4.319406677	5.08589057601057	128962560					0.005483576	655360	true	0.010292652994394302
+loop-acceleration/array_true-unreach-call4_true-termination.i	TIMEOUT	49.970660587	91.02256308699725	257806336					0.003724065	409600	true	0.008586117997765541
+loop-acceleration/const_true-unreach-call1.i	true	4.26250409	4.97558648197446	127700992					0.004779033	393216	true	0.00993216794449836
+loop-acceleration/diamond_true-unreach-call1_true-termination.i	unknown	38.562477677	74.00433546199929	252301312					0.004461768	520192	true	0.009897108015138656
+loop-acceleration/diamond_true-unreach-call2.i	TIMEOUT	48.781852242	91.02027174003888	284950528					0.003870076	507904	true	0.008461460995022207
+loop-acceleration/functions_true-unreach-call1_true-termination.i	true	4.167896927	4.892946935957298	128163840					0.004112563	499712	true	0.008519493974745274
+loop-acceleration/multivar_true-unreach-call1_true-termination.i	true	4.200620869	4.938134801050182	126722048					0.004129618	638976	true	0.009066164959222078
+loop-acceleration/nested_true-unreach-call1.i	true	4.403781006	5.177677561994642	127819776					0.005347429	634880	true	0.010912739031482488
+loop-acceleration/overflow_true-unreach-call1.i	true	4.093862957	4.841884336026851	124997632					0.003510305	516096	true	0.007014826056547463
+loop-acceleration/phases_true-unreach-call1.i	TIMEOUT	47.475850935	91.10657875600737	257781760					0.003733138	516096	true	0.007415865024086088
+loop-acceleration/phases_true-unreach-call2_false-termination.i	TIMEOUT	60.206553225	68.03046743595041	520204288					0.003677651	385024	true	0.008663029002491385
+loop-acceleration/simple_true-unreach-call1.i	true	4.69806249	5.456941581040155	127389696					0.003655696	520192	true	0.007257146993651986
+loop-acceleration/simple_true-unreach-call2_true-termination.i	true	4.647954448	5.447775335982442	125366272					0.003916704	516096	true	0.007245360990054905
+loop-acceleration/simple_true-unreach-call3_true-termination.i	true	4.227662388	4.960100906959269	125063168					0.003456603	389120	true	0.00870857696281746
+loop-acceleration/simple_true-unreach-call4.i	true	4.208273963	4.977984313038178	126095360					0.002929434	647168	true	0.007656287983991206
+loop-acceleration/underapprox_true-unreach-call1_true-termination.i	true	4.181062367	4.954809698974714	126201856					0.00289344	385024	true	0.0071581610245630145
+loop-acceleration/underapprox_true-unreach-call2_true-termination.i	true	4.143421444	4.920999831985682	124088320					0.00425344	385024	true	0.011207500996533781
+loop-invgen/id_trans_false-unreach-call_true-termination.i	false(unreach-call)	6.399778936	7.314022102043964	173862912	0.648669618	18391040	false(unreach-call)	0.662812908005435				
+loop-invgen/MADWiFi-encode_ie_ok_true-unreach-call_true-termination.i	TIMEOUT	51.980823025	91.01891005702782	286711808					0.003668924	516096	true	0.009304489998612553
+loop-invgen/NetBSD_loop_true-unreach-call_true-termination.i	true	4.405567211	5.160519394034054	129290240					0.004478791	516096	true	0.008674515993334353
+loop-invgen/SpamAssassin-loop_true-unreach-call_false-termination.i	TIMEOUT	44.551121302	91.01493053103331	238399488					0.004157229	385024	true	0.00874893000582233
+loop-invgen/apache-escape-absolute_true-unreach-call_true-termination.i	TIMEOUT	45.360563625	91.04774041898781	283353088					0.005439379	389120	true	0.014981157029978931
+loop-invgen/apache-get-tag_true-unreach-call_true-termination.i	TIMEOUT	46.411338519	91.00994952599285	242974720					0.00361895	516096	true	0.00929370301309973
+loop-invgen/down_true-unreach-call_true-termination.i	TIMEOUT	54.729178186	91.01614589098608	285024256					0.003936431	385024	true	0.0091548630152829
+loop-invgen/fragtest_simple_true-unreach-call_true-termination.i	TIMEOUT	50.393825302	91.01230922498507	247996416					0.004140929	520192	true	0.00844987400341779
+loop-invgen/half_2_true-unreach-call_true-termination.i	TIMEOUT	48.632881613	91.01253932603868	275943424					0.004165234	516096	true	0.009277221979573369
+loop-invgen/heapsort_true-unreach-call_true-termination.i	TIMEOUT	51.973354302	91.01589986297768	278491136					0.004951062	385024	true	0.013183625997044146
+loop-invgen/id_build_true-unreach-call_true-termination.i	TIMEOUT	44.394909092	91.00963098404463	278757376					0.003534984	385024	true	0.009851060982327908
+loop-invgen/large_const_true-unreach-call_true-termination.i	TIMEOUT	49.243861334	91.02080339204986	273211392					0.005295326	385024	true	0.009927772975061089
+loop-invgen/nest-if3_true-unreach-call_true-termination.i	TIMEOUT	49.273854339	91.01288061100058	288157696					0.003290293	512000	true	0.0079481519642286
+loop-invgen/nested6_true-unreach-call_true-termination.i	TIMEOUT	50.89586857	91.01069029798964	272146432					0.004877949	516096	true	0.008762414043303579
+loop-invgen/nested9_true-unreach-call_true-termination.i	TIMEOUT	43.275252052	90.96913047396811	258621440					0.003363177	385024	true	0.008713171002455056
+loop-invgen/sendmail-close-angle_true-unreach-call_true-termination.i	TIMEOUT	46.863242982	91.01633937295992	255434752					0.003532467	385024	true	0.008876383013557643
+loop-invgen/seq_true-unreach-call_true-termination.i	TIMEOUT	50.805494849	91.01181310001994	283475968					0.004437576	516096	true	0.008740040997508913
+loop-invgen/string_concat-noarr_true-unreach-call_true-termination.i	TIMEOUT	49.376263716	91.01173784397542	254619648					0.005628229	385024	true	0.01201557001331821
+loop-invgen/up_true-unreach-call_true-termination.i	TIMEOUT	53.866963761	91.01197052700445	283934720					0.003249489	516096	true	0.008866495045367628
+loop-lit/afnp2014_true-unreach-call_true-termination.c.i	TIMEOUT	48.00774197	91.02105750300689	258334720					0.00381111	516096	true	0.01068150601349771
+loop-lit/bhmr2007_true-unreach-call_true-termination.c.i	TIMEOUT	61.06069397	76.40686479298165	491151360					0.002991402	385024	true	0.008136635005939752
+loop-lit/cggmp2005_true-unreach-call_true-termination.c.i	true	52.180523982	88.65861664095428	272855040					0.003376289	516096	true	0.008327116025611758
+loop-lit/cggmp2005_variant_true-unreach-call_true-termination.c.i	true	6.885534649	7.819982381013688	182317056					0.004706784	385024	true	0.00981180602684617
+loop-lit/cggmp2005b_true-unreach-call_true-termination.c.i	true	4.308451899	5.02695978799602	128278528					0.003583535	385024	true	0.008355483005288988
+loop-lit/css2003_true-unreach-call_true-termination.c.i	TIMEOUT	55.934435405	91.01512494002236	309170176					0.003801512	401408	true	0.010176087031140924
+loop-lit/ddlm2013_true-unreach-call.i	TIMEOUT	52.620004697	91.01525818597293	323481600					0.0033433	385024	true	0.008494423003867269
+loop-lit/gj2007_true-unreach-call_true-termination.c.i	true	4.096584766	4.835779832035769	124768256					0.00332598	380928	true	0.008525887038558722
+loop-lit/gj2007b_true-unreach-call_true-termination.c.i	true	42.819759709	71.14193478296511	235278336					0.004045159	385024	true	0.008355883008334786
+loop-lit/gr2006_true-unreach-call_true-termination.c.i	TIMEOUT	48.305753133	91.01758753601462	287588352					0.004374934	516096	true	0.008875084982719272
+loop-lit/gsv2008_true-unreach-call_true-termination.c.i	TIMEOUT	59.946239041	90.57081456697779	302673920					0.002934668	385024	true	0.007727107033133507
+loop-lit/hhk2008_true-unreach-call_true-termination.c.i	true	6.838253077	8.017448004044127	171106304					0.00431834	385024	true	0.008896060986444354
+loop-lit/jm2006_true-unreach-call_true-termination.c.i	true	4.498150226	5.202089051017538	129146880					0.0033889	397312	true	0.010225729958619922
+loop-lit/jm2006_variant_true-unreach-call_true-termination.c.i	true	7.151048135	8.361118941975292	184958976					0.004145373	663552	true	0.009328962012659758
+loop-lit/mcmillan2006_true-unreach-call_true-termination.c.i	unknown	6.744516059	7.693026108958293	184754176					0.004350706	385024	true	0.00922558200545609
+loop-lit/gcnr2008_false-unreach-call_false-termination.i	false(unreach-call)	6.450155734	7.30355948198121	184827904	0.650295219	18309120	false(unreach-call)	0.6637133720214479				
+loop-new/count_by_1_true-unreach-call_true-termination.i	true	4.319665601	5.0344402129994705	125288448					0.003276889	626688	true	0.010235220019239932
+loop-new/count_by_1_variant_true-unreach-call_true-termination.i	true	4.269990829	5.000303503999021	127930368					0.003837373	552960	true	0.010507506027352065
+loop-new/count_by_2_true-unreach-call_true-termination.i	true	4.398311744	5.144926644046791	125710336					0.00311749	565248	true	0.009590860980097204
+loop-new/count_by_k_true-unreach-call_true-termination.i	TIMEOUT	50.895016473	91.01665259897709	247083008					0.003356953	622592	true	0.009573480987455696
+loop-new/count_by_nondet_true-unreach-call_true-termination.i	TIMEOUT	53.894646939	91.01207869802602	285503488					0.003259296	524288	true	0.009454916988033801
+loop-new/gauss_sum_true-unreach-call_true-termination.i	unknown	16.956135703	17.930181935953442	172806144					0.00346146	528384	true	0.010773399961180985
+loop-new/half_true-unreach-call_true-termination.i	TIMEOUT	47.797448269	91.01288918801583	273993728					0.0035088	573440	true	0.011926172999665141
+loop-new/nested_true-unreach-call_true-termination.i	true	7.17526051	8.094188684015535	198742016					0.003914677	561152	true	0.00885410897899419
+loop-industry-pattern/aiob_1_true-unreach-call.c	unknown	5.263934929	5.981283635017462	174510080					0.004486291	544768	true	0.010000889014918357
+loop-industry-pattern/aiob_2_true-unreach-call.c	unknown	5.265351818	5.985453235975001	176189440					0.003059613	626688	true	0.009647496044635773
+loop-industry-pattern/aiob_3_true-unreach-call.c	unknown	5.297958428	6.0048174490220845	182493184					0.003196323	507904	true	0.009433841973077506
+loop-industry-pattern/aiob_4_true-unreach-call.c	unknown	4.252127743	4.99581545998808	132648960					0.00342793	573440	true	0.009618329000659287
+loop-industry-pattern/mod3_true-unreach-call.c	TIMEOUT (true)	60.895341656	64.99585484800627	466333696					0.004000943	516096	true	0.008808062004391104
+loop-industry-pattern/nested_true-unreach-call.c	TIMEOUT (true)	41.397353604	91.02022277197102	256389120					0.003204282	585728	true	0.00981520296772942
+loop-industry-pattern/ofuf_1_true-unreach-call.c	unknown	6.653235946	7.327067303995136	266813440					0.003398967	569344	true	0.009456316009163857
+loop-industry-pattern/ofuf_2_true-unreach-call.c	unknown	6.659217274	7.406481501006056	269369344					0.003838739	638976	true	0.00822143699042499
+loop-industry-pattern/ofuf_3_true-unreach-call.c	unknown	6.609499473	7.3519373800372705	265973760					0.004689425	696320	true	0.013477288011927158
+loop-industry-pattern/ofuf_4_true-unreach-call.c	unknown	7.013755907	7.731587120972108	276635648					0.003377931	520192	true	0.009346642007585615
+loop-industry-pattern/ofuf_5_true-unreach-call.c	unknown	6.57490976	7.288270802004263	269103104					0.004540239	536576	true	0.009826889028772712
+loops/heavy_true-unreach-call.c	true	16.672713574	17.428079439967405	236789760					0.0044488	540672	true	0.009896009985823184
+loops/compact_false-unreach-call.c	TIMEOUT	44.218327866	90.38424006401328	228876288	0.003353198	778240	ERROR (invalid witness file)	0.00787813198985532				
+loops/heavy_false-unreach-call.c	TIMEOUT	60.323119382	61.01762746699387	1358393344	0.003366978	516096	ERROR (invalid witness file)	0.007584569975733757				
